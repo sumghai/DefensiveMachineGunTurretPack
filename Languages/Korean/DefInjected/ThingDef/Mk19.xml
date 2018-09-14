@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_Mk19MGL.label>고정 Mk.19 포탑</Turret_Mk19MGL.label>
+  <Turret_Mk19MGL.description>고정 Mk.19 포탑입니다. 대상을 지정하여 사격할 수 있으나 오인사격을 조심하세요. 폭발도 조심하셔야 합니다.</Turret_Mk19MGL.description>
+  <Turret_Mk19MGL_Blueprint.label>고정 Mk.19 포탑 (청사진)</Turret_Mk19MGL_Blueprint.label>
+  <Turret_Mk19MGL_Blueprint_Install.label>고정 Mk.19 포탑 (청사진)</Turret_Mk19MGL_Blueprint_Install.label>
+  <Turret_Mk19MGL_Frame.label>고정 Mk.19 포탑 (건설 중)</Turret_Mk19MGL_Frame.label>
+  <Turret_Mk19MGL_Frame.description>고정 Mk.19 포탑입니다. 대상을 지정하여 사격할 수 있으나 오인사격을 조심하세요. 폭발도 조심하셔야 합니다.</Turret_Mk19MGL_Frame.description>
+
+  <!--[Duplicated] <Bullet_Mk19MGL.label>40x53mm Grenade</Bullet_Mk19MGL.label>-->
+
+  <Gun_Mk19MGL.label>Mk. 19 포탑</Gun_Mk19MGL.label>
+  <Gun_Mk19MGL.description>포탑에 부착한 임시 방편용 화기입니다. 이걸 발견했다는건... 당신이 프로그램 수정자라는 것이겠지요?</Gun_Mk19MGL.description>
+
+
+</LanguageData>

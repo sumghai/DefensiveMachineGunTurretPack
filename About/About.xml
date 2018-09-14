@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Defensive Machine Gun Turret Pack</name>
+	<author>FenderSBlackie and sumghai</author>
+	<targetVersion>0.19.2009</targetVersion>
+	<description>
+	Version 1.2.0
+	 - Updated for 0.19.2009 (unofficial release) by sumghai
+	 - Change turret masses to values more in line with their real-life equivalents
+	 - Add barrel wear to all machine guns
+	     - Shots until barrel change values are based on real-life performance
+		 - Amount of steel required to replace barrels are based on real-life masses of replacement barrels
+	 - Update tripod base texture filenames to new north-south-east naming scheme
+	
+	Original changelogs for older versions by FenderSBlackie
+	-----------------------------------------------
+	
+    Version 1.1.0.
+
+    Add Machine Gun/Grenade launcher turret, with Sentry Gun variations. [Manned turret, and Automatic Sentry gun.]
+
+    List of MG /MGL
+
+    Version 1.0.0
+
+    - M2 HB : Need Gas Operation tech for unlock.
+    - M134 Minigun : Need Multi barrel Weapons tech for unlock.  Use Minigun as Ingrediant.
+    - Mk.19 Grenade Launcher : Need Gas Operation, Mortar tech for unlock. Use 5 high-explosive shells as Ingrediant.
+
+    Version 1.1.0
+
+    - DP-28 : Need no tech. Use LMG as Ingrediant.
+    - Twin M2 HB Turret : Need Gas operation, Turret guns tech for unlock. Double price of M2 HB.
+
+    - All sentry gun Variation needs Turret guns tech for unlock.
+
+    Fix 1: Buffed Range of all turrets.
+    Fix 2: Now Mk.19 turret use 5 high-explosive shells as Ingrediant.
+    Fix 2.1: Now Mounted M134 need 75w electricity for activiate.
+    Fix 3: Buffed M134 Family.
+    - Burst shot count and range : 16 shots -> 25 shots, 25 tile range -> 30 tile range.
+    - Warm up time and Cooldown time got buffed.
+    - Long-Range Accuracy got buffed.
+    - Building time got reduced.
+    Fix 4: Buffed Shot Range [+30%], but nerfed Shot damage to 80%. DP-28 is Exception of two.
+	</description>
+</ModMetaData>

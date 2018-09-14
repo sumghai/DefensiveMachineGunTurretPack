@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_M2HB.label>고정 M2 HB 포탑</Turret_M2HB.label>
+  <Turret_M2HB.description>고정 M2 HB 포탑입니다. 대상을 지정하여 사격할 수 있으나 오인사격을 조심하세요.</Turret_M2HB.description>
+  <Turret_M2HB_Blueprint.label>고정 M2 HB 포탑 (청사진)</Turret_M2HB_Blueprint.label>
+  <Turret_M2HB_Blueprint_Install.label>고정 M2 HB 포탑 (청사진)</Turret_M2HB_Blueprint_Install.label>
+  <Turret_M2HB_Frame.label>고정 M2 HB 포탑 (건설 중)</Turret_M2HB_Frame.label>
+  <Turret_M2HB_Frame.description>고정 M2 HB 포탑입니다. 대상을 지정하여 사격할 수 있으나 오인사격을 조심하세요.</Turret_M2HB_Frame.description>
+
+  <!--[Duplicated] <Bullet_M2HB.label>.50 BMG bullet</Bullet_M2HB.label>-->
+
+  <Gun_M2HB.label>M2 포탑</Gun_M2HB.label>
+  <Gun_M2HB.description>포탑에 부착한 임시 방편용 화기입니다. 이걸 발견했다는건... 당신이 프로그램 수정자라는 것이겠지요?</Gun_M2HB.description>
+
+
+</LanguageData>
