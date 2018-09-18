@@ -5,14 +5,14 @@
 	<targetVersion>0.19.2009</targetVersion>
 	<description>
 	Version 1.2.0
-	 - Updated for 0.19.2009 (unofficial release) by sumghai
+	 - Updated for 0.19.2009 by sumghai
 	 - Change turret masses to values more in line with their real-life equivalents
 	 - Add barrel wear to all machine guns
 	     - Shots until barrel change values are based on real-life performance
 		 - Amount of steel required to replace barrels are based on real-life masses of replacement barrels
 	 - Update tripod base texture filenames to new north-south-east naming scheme
 	
-	Original changelogs for older versions by FenderSBlackie
+	Original changelog for older versions by FenderSBlackie
 	-----------------------------------------------
 	
     Version 1.1.0.
