@@ -3,8 +3,8 @@
 <Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_M2HBs</defName> 
-		<label>M2 HB Sentry gun</label>
-		<description>A M2 HB Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. Explodes when damaged.</description>
+		<label>M2HB Sentry gun</label>
+		<description>A M2HB Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. Explodes when damaged.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -104,7 +104,7 @@
 
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_M2HBs</defName> 
-		<label>M2 turret gun</label>
+		<label>M2HB turret gun</label>
 		<description>Jury-rigged gun attached to a turret. If you find this...You must be Debugger, right?</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath> 

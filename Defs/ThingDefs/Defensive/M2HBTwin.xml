@@ -3,8 +3,8 @@
 <Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_M2HBT</defName> 
-		<label>Mounted Twin M2 HB Turret</label>
-		<description>A Twin M2 HB turret. Can be directly controlled, but beware of friendly fire.</description>
+		<label>Mounted Twin M2HB Turret</label>
+		<description>A Twin M2HB turret. Can be directly controlled, but beware of friendly fire.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -97,7 +97,7 @@
 
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_M2HBT</defName> 
-		<label>Twin M2 turret gun</label>
+		<label>Twin M2HB turret gun</label>
 		<description>Jury-rigged gun attached to a turret. If you find this...You must be Debugger, right?</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath> 

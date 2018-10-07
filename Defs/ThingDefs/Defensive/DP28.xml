@@ -79,7 +79,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_DP28MG</defName>
-		<label>7.62*54mmR bullet</label>
+		<label>7.62×54mmR bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

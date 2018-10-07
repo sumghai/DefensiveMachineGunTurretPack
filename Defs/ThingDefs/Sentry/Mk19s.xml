@@ -3,8 +3,8 @@
 <Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_Mk19MGLs</defName> 
-		<label>Mk.19 Sentry gun</label>
-		<description>A Mk.19 Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. Explodes when damaged.</description>
+		<label>Mk 19 Sentry gun</label>
+		<description>A Mk 19 Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. Explodes when damaged.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -92,7 +92,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_Mk19MGL</defName>
-		<label>40x53mm Grenade</label>
+		<label>40×53mm Grenade</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Big</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -108,7 +108,7 @@
 
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_Mk19MGLs</defName> 
-		<label>Mk. 19 turret gun</label>
+		<label>Mk 19 turret gun</label>
 		<description>Jury-rigged Launcher attached to a turret. If you find this...You must be Debugger, right?</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/IncendiaryLauncher</texPath> 

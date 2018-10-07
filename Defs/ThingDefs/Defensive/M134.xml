@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_M134MG</defName> 
 		<label>Mounted M134 Turret</label>
-		<description>A M134 Gatling turret. Can be directly controlled, but beware of friendly fire. Requires power.</description>
+		<description>A M134 Minigun turret. Can be directly controlled, but beware of friendly fire. Requires power.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -86,7 +86,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_M134MG</defName>
-		<label>7.62 NATO bullet</label>
+		<label>7.62×51mm NATO bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

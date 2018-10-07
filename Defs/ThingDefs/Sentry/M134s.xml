@@ -91,7 +91,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_M134MG</defName>
-		<label>7.62 NATO bullet</label>
+		<label>7.62×51mm NATO bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

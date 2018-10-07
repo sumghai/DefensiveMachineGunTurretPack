@@ -4,8 +4,8 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_Mk19MGL</defName> 
-		<label>Mounted Mk.19 Turret</label>
-		<description>A Mk.19 Grenade Launcher turret. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
+		<label>Mounted Mk 19 Turret</label>
+		<description>A Mk 19 Grenade Launcher turret. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -85,7 +85,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_Mk19MGL</defName>
-		<label>40x53mm Grenade</label>
+		<label>40×53mm Grenade</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Big</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -101,7 +101,7 @@
 
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_Mk19MGL</defName> 
-		<label>Mk. 19 turret gun</label>
+		<label>Mk 19 turret gun</label>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/IncendiaryLauncher</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
