@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Turret_M134MG.label>M134迷你砲機槍塔</Turret_M134MG.label>
+	<Turret_M134MG.description>一台M134迷你機槍塔。可以接受直接控制，但請小心友方的火力。需要電源。</Turret_M134MG.description>
+	<Turret_M134MG_Blueprint.label>M134迷你機槍塔 (藍圖)</Turret_M134MG_Blueprint.label>
+	<Turret_M134MG_Blueprint_Install.label>M134迷你機槍塔 (安裝中)</Turret_M134MG_Blueprint_Install.label>
+	<Turret_M134MG_Frame.label>M134迷你機槍塔 (建造中)</Turret_M134MG_Frame.label>
+	<Turret_M134MG_Frame.description>一台M134迷你機槍塔。可以接受直接控制，但請小心友方的火力。需要電源。</Turret_M134MG_Frame.description>
+
+	<!--[Duplicated] <Bullet_M134MG.label>7.62 NATO bullet</Bullet_M134MG.label>-->
+
+	<Gun_M134MG.label>M134迷你機槍</Gun_M134MG.label>
+	<Gun_M134MG.description>屬於機槍塔的臨時武器。 這應該只有遊戲模組作者才看的到吧?</Gun_M134MG.description>
+	
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>槍管耐久值</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>重新裝填後繼續開火</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>無法開火：需要裝填</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>

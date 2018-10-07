@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Turret_Mk19MGL.label>Mk 19自動榴彈發射器砲塔</Turret_Mk19MGL.label>
+	<Turret_Mk19MGL.description>一台Mk 19自動榴彈發射器砲塔。可以接受直接控制，但請小心友方的火力和飛濺傷害。</Turret_Mk19MGL.description>
+	<Turret_Mk19MGL_Blueprint.label>Mk 19自動榴彈發射器砲塔 (藍圖)</Turret_Mk19MGL_Blueprint.label>
+	<Turret_Mk19MGL_Blueprint_Install.label>Mk 19自動榴彈發射器砲塔 (安裝中)</Turret_Mk19MGL_Blueprint_Install.label>
+	<Turret_Mk19MGL_Frame.label>Mk 19自動榴彈發射器砲塔 (建造中)</Turret_Mk19MGL_Frame.label>
+	<Turret_Mk19MGL_Frame.description>一台Mk 19自動榴彈發射器砲塔。可以接受直接控制，但請小心友方的火力和飛濺傷害。</Turret_Mk19MGL_Frame.description>
+
+	<!--[Duplicated] <Bullet_Mk19MGL.label>40x53mm Grenade</Bullet_Mk19MGL.label>-->
+
+	<Gun_Mk19MGL.label>Mk 19自動榴彈發射器</Gun_Mk19MGL.label>
+	<Gun_Mk19MGL.description>屬於砲塔的臨時武器。 這應該只有遊戲模組作者才看的到吧?</Gun_Mk19MGL.description>
+
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>槍管耐久值</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>重新裝填後繼續開火</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>無法開火：需要裝填</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+	
+</LanguageData>

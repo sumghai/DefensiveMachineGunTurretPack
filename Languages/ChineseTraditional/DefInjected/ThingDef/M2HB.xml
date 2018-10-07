@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Turret_M2HB.label>M2HB重機槍塔</Turret_M2HB.label>
+	<Turret_M2HB.description>一台M2HB重機槍塔。可以接受直接控制，但請小心友方的火力。</Turret_M2HB.description>
+	<Turret_M2HB_Blueprint.label>M2HB重機槍塔 (藍圖)</Turret_M2HB_Blueprint.label>
+	<Turret_M2HB_Blueprint_Install.label>M2HB重機槍塔 (安裝中)</Turret_M2HB_Blueprint_Install.label>
+	<Turret_M2HB_Frame.label>M2HB重機槍塔 (建造中)</Turret_M2HB_Frame.label>
+	<Turret_M2HB_Frame.description>一台M2HB重機槍塔。可以接受直接控制，但請小心友方的火力。</Turret_M2HB_Frame.description>
+
+	<!--[Duplicated] <Bullet_M2HB.label>.50 BMG bullet</Bullet_M2HB.label>-->
+
+	<Gun_M2HB.label>M2HB重機槍</Gun_M2HB.label>
+	<Gun_M2HB.description>屬於機槍塔的臨時武器。 這應該只有遊戲模組作者才看的到吧?</Gun_M2HB.description>
+	
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>槍管耐久值</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>重新裝填後繼續開火</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>無法開火：需要裝填</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>

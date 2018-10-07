@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Turret_DP28MG.label>DP-28輕機槍塔</Turret_DP28MG.label>
+	<Turret_DP28MG.description>一台DP-28輕機槍塔。可以接受直接控制，但請小心友方的火力。</Turret_DP28MG.description>
+	<Turret_DP28MG_Blueprint.label>DP-28輕機槍塔 (藍圖)</Turret_DP28MG_Blueprint.label>
+	<Turret_DP28MG_Blueprint_Install.label>DP-28輕機槍塔 (安裝中)</Turret_DP28MG_Blueprint_Install.label>
+	<Turret_DP28MG_Frame.label>DP-28輕機槍塔 (建造中)</Turret_DP28MG_Frame.label>
+	<Turret_DP28MG_Frame.description>一台DP-28輕機槍塔。可以接受直接控制，但請小心友方的火力。</Turret_DP28MG_Frame.description>
+
+	<Bullet_DP28MG.label>7.62×54mmR 子彈</Bullet_DP28MG.label>
+
+	<Gun_DP28MG.label>DP-28輕機槍</Gun_DP28MG.label>
+	<Gun_DP28MG.description>屬於機槍塔的臨時武器。 這應該只有遊戲模組作者才看的到吧?</Gun_DP28MG.description>
+
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>槍管耐久值</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>重新裝填後繼續開火</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>無法開火：需要裝填</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>
