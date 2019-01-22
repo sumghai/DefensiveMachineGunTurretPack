@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_M2HBs</defName> 
 		<label>M2HB Sentry gun</label>
-		<description>A M2HB Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. Explodes when damaged.</description>
+		<description>A M2HB Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -32,11 +32,6 @@
 		<tickerType>Normal</tickerType>
 		<techLevel>Industrial</techLevel>
 		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>3.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
-			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -70,8 +65,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Steel>400</Steel> 
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<Steel>295</Steel> 
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
@@ -84,7 +79,7 @@
 		</building>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
-			<li>GasOperation</li>
+			<li>RecoilOperation</li>
 		</researchPrerequisites>
 	</ThingDef>
 

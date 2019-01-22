@@ -64,8 +64,9 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Steel>100</Steel>
-			<Gun_LMG>1</Gun_LMG>
+			<Steel>155</Steel>
+			<WoodLog>10</WoodLog>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
@@ -75,6 +76,9 @@
 			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
 			<turretTopGraphicPath>Things/Defense/Gun_DP28</turretTopGraphicPath> 
 		</building>
+		<researchPrerequisites>
+			<li>GasOperation</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">

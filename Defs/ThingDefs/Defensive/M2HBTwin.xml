@@ -60,12 +60,12 @@
 		</comps>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
-		<fillPercent>0.4</fillPercent>
+		<fillPercent>0.6</fillPercent>
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Steel>500</Steel>
-			<ComponentIndustrial>6</ComponentIndustrial>
+			<Steel>580</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
@@ -76,8 +76,7 @@
 			<turretTopGraphicPath>Things/Defense/Gun_m2twin</turretTopGraphicPath> 
 		</building>
 		<researchPrerequisites>
-			<li>GasOperation</li>
-			<li>GunTurrets</li>
+			<li>RecoilOperation</li>
 		</researchPrerequisites>
 	</ThingDef>
 

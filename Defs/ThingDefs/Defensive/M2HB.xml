@@ -26,7 +26,7 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>7500</WorkToBuild> 
+			<WorkToBuild>10000</WorkToBuild> 
 			<Mass>52</Mass>
 			<Beauty>-20</Beauty>
 		</statBases>
@@ -64,8 +64,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Steel>250</Steel> 
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Steel>280</Steel> 
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
@@ -76,7 +76,7 @@
 			<turretTopGraphicPath>Things/Defense/Gun_m2</turretTopGraphicPath> 
 		</building>
 		<researchPrerequisites>
-			<li>GasOperation</li>
+			<li>RecoilOperation</li>
 		</researchPrerequisites>
 	</ThingDef>
 

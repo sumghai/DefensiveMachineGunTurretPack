@@ -26,7 +26,7 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>2500</WorkToBuild> 
+			<WorkToBuild>12500</WorkToBuild> 
 			<Mass>33</Mass>
 			<Beauty>-20</Beauty>
 		</statBases>
@@ -68,8 +68,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Steel>150</Steel>
-			<Gun_Minigun>1</Gun_Minigun>
+			<Steel>180</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>

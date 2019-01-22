@@ -2,8 +2,25 @@
 <ModMetaData>
 	<name>Defensive Machine Gun Turret Pack</name>
 	<author>FenderSBlackie and sumghai</author>
-	<targetVersion>1.0.2059</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<url>https://ludeon.com/forums/index.php?topic=45727.0</url>
 	<description>
+	An updated version of the original mod by Blackie, the Defensive Machine Gun Turret Pack adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.
+	
+	Version 1.4.0
+	 - Updated for 1.0.2150 by sumghai
+	 - Change About.xml to use new mod multi-versioning scheme
+	 - Rebalance turret material costs
+	     - Manned DP-28 turrets no longer require LMGs
+		 - Manned and Sentry M134 Miniguns no longer require miniguns
+		 - Manned and Sentry Mk 19 Grenade Launchers no longer require high-explosive shells
+     - Overhaul turret research
+	     - Manned DP-28 turrets are now unlocked after researching Gas Operation
+		 - Manned and Sentry M2HB Machine Gun turrets are now unlocked after researching Recoil Operation (after Blowback Operation)
+	 - Sentry turrets no longer explode when destroyed
+	
 	Version 1.3.0
 	 - Updated for 1.0.2059 by sumghai
 	 - Update turret and ammunition names in line with their real-life equivalents

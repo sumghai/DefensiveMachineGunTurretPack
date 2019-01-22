@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_Mk19MGLs</defName> 
 		<label>Mk 19 Sentry gun</label>
-		<description>A Mk 19 Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. Explodes when damaged.</description>
+		<description>A Mk 19 Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -24,7 +24,7 @@
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>17500</WorkToBuild>
+			<WorkToBuild>15000</WorkToBuild>
 			<Flammability>0.25</Flammability>
 			<Mass>54.2</Mass>
 			<Beauty>-20</Beauty>
@@ -32,11 +32,6 @@
 		<tickerType>Normal</tickerType>
 		<techLevel>Industrial</techLevel>
 		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>3.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
-			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
@@ -70,9 +65,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Steel>550</Steel>
+			<Steel>270</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
-			<Shell_HighExplosive>5</Shell_HighExplosive>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
@@ -85,7 +79,7 @@
 		</building>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
-			<li>GasOperation</li>
+			<li>BlowbackOperation</li>
 			<li>Mortars</li>
 		</researchPrerequisites>
 	</ThingDef>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_Mk19MGL</defName> 
 		<label>Mounted Mk 19 Turret</label>
@@ -65,9 +64,8 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
-			<Steel>400</Steel>
+			<Steel>250</Steel>
 			<ComponentIndustrial>6</ComponentIndustrial>
-			<Shell_HighExplosive>5</Shell_HighExplosive>
 		</costList>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
@@ -78,7 +76,7 @@
 			<turretTopGraphicPath>Things/Defense/Gun_Mk19</turretTopGraphicPath> 
 		</building>
 		<researchPrerequisites>
-			<li>GasOperation</li>
+			<li>BlowbackOperation</li>
 			<li>Mortars</li>
 		</researchPrerequisites>
 	</ThingDef>
