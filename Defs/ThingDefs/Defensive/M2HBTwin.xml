@@ -60,7 +60,7 @@
 		</comps>
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
-		<fillPercent>0.6</fillPercent>
+		<fillPercent>0.85</fillPercent>
 		<castEdgeShadows>true</castEdgeShadows>
 		<hasTooltip>true</hasTooltip>
 		<costList>
