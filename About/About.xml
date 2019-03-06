@@ -9,6 +9,10 @@
 	<description>
 	An updated version of the original mod by Blackie, the Defensive Machine Gun Turret Pack adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.
 	
+	Version 1.4.1
+	 - Increase fillPercent of all turrets to 0.85
+	     - This allows turrets to properly fire through embrasures and over sandbags when running with the Combat Extended mod
+	
 	Version 1.4.0
 	 - Updated for 1.0.2150 by sumghai
 	 - Change About.xml to use new mod multi-versioning scheme
