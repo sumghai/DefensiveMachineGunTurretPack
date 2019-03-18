@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_Mk19MGLs.label>Турель с автоматическим гранатометом</Turret_Mk19MGLs.label>
+  <Turret_Mk19MGLs.description>Турель оснащенная автоматическим гранатометом Mk 19. Управляющий компьютер не очень умен, так что осторожнее с дружеским огнем, опасайтесь урона по площади.</Turret_Mk19MGLs.description>
+  <Turret_Mk19MGLs_Blueprint.label>Турель с автоматическим гранатометом (проект)</Turret_Mk19MGLs_Blueprint.label>
+  <Turret_Mk19MGLs_Blueprint_Install.label>Турель с автоматическим гранатометом (проект)</Turret_Mk19MGLs_Blueprint_Install.label>
+  <Turret_Mk19MGLs_Frame.label>Турель с автоматическим гранатометом (строение)</Turret_Mk19MGLs_Frame.label>
+  <Turret_Mk19MGLs_Frame.description>Турель оснащенная автоматическим гранатометом Mk 19. Управляющий компьютер не очень умен, так что осторожнее с дружеским огнем, опасайтесь урона по площади.</Turret_Mk19MGLs_Frame.description>
+
+  <Bullet_Mk19MGL.label>40×53mm граната</Bullet_Mk19MGL.label>
+
+  <Gun_Mk19MGLs.label>гранатомет Mk 19</Gun_Mk19MGLs.label>
+  <Gun_Mk19MGLs.description>Jury-rigged Launcher attached to a turret. If you find this...You must be Debugger, right?</Gun_Mk19MGLs.description>
+
+
+</LanguageData>

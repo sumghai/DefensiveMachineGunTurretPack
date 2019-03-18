@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_DP28MG.label>Стационарный ДП-28</Turret_DP28MG.label>
+  <Turret_DP28MG.description>Стационарный вариант пулемета Дегтярева на поворотной турели. Управляется вручную, но опасайтесь дружеского огня.</Turret_DP28MG.description>
+  <Turret_DP28MG_Blueprint.label>Стационарный ДП-28 (проект)</Turret_DP28MG_Blueprint.label>
+  <Turret_DP28MG_Blueprint_Install.label>Стационарный ДП-28 (проект)</Turret_DP28MG_Blueprint_Install.label>
+  <Turret_DP28MG_Frame.label>Стационарный ДП-28 (строение)</Turret_DP28MG_Frame.label>
+  <Turret_DP28MG_Frame.description>Стационарный вариант пулемета Дегтярева на поворотной турели. Управляется вручную, но опасайтесь дружеского огня.</Turret_DP28MG_Frame.description>
+
+  <Bullet_DP28MG.label>пуля 7.62×54</Bullet_DP28MG.label>
+
+  <Gun_DP28MG.label>пулемет ДП-28</Gun_DP28MG.label>
+  <Gun_DP28MG.description>Jury-rigged gun attached to a turret. If you find this...You must be Debugger, right?</Gun_DP28MG.description>
+
+
+</LanguageData>

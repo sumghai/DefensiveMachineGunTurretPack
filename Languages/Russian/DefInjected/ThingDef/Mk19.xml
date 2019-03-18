@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Turret_Mk19MGL.label>Станковый гранатомет Mk 19</Turret_Mk19MGL.label>
+  <Turret_Mk19MGL.description>Станковый гранатомет Mk 19. Управляется вручную, но осторожнее с дружеским огнем, опасайтесь урона по площади.</Turret_Mk19MGL.description>
+  <Turret_Mk19MGL_Blueprint.label>Станковый гранатомет Mk 19 (проект)</Turret_Mk19MGL_Blueprint.label>
+  <Turret_Mk19MGL_Blueprint_Install.label>Станковый гранатомет Mk 19 (проект)</Turret_Mk19MGL_Blueprint_Install.label>
+  <Turret_Mk19MGL_Frame.label>Станковый гранатомет Mk 19 (строение)</Turret_Mk19MGL_Frame.label>
+  <Turret_Mk19MGL_Frame.description>Станковый гранатомет Mk 19. Управляется вручную, но осторожнее с дружеским огнем, опасайтесь урона по площади.</Turret_Mk19MGL_Frame.description>
+
+  <!--[Duplicated] <Bullet_Mk19MGL.label>40×53mm Grenade</Bullet_Mk19MGL.label>-->
+  <Gun_Mk19MGL.label>гранатомет Mk 19</Gun_Mk19MGL.label>
+
+
+</LanguageData>
