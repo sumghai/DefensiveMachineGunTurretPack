@@ -1,76 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Defensive Machine Gun Turret Pack</name>
-	<author>FenderSBlackie and sumghai</author>
+	<author>Coalcat and sumghai</author>
 	<supportedVersions>
 		<li>1.0</li>
 	</supportedVersions>
 	<url>https://ludeon.com/forums/index.php?topic=45727.0</url>
 	<description>
-An updated version of the original mod by Blackie, the Defensive Machine Gun Turret Pack adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.
-
-Version 1.5.0
- - Add Russian translation (courtesy of xRg)
-
-Version 1.4.1
- - Increase fillPercent of all turrets to 0.85
-	 - This allows turrets to properly fire through embrasures and over sandbags when running with the Combat Extended mod
-
-Version 1.4.0
- - Updated for 1.0.2150 by sumghai
- - Change About.xml to use new mod multi-versioning scheme
- - Rebalance turret material costs
-	 - Manned DP-28 turrets no longer require LMGs
-	 - Manned and Sentry M134 Miniguns no longer require miniguns
-	 - Manned and Sentry Mk 19 Grenade Launchers no longer require high-explosive shells
- - Overhaul turret research
-	 - Manned DP-28 turrets are now unlocked after researching Gas Operation
-	 - Manned and Sentry M2HB Machine Gun turrets are now unlocked after researching Recoil Operation (after Blowback Operation)
- - Sentry turrets no longer explode when destroyed
-
-Version 1.3.0
- - Updated for 1.0.2059 by sumghai
- - Update turret and ammunition names in line with their real-life equivalents
- - Add Traditional Chinese translation
-
-Version 1.2.0
- - Updated for 0.19.2009 by sumghai
- - Change turret masses to values more in line with their real-life equivalents
- - Add barrel wear to all machine guns
-	 - Shots until barrel change values are based on real-life performance
-	 - Amount of steel required to replace barrels are based on real-life masses of replacement barrels
- - Update tripod base texture filenames to new north-south-east naming scheme
-
-Original changelog for older versions by FenderSBlackie
------------------------------------------------
-
-Version 1.1.0.
-
-Add Machine Gun/Grenade launcher turret, with Sentry Gun variations. [Manned turret, and Automatic Sentry gun.]
-
-List of MG /MGL
-
-Version 1.0.0
-
-- M2 HB : Need Gas Operation tech for unlock.
-- M134 Minigun : Need Multi barrel Weapons tech for unlock.  Use Minigun as Ingrediant.
-- Mk.19 Grenade Launcher : Need Gas Operation, Mortar tech for unlock. Use 5 high-explosive shells as Ingrediant.
-
-Version 1.1.0
-
-- DP-28 : Need no tech. Use LMG as Ingrediant.
-- Twin M2 HB Turret : Need Gas operation, Turret guns tech for unlock. Double price of M2 HB.
-
-- All sentry gun Variation needs Turret guns tech for unlock.
-
-Fix 1: Buffed Range of all turrets.
-Fix 2: Now Mk.19 turret use 5 high-explosive shells as Ingrediant.
-Fix 2.1: Now Mounted M134 need 75w electricity for activiate.
-Fix 3: Buffed M134 Family.
-- Burst shot count and range : 16 shots -> 25 shots, 25 tile range -> 30 tile range.
-- Warm up time and Cooldown time got buffed.
-- Long-Range Accuracy got buffed.
-- Building time got reduced.
-Fix 4: Buffed Shot Range [+30%], but nerfed Shot damage to 80%. DP-28 is Exception of two.
+An updated version of the original mod by Coalcat (aka Blackie), the Defensive Machine Gun Turret Pack adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.
 	</description>
 </ModMetaData>

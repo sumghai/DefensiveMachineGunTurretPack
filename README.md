@@ -1,7 +1,7 @@
-# [1.0] Defensive Machine Gun Turret Pack 1.5.0
+# [1.0] Defensive Machine Gun Turret Pack 1.5.1
 Security buildings mod for RimWorld, which adds a variety of manned and automated sentry machine guns. Based on prior work by FenderSBlackie 
 
-**Original Author:** FenderSBlackie
+**Original Author:** Coalcat / Blackie
 
 **Maintainer:** Robin "sumghai" Chang (sumdumghai@gmail.com)
 
