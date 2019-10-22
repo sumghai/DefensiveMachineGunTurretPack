@@ -79,6 +79,9 @@
 			<li>BlowbackOperation</li>
 			<li>Mortars</li>
 		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Heavy</li>
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">

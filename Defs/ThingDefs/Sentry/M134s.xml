@@ -81,6 +81,9 @@
 			<li>GunTurrets</li>
 			<li>MultibarrelWeapons</li>
 		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Sentry</li>
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<!-- Caravan Combat Suppliers have limited stock of turrets, due to limits on how much their pack animals can carry -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Caravan_Outlander_CombatSupplier"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>DMGTurret_Manned_Light</tradeTag>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>DMGTurret_Manned_Heavy</tradeTag>
+						<countRange>
+							<min>1</min>
+							<max>1</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>DMGTurret_Sentry</tradeTag>
+						<countRange>
+							<min>0</min>
+							<max>1</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+
+			<!-- Orbital Combat Suppliers have a larger selection of turrets, as their spaceships have big cargo holds -->
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TraderKindDef[defName="Orbital_CombatSupplier"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>DMGTurret_Manned_Light</tradeTag>
+						<countRange>
+							<min>2</min>
+							<max>4</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>DMGTurret_Manned_Heavy</tradeTag>
+						<thingDefCountRange>
+							<min>2</min>
+							<max>3</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_Tag">
+						<tradeTag>DMGTurret_Sentry</tradeTag>
+						<thingDefCountRange>
+							<min>2</min>
+							<max>2</max>
+						</thingDefCountRange>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+</Patch>

@@ -79,6 +79,9 @@
 		<researchPrerequisites>
 			<li>GasOperation</li>
 		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Light</li>
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">

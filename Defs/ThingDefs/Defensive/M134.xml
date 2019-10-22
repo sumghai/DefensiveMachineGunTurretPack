@@ -82,6 +82,9 @@
 		<researchPrerequisites>
 			<li>MultibarrelWeapons</li>
 		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Heavy</li>
+		</tradeTags>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
