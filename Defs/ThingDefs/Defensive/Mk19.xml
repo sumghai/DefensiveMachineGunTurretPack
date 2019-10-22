@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_Mk19MGL</defName> 
 		<label>Mounted Mk 19 Turret</label>
-		<description>A Mk 19 Grenade Launcher turret. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
+		<description>An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -103,6 +103,7 @@
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_Mk19MGL</defName> 
 		<label>Mk 19 turret gun</label>
+		<description>An American belt-fed automatic grenade launcher designed to be attached to a turret.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/IncendiaryLauncher</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>

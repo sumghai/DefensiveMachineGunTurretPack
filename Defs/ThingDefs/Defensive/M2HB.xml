@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_M2HB</defName> 
 		<label>Mounted M2HB Turret</label>
-		<description>A M2HB turret. Can be directly controlled, but beware of friendly fire.</description>
+		<description>An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -100,7 +100,7 @@
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_M2HB</defName> 
 		<label>M2HB turret gun</label>
-		<description>Jury-rigged gun attached to a turret. If you find this...You must be Debugger, right?</description>
+		<description>An American heavy machine gun designed to be attached to a turret.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>

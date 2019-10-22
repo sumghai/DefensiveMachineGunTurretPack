@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_M134MG</defName> 
 		<label>Mounted M134 Turret</label>
-		<description>A M134 Minigun turret. Can be directly controlled, but beware of friendly fire. Requires power.</description>
+		<description>An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -104,7 +104,7 @@
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_M134MG</defName> 
 		<label>M134 turret gun</label>
-		<description>Jury-rigged gun attached to a turret. If you find this...You must be Debugger, right?</description>
+		<description>An American six-barrel rotary heavy machine gun designed to be attached to a turret.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>

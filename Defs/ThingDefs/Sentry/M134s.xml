@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_M134MGs</defName> 
 		<label>M134 Sentry gun</label>
-		<description>A M134 Sentry gun that automatically fires at nearby enemies. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
+		<description>An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -103,7 +103,7 @@
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_M134MGs</defName> 
 		<label>M134 turret gun</label>
-		<description>Jury-rigged gun attached to a turret. If you find this...You must be Debugger, right?</description>
+		<description>An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>

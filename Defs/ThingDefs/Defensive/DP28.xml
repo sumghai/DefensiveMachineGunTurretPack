@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>Turret_DP28MG</defName> 
 		<label>Mounted DP-28 Turret</label>
-		<description>A DP-28 turret. Can be directly controlled, but beware of friendly fire.</description>
+		<description>A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire.</description>
 		<thingClass>Building_TurretGun</thingClass>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
@@ -101,7 +101,7 @@
 	<ThingDef ParentName="BaseHumanGun"> 
 		<defName>Gun_DP28MG</defName> 
 		<label>DP-28 turret gun</label>
-		<description>Jury-rigged gun attached to a turret. If you find this...You must be Debugger, right?</description>
+		<description>>A Soviet light machine gun designed to be attached to a turret.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/LMG</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
