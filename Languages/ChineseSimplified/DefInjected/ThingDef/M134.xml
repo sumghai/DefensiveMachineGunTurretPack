@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Turret_M134MG.label>M134迷你炮机枪塔</Turret_M134MG.label>
+	<Turret_M134MG.description>一个美国的多管旋转式机枪，安装在手动炮塔上，射速很高。可以接受直接控制，但请小心友方的火力。需要电源。</Turret_M134MG.description>
+	<Turret_M134MG_Blueprint.label>M134迷你机枪塔 (蓝图)</Turret_M134MG_Blueprint.label>
+	<Turret_M134MG_Blueprint_Install.label>M134迷你机枪塔 (安装中)</Turret_M134MG_Blueprint_Install.label>
+	<Turret_M134MG_Frame.label>M134迷你机枪塔 (建造中)</Turret_M134MG_Frame.label>
+	<Turret_M134MG_Frame.description>一个美国的多管旋转式机枪，安装在手动炮塔上，射速很高。可以接受直接控制，但请小心友方的火力。需要电源。</Turret_M134MG_Frame.description>
+
+	<!--[Duplicated] <Bullet_M134MG.label>7.62 NATO bullet</Bullet_M134MG.label>-->
+
+	<Gun_M134MG.label>M134迷你机枪</Gun_M134MG.label>
+	<Gun_M134MG.description>一个美国的多管旋转式机枪，用于安装在炮塔上。</Gun_M134MG.description>
+
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>重新装填后继续开火</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>

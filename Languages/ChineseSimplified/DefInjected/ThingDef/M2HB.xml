@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Turret_M2HB.label>M2HB重机枪塔</Turret_M2HB.label>
+	<Turret_M2HB.description>一个美国的重型机枪，安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Turret_M2HB.description>
+	<Turret_M2HB_Blueprint.label>M2HB重机枪塔 (蓝图)</Turret_M2HB_Blueprint.label>
+	<Turret_M2HB_Blueprint_Install.label>M2HB重机枪塔 (安装中)</Turret_M2HB_Blueprint_Install.label>
+	<Turret_M2HB_Frame.label>M2HB重机枪塔 (建造中)</Turret_M2HB_Frame.label>
+	<Turret_M2HB_Frame.description>一个美国的重型机枪，安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Turret_M2HB_Frame.description>
+
+	<!--[Duplicated] <Bullet_M2HB.label>.50 BMG bullet</Bullet_M2HB.label>-->
+
+	<Gun_M2HB.label>M2HB重机枪</Gun_M2HB.label>
+	<Gun_M2HB.description>一个美国的重型机枪，用于安装在炮塔上。</Gun_M2HB.description>
+
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>重新装填后继续开火</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>

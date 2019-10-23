@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Turret_Mk19MGL.label>Mk 19自动榴弹发射器炮塔</Turret_Mk19MGL.label>
+	<Turret_Mk19MGL.description>一个美国的自动榴弹发射器，安装在手动炮塔上，适合对付大型步兵编队和中型装甲车。可以接受直接控制，但请小心友方的火力和飞溅伤害。</Turret_Mk19MGL.description>
+	<Turret_Mk19MGL_Blueprint.label>Mk 19自动榴弹发射器炮塔 (蓝图)</Turret_Mk19MGL_Blueprint.label>
+	<Turret_Mk19MGL_Blueprint_Install.label>Mk 19自动榴弹发射器炮塔 (安装中)</Turret_Mk19MGL_Blueprint_Install.label>
+	<Turret_Mk19MGL_Frame.label>Mk 19自动榴弹发射器炮塔 (建造中)</Turret_Mk19MGL_Frame.label>
+	<Turret_Mk19MGL_Frame.description>一个美国的自动榴弹发射器，安装在手动炮塔上，适合对付大型步兵编队和中型装甲车。可以接受直接控制，但请小心友方的火力和飞溅伤害。</Turret_Mk19MGL_Frame.description>
+
+	<!--[Duplicated] <Bullet_Mk19MGL.label>40x53mm Grenade</Bullet_Mk19MGL.label>-->
+
+	<Gun_Mk19MGL.label>Mk 19自动榴弹发射器</Gun_Mk19MGL.label>
+	<Gun_Mk19MGL.description>一个美国的自动榴弹发射器，用于安装在炮塔上。</Gun_Mk19MGL.description>
+
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>重新装填后继续开火</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+
+</LanguageData>
