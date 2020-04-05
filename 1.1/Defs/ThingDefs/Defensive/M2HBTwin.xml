@@ -74,6 +74,11 @@
 			<turretGunDef>Gun_M2HBT</turretGunDef>
 			<turretBurstCooldownTime>3.75</turretBurstCooldownTime>
 		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>RecoilOperation</li>
 		</researchPrerequisites>

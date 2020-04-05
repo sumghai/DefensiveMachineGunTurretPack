@@ -78,6 +78,11 @@
 			<turretGunDef>Gun_M134MG</turretGunDef>
 			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
 		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>MultibarrelWeapons</li>
 		</researchPrerequisites>

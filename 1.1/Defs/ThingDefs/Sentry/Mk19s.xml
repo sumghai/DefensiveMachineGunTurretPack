@@ -76,6 +76,10 @@
 			<turretGunDef>Gun_Mk19MGLs</turretGunDef>
 			<turretBurstCooldownTime>6.05</turretBurstCooldownTime>
 		</building>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
 			<li>BlowbackOperation</li>
