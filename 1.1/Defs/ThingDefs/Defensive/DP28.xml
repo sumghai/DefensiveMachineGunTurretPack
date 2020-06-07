@@ -135,7 +135,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_DP28MG</defaultProjectile>
 				<warmupTime>1.6</warmupTime>
-				<range>25</range>
+				<range>32.9</range>
 				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<burstShotCount>8</burstShotCount>
 				<soundCast>Shot_Minigun</soundCast>
