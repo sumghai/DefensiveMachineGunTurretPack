@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<!-- ========== Turret Bases  ========== -->
+
+	<ThingDef ParentName="BuildingBase" Name="DMGTurretBase" Abstract="true">
+		<thingClass>Building_TurretGun</thingClass>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer> 
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<statBases>
+			<Flammability>0.15</Flammability>
+			<Beauty>-20</Beauty>		
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<techLevel>Industrial</techLevel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.85</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<hasTooltip>true</hasTooltip>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_TurretTop</li>
+			<li>PlaceWorker_ShowTurretRadius</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<ThingDef ParentName="DMGTurretBase" Name="DMGTurretMannedBase" Abstract="true">
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<comps>
+			<li Class="CompProperties_Mannable">
+				<manWorkType>Violent</manWorkType>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<ThingDef ParentName="DMGTurretBase" Name="DMGTurretSentryBase" Abstract="true">
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+		</building>
+	</ThingDef>
+
+	<!-- ========== Turret Weapon Base ========== -->
+
+	<ThingDef ParentName="BaseWeaponTurret" Name="DMGTurretWeaponBase" Abstract="true">
+		<soundInteract>Interact_Rifle</soundInteract>
+		<menuHidden>true</menuHidden>
+		<destroyOnDrop>true</destroyOnDrop>
+		<tradeability>None</tradeability>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+		</statBases>
+	</ThingDef>
+
+	<!-- ========== Projectiles ========== -->
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_DMGT_762x54mmR</defName>
+		<label>7.62×54mmR bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>8</damageAmountBase> 
+			<speed>40</speed> 
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_DMGT_50BMG</defName>
+		<label>.50 BMG bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>20</damageAmountBase> 
+			<speed>105</speed> 
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_DMGT_762x51mmNATO</defName>
+		<label>7.62×51mm NATO bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase> 
+			<speed>150</speed> 
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_DMGT_40x53mmGrenade</defName>
+		<label>40×53mm grenade</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>30</damageAmountBase>
+			<explosionRadius>1.9</explosionRadius>
+			<speed>35</speed> 
+		</projectile>
+	</ThingDef>
+
+	<!-- ========== Mounted (Manned) Turrets  ========== -->
+
+	<!-- Mounted DP-28 Turret -->
+
+	<ThingDef ParentName="DMGTurretMannedBase">
+		<defName>Turret_DP28MG</defName> 
+		<label>Mounted DP-28 Turret</label>
+		<description>A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire.</description>
+		<graphicData>
+			<texPath>Things/Defense/Guntripod</texPath> 
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_DP28</uiIconPath>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>7500</WorkToBuild> 
+			<Mass>25.5</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>5000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>250</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>155</Steel>
+			<WoodLog>10</WoodLog>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>25</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_DP28MG</turretGunDef>
+			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>GasOperation</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Light</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_DP28MG</defName> 
+		<label>DP-28 turret gun</label>
+		<description>A Soviet light machine gun designed to be attached to a turret.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_DP28</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.66</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.42</AccuracyMedium>
+			<AccuracyLong>0.23</AccuracyLong>
+			<RangedWeapon_Cooldown>1.98</RangedWeapon_Cooldown>
+			<Mass>11.5</Mass>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_762x54mmR</defaultProjectile>
+				<warmupTime>1.6</warmupTime>
+				<range>32.9</range>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<burstShotCount>8</burstShotCount>
+				<soundCast>Shot_Minigun</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Mounted M2HB Turret -->
+
+	<ThingDef ParentName="DMGTurretMannedBase">
+		<defName>Turret_M2HB</defName> 
+		<label>Mounted M2HB Turret</label>
+		<description>An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
+		<graphicData>
+			<texPath>Things/Defense/Guntripod</texPath> 
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_M2</uiIconPath>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild> 
+			<Mass>52</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>10000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>250</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>280</Steel> 
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>30</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_M2HB</turretGunDef>
+			<turretBurstCooldownTime>3.75</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>RecoilOperation</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Heavy</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_M2HB</defName> 
+		<label>M2HB turret gun</label>
+		<description>An American heavy machine gun designed to be attached to a turret.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_m2</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.60</AccuracyShort>
+			<AccuracyMedium>0.46</AccuracyMedium>
+			<AccuracyLong>0.17</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+			<Mass>38</Mass>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_50BMG</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>42</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>ShotM2</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>13</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Mounted Twin M2HB Turret -->
+
+	<ThingDef ParentName="DMGTurretMannedBase">
+		<defName>Turret_M2HBT</defName> 
+		<label>Mounted Twin M2HB Turret</label>
+		<description>An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_M2HBT</uiIconPath>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild> 
+			<Mass>106</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>20000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>250</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>580</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>30</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_M2HBT</turretGunDef>
+			<turretBurstCooldownTime>3.75</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>RecoilOperation</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Heavy</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_M2HBT</defName> 
+		<label>Twin M2HB turret gun</label>
+		<description>An American heavy machine gun designed to be attached to a turret as a pair.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_m2twin</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.56</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.16</AccuracyLong>
+			<RangedWeapon_Cooldown>1.02</RangedWeapon_Cooldown>
+			<Mass>76</Mass>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_50BMG</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>42</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<soundCast>ShotM2</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>13</muzzleFlashScale>
+				<consumeFuelPerShot>2</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Mounted M134 Turret -->
+
+	<ThingDef ParentName="DMGTurretMannedBase">
+		<defName>Turret_M134MG</defName> 
+		<label>Mounted M134 Turret</label>
+		<description>An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power.</description>
+		<graphicData>
+			<texPath>Things/Defense/Guntripod</texPath> 
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_M134</uiIconPath>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>12500</WorkToBuild> 
+			<Mass>33</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>75</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>100000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>5000</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>180</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>25</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_M134MG</turretGunDef>
+			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>MultibarrelWeapons</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Heavy</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_M134MG</defName> 
+		<label>M134 turret gun</label>
+		<description>An American six-barrel rotary heavy machine gun designed to be attached to a turret.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_m134</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.66</AccuracyTouch>
+			<AccuracyShort>0.51</AccuracyShort>
+			<AccuracyMedium>0.29</AccuracyMedium>
+			<AccuracyLong>0.13</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+			<Mass>19</Mass>
+		</statBases>	
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_762x51mmNATO</defaultProjectile>
+				<warmupTime>1.3</warmupTime>
+				<range>37.4</range>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>25</burstShotCount>
+				<soundCast>Shot_Minigun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale> 
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Mounted Mk 19 Turret -->
+
+	<ThingDef ParentName="DMGTurretMannedBase">
+		<defName>Turret_Mk19MGL</defName> 
+		<label>Mounted Mk 19 Turret</label>
+		<description>An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
+		<graphicData>
+			<texPath>Things/Defense/Guntripod</texPath> 
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_Mk19MGL</uiIconPath>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>12500</WorkToBuild> 
+			<Mass>49.2</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>50000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>5000</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>250</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>27</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_Mk19MGL</turretGunDef>
+			<turretBurstCooldownTime>5.25</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>BlowbackOperation</li>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Manned_Heavy</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_Mk19MGL</defName> 
+		<label>Mk 19 turret gun</label>
+		<description>An American belt-fed automatic grenade launcher designed to be attached to a turret.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_Mk19</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.66</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.20</AccuracyMedium>
+			<AccuracyLong>0.09</AccuracyLong>
+			<RangedWeapon_Cooldown>3.28</RangedWeapon_Cooldown>
+			<Mass>35.2</Mass>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_40x53mmGrenade</defaultProjectile>
+				<warmupTime>3.2</warmupTime>
+				<range>35</range>
+				<minRange>5</minRange>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>				
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- ========== Sentry (Unmanned) Turrets  ========== -->
+
+	<!-- M2HB Sentry Gun -->
+
+	<ThingDef ParentName="DMGTurretSentryBase">
+		<defName>Turret_M2HBs</defName> 
+		<label>M2HB Sentry gun</label>
+		<description>An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_M2s</uiIconPath>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>12500</WorkToBuild>
+			<Mass>57</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>350</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>10000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>250</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>295</Steel> 
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>30</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_M2HB</turretGunDef>
+			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>RecoilOperation</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Sentry</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_M2HBs</defName> 
+		<label>M2HB turret gun</label>
+		<description>An American heavy machine gun designed to be attached to an automatic sentry turret.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_m2s</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.50</AccuracyShort>
+			<AccuracyMedium>0.37</AccuracyMedium>
+			<AccuracyLong>0.11</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+			<Mass>38</Mass>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_50BMG</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>42</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>ShotM2</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>13</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- M134 Sentry Gun -->
+
+	<ThingDef ParentName="DMGTurretSentryBase">
+		<defName>Turret_M134MGs</defName> 
+		<label>M134 Sentry gun</label>
+		<description>An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_M134s</uiIconPath>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Mass>38</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>500</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>100000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>5000</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>195</Steel>
+			<ComponentIndustrial>11</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>25</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_M134MGs</turretGunDef>
+			<turretBurstCooldownTime>5.25</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>MultibarrelWeapons</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Sentry</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_M134MGs</defName> 
+		<label>M134 turret gun</label>
+		<description>An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_m134s</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.66</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
+			<AccuracyMedium>0.25</AccuracyMedium>
+			<AccuracyLong>0.09</AccuracyLong>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+			<Mass>19</Mass>
+		</statBases>	
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_762x51mmNATO</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>37.4</range>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>25</burstShotCount>
+				<soundCast>Shot_Minigun</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale> 
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!-- Mk 19 Sentry Gun -->
+
+	<ThingDef ParentName="DMGTurretSentryBase">
+		<defName>Turret_Mk19MGLs</defName> 
+		<label>Mk 19 Sentry gun</label>
+		<description>An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Defense/MenuIcon_Mk19MGLs</uiIconPath>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Mass>54.2</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>425</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>50000</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.75</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<fuelMultiplier>5000</fuelMultiplier>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<outOfFuelMessage>Cannot shoot: Needs new barrel</outOfFuelMessage>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+		</comps>
+		<costList>
+			<Steel>270</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<specialDisplayRadius>27</specialDisplayRadius>
+		<building>
+			<turretGunDef>Gun_Mk19MGLs</turretGunDef>
+			<turretBurstCooldownTime>6.05</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>BlowbackOperation</li>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<tradeTags>
+			<li>DMGTurret_Sentry</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponTurret"> 
+		<defName>Gun_Mk19MGLs</defName> 
+		<label>Mk 19 turret gun</label>
+		<description>An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret.</description>
+		<graphicData>
+			<texPath>Things/Defense/Gun_Mk19s</texPath> 
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.66</AccuracyTouch>
+			<AccuracyShort>0.40</AccuracyShort>
+			<AccuracyMedium>0.17</AccuracyMedium>
+			<AccuracyLong>0.03</AccuracyLong>
+			<RangedWeapon_Cooldown>3.28</RangedWeapon_Cooldown>
+			<Mass>35.2</Mass>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_DMGT_40x53mmGrenade</defaultProjectile>
+				<warmupTime>3.2</warmupTime>
+				<range>35</range>
+				<minRange>5</minRange>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>16</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</Defs>

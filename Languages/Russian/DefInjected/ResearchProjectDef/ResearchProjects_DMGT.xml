@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RecoilOperation.label>компенсация отдачи</RecoilOperation.label>
-  <RecoilOperation.description>Создавайте мощные тяжелые пулеметы, такие как M2 Браунинг.</RecoilOperation.description>
+	<!-- EN: Recoil Operation -->
+	<RecoilOperation.label>компенсация отдачи</RecoilOperation.label>
 
+	<!-- EN: Craft high-power heavy machine guns like the M2 Browning. -->
+	<RecoilOperation.description>Создавайте мощные тяжелые пулеметы, такие как M2 Браунинг.</RecoilOperation.description>
 
 </LanguageData>

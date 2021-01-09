@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ========== Projectiles ========== -->
+
+	<!-- EN: 7.62×54mmR bullet -->
+	<Bullet_DMGT_762x54mmR.label>7.62×54mmR 子弹</Bullet_DMGT_762x54mmR.label>
+
+	<!-- EN: .50 BMG bullet -->
+	<Bullet_DMGT_50BMG.label>.50 BMG 子弹</Bullet_DMGT_50BMG.label>
+
+	<!-- EN: 7.62×51mm NATO bullet -->
+	<Bullet_DMGT_762x51mmNATO.label>7.62×51mm 北约弹</Bullet_DMGT_762x51mmNATO.label>
+
+	<!-- EN: 40×53mm grenade -->
+	<Bullet_DMGT_40x53mmGrenade.label>40×53mm 榴弹</Bullet_DMGT_40x53mmGrenade.label>
+
+	<!-- ========== Mounted (Manned) Turrets  ========== -->
+
+	<!-- ===== Mounted DP-28 Turret ===== -->
+
+	<!-- EN: Mounted DP-28 Turret -->
+	<Turret_DP28MG.label>DP-28轻机枪塔</Turret_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_DP28MG.description>一个苏联的轻机枪，安装在手动炮塔上，主要用于反步兵。可以接受直接控制，但请小心友方的火力。</Turret_DP28MG.description>
+
+	<!-- EN: Mounted DP-28 Turret (blueprint) -->
+	<Turret_DP28MG_Blueprint.label>DP-28轻机枪塔 (蓝图)</Turret_DP28MG_Blueprint.label>
+
+	<!-- EN: Mounted DP-28 Turret (blueprint) -->
+	<Turret_DP28MG_Blueprint_Install.label>DP-28轻机枪塔 (安装中)</Turret_DP28MG_Blueprint_Install.label>
+
+	<!-- EN: Mounted DP-28 Turret (building) -->
+	<Turret_DP28MG_Frame.label>DP-28轻机枪塔 (建造中)</Turret_DP28MG_Frame.label>
+
+	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_DP28MG_Frame.description>一个苏联的轻机枪，安装在手动炮塔上，主要用于反步兵。可以接受直接控制，但请小心友方的火力。</Turret_DP28MG_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: DP-28 turret gun -->
+	<Gun_DP28MG.label>DP-28轻机枪</Gun_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun designed to be attached to a turret. -->
+	<Gun_DP28MG.description>一个苏联的轻机枪，用于安装在炮塔上。</Gun_DP28MG.description>
+
+	<!-- ===== Mounted M2HB Turret ===== -->
+
+	<!-- EN: Mounted M2HB Turret -->
+	<Turret_M2HB.label>M2HB重机枪塔</Turret_M2HB.label>
+
+	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HB.description>一个美国的重型机枪，安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Turret_M2HB.description>
+
+	<!-- EN: Mounted M2HB Turret (blueprint) -->
+	<Turret_M2HB_Blueprint.label>M2HB重机枪塔 (蓝图)</Turret_M2HB_Blueprint.label>
+
+	<!-- EN: Mounted M2HB Turret (blueprint) -->
+	<Turret_M2HB_Blueprint_Install.label>M2HB重机枪塔 (安装中)</Turret_M2HB_Blueprint_Install.label>
+
+	<!-- EN: Mounted M2HB Turret (building) -->
+	<Turret_M2HB_Frame.label>M2HB重机枪塔 (建造中)</Turret_M2HB_Frame.label>
+
+	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HB_Frame.description>一个美国的重型机枪，安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Turret_M2HB_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HB.label>M2HB重机枪</Gun_M2HB.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret. -->
+	<Gun_M2HB.description>一个美国的重型机枪，用于安装在炮塔上。</Gun_M2HB.description>
+
+	<!-- ===== Mounted Twin M2HB Turret ===== -->
+
+	<!-- EN: Mounted Twin M2HB Turret -->
+	<Turret_M2HBT.label>双联装M2HB重机枪塔</Turret_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HBT.description>一个美国的重型机枪，双联安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Turret_M2HBT.description>
+
+	<!-- EN: Mounted Twin M2HB Turret (blueprint) -->
+	<Turret_M2HBT_Blueprint.label>双联装M2HB重机枪塔 (蓝图)</Turret_M2HBT_Blueprint.label>
+
+	<!-- EN: Mounted Twin M2HB Turret (blueprint) -->
+	<Turret_M2HBT_Blueprint_Install.label>双联装M2HB重机枪塔 (安装中)</Turret_M2HBT_Blueprint_Install.label>
+
+	<!-- EN: Mounted Twin M2HB Turret (building) -->
+	<Turret_M2HBT_Frame.label>双联装M2HB重机枪塔 (建造中)</Turret_M2HBT_Frame.label>
+
+	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HBT_Frame.description>一个美国的重型机枪，双联安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Turret_M2HBT_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Twin M2HB turret gun -->
+	<Gun_M2HBT.label>双联装M2HB重机枪</Gun_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret as a pair. -->
+	<Gun_M2HBT.description>一个美国的重型机枪，用于双联安装在炮塔上。</Gun_M2HBT.description>
+
+	<!-- ===== Mounted M134 Turret ===== -->
+
+	<!-- EN: Mounted M134 Turret -->
+	<Turret_M134MG.label>M134迷你炮机枪塔</Turret_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
+	<Turret_M134MG.description>一个美国的多管旋转式机枪，安装在手动炮塔上，射速很高。可以接受直接控制，但请小心友方的火力。需要电源。</Turret_M134MG.description>
+
+	<!-- EN: Mounted M134 Turret (blueprint) -->
+	<Turret_M134MG_Blueprint.label>M134迷你机枪塔 (蓝图)</Turret_M134MG_Blueprint.label>
+
+	<!-- EN: Mounted M134 Turret (blueprint) -->
+	<Turret_M134MG_Blueprint_Install.label>M134迷你机枪塔 (安装中)</Turret_M134MG_Blueprint_Install.label>
+
+	<!-- EN: Mounted M134 Turret (building) -->
+	<Turret_M134MG_Frame.label>M134迷你机枪塔 (建造中)</Turret_M134MG_Frame.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
+	<Turret_M134MG_Frame.description>一个美国的多管旋转式机枪，安装在手动炮塔上，射速很高。可以接受直接控制，但请小心友方的火力。需要电源。</Turret_M134MG_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MG.label>M134迷你机枪</Gun_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to a turret. -->
+	<Gun_M134MG.description>一个美国的多管旋转式机枪，用于安装在炮塔上。</Gun_M134MG.description>
+
+	<!-- ===== Mounted Mk 19 Turret ===== -->
+
+	<!-- EN: Mounted Mk 19 Turret -->
+	<Turret_Mk19MGL.label>Mk 19自动榴弹发射器炮塔</Turret_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
+	<Turret_Mk19MGL.description>一个美国的自动榴弹发射器，安装在手动炮塔上，适合对付大型步兵编队和中型装甲车。可以接受直接控制，但请小心友方的火力和飞溅伤害。</Turret_Mk19MGL.description>
+
+	<!-- EN: Mounted Mk 19 Turret (blueprint) -->
+	<Turret_Mk19MGL_Blueprint.label>Mk 19自动榴弹发射器炮塔 (蓝图)</Turret_Mk19MGL_Blueprint.label>
+
+	<!-- EN: Mounted Mk 19 Turret (blueprint) -->
+	<Turret_Mk19MGL_Blueprint_Install.label>Mk 19自动榴弹发射器炮塔 (安装中)</Turret_Mk19MGL_Blueprint_Install.label>
+
+	<!-- EN: Mounted Mk 19 Turret (building) -->
+	<Turret_Mk19MGL_Frame.label>Mk 19自动榴弹发射器炮塔 (建造中)</Turret_Mk19MGL_Frame.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
+	<Turret_Mk19MGL_Frame.description>一个美国的自动榴弹发射器，安装在手动炮塔上，适合对付大型步兵编队和中型装甲车。可以接受直接控制，但请小心友方的火力和飞溅伤害。</Turret_Mk19MGL_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGL.label>Mk 19自动榴弹发射器</Gun_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to a turret. -->
+	<Gun_Mk19MGL.description>一个美国的自动榴弹发射器，用于安装在炮塔上。</Gun_Mk19MGL.description>
+
+	<!-- ========== Sentry (Unmanned) Turrets  ========== -->
+
+	<!-- ===== M2HB Sentry Gun ===== -->
+
+	<!-- EN: M2HB Sentry gun -->
+	<Turret_M2HBs.label>自动M2HB重机枪塔</Turret_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M2HBs.description>一个美国的重型机枪，安装在自动炮塔上，会自动攻击附近的敌人。适合对付步兵，轻型装甲车和简单的防御工事。它低端的AI不接受直接控制，所以请小心友方的火力。</Turret_M2HBs.description>
+
+	<!-- EN: M2HB Sentry gun (blueprint) -->
+	<Turret_M2HBs_Blueprint.label>自动M2HB重机枪塔 (蓝图)</Turret_M2HBs_Blueprint.label>
+
+	<!-- EN: M2HB Sentry gun (blueprint) -->
+	<Turret_M2HBs_Blueprint_Install.label>自动M2HB重机枪塔 (安装中)</Turret_M2HBs_Blueprint_Install.label>
+
+	<!-- EN: M2HB Sentry gun (building) -->
+	<Turret_M2HBs_Frame.label>自动M2HB重机枪塔 (建造中)</Turret_M2HBs_Frame.label>
+
+	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M2HBs_Frame.description>一个美国的重型机枪，安装在自动炮塔上，会自动攻击附近的敌人。适合对付步兵，轻型装甲车和简单的防御工事。它低端的AI不接受直接控制，所以请小心友方的火力。</Turret_M2HBs_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HBs.label>M2HB重机枪</Gun_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M2HBs.description>一个美国的重型机枪，用于安装在自动炮塔上。</Gun_M2HBs.description>
+
+	<!-- ===== M134 Sentry Gun ===== -->
+
+	<!-- EN: M134 Sentry gun -->
+	<Turret_M134MGs.label>自动M134迷你炮机枪塔</Turret_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M134MGs.description>一个美国的多管旋转式机枪，安装在自动炮塔上，会自动攻击附近的敌人。射速很高。它低端的AI不接受直接控制，所以请小心友方的火力。</Turret_M134MGs.description>
+
+	<!-- EN: M134 Sentry gun (blueprint) -->
+	<Turret_M134MGs_Blueprint.label>自动M134迷你炮机枪塔 (蓝图)</Turret_M134MGs_Blueprint.label>
+
+	<!-- EN: M134 Sentry gun (blueprint) -->
+	<Turret_M134MGs_Blueprint_Install.label>自动M134迷你炮机枪塔 (安装中)</Turret_M134MGs_Blueprint_Install.label>
+
+	<!-- EN: M134 Sentry gun (building) -->
+	<Turret_M134MGs_Frame.label>自动M134迷你炮机枪塔 (建造中)
+	</Turret_M134MGs_Frame.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M134MGs_Frame.description>一个美国的多管旋转式机枪，安装在自动炮塔上，会自动攻击附近的敌人。射速很高。它低端的AI不接受直接控制，所以请小心友方的火力。</Turret_M134MGs_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MGs.label>M134迷你机枪</Gun_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M134MGs.description>一个美国的多管旋转式机枪，用于安装在自动炮塔上。</Gun_M134MGs.description>
+
+	<!-- ===== Mk 19 Sentry Gun ===== -->
+
+	<!-- EN: Mk 19 Sentry gun -->
+	<Turret_Mk19MGLs.label>自动Mk 19自动榴弹发射器炮塔</Turret_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_Mk19MGLs.description>一个美国的自动榴弹发射器，安装在自动炮塔上，会自动攻击附近的敌人。适合对付大型步兵编队和中型装甲车。它低端的AI不接受直接控制，所以请小心友方的火力。</Turret_Mk19MGLs.description>
+
+	<!-- EN: Mk 19 Sentry gun (blueprint) -->
+	<Turret_Mk19MGLs_Blueprint.label>自动Mk 19自动榴弹发射器炮塔 (蓝图)</Turret_Mk19MGLs_Blueprint.label>
+
+	<!-- EN: Mk 19 Sentry gun (blueprint) -->
+	<Turret_Mk19MGLs_Blueprint_Install.label>自动Mk 19自动榴弹发射器炮塔 (安装中)</Turret_Mk19MGLs_Blueprint_Install.label>
+
+	<!-- EN: Mk 19 Sentry gun (building) -->
+	<Turret_Mk19MGLs_Frame.label>自动Mk 19自动榴弹发射器炮塔 (建造中)</Turret_Mk19MGLs_Frame.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_Mk19MGLs_Frame.description>一个美国的自动榴弹发射器，安装在自动炮塔上，会自动攻击附近的敌人。适合对付大型步兵编队和中型装甲车。它低端的AI不接受直接控制，所以请小心友方的火力。</Turret_Mk19MGLs_Frame.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGLs.label>Mk 19自动榴弹发射器</Gun_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret. -->
+	<Gun_Mk19MGLs.description>一个美国的自动榴弹发射器，用于安装在自动炮塔上。</Gun_Mk19MGLs.description>
+
+</LanguageData>
