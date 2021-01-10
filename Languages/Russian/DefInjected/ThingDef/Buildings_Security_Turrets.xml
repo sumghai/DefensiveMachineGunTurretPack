@@ -38,13 +38,13 @@
 	<Frame_Turret_DP28MG.description>Советский легкий пулемет, установленный на башне с ручным управлением, в основном использовался против пехоты. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Frame_Turret_DP28MG.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: DP-28 turret gun -->
 	<Gun_DP28MG.label>пулемет ДП-28</Gun_DP28MG.label>
@@ -73,13 +73,13 @@
 	<Frame_Turret_M2HB.description>Американский крупнокалиберный пулемет, установленный на башне с ручным управлением, эффективен против пехоты, легкобронированной техники и простых укреплений. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Frame_Turret_M2HB.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M2HB.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_M2HB.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M2HB turret gun -->
 	<Gun_M2HB.label>пулемет Браунинг M2HB</Gun_M2HB.label>
@@ -108,13 +108,13 @@
 	<Frame_Turret_M2HBT.description>Американский крупнокалиберный пулемет, установленный попарно на башне с ручным управлением, эффективен против пехоты, легкобронированной техники и простых укреплений. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Frame_Turret_M2HBT.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: Twin M2HB turret gun -->
 	<Gun_M2HBT.label>Спаренная турельная установка M2HB</Gun_M2HBT.label>
@@ -143,13 +143,13 @@
 	<Frame_Turret_M134MG.description>Американский шестиствольный поворотный крупнокалиберный пулемет, установленный на башне с ручным управлением, с очень высокой скорострельностью. Можно напрямую контролировать, но остерегайтесь дружественного огня. Требуется мощность.</Frame_Turret_M134MG.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M134MG.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_M134MG.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M134 turret gun -->
 	<Gun_M134MG.label>Башенная пушка М134</Gun_M134MG.label>
@@ -178,13 +178,13 @@
 	<Frame_Turret_Mk19MGL.description>Американский автоматический гранатомет с ленточным питанием, установленный на башне с ручным управлением, эффективен против крупных пехотных соединений и средней бронетехники. Можно напрямую контролировать, но остерегайтесь дружественного огня. Остерегайтесь повреждений от брызг.</Frame_Turret_Mk19MGL.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: Mk 19 turret gun -->
 	<Gun_Mk19MGL.label>Mk 19 автоматический гранатомет турельный пулемет</Gun_Mk19MGL.label>
@@ -215,13 +215,13 @@
 	<Frame_Turret_M2HBs.description>Американский крупнокалиберный пулемет, установленный на турели, который автоматически стреляет по ближайшим противникам, эффективен против пехоты, легкобронированной техники и простых укреплений. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Frame_Turret_M2HBs.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M2HB turret gun -->
 	<Gun_M2HBs.label>M2HB автоматическая турельная пушка</Gun_M2HBs.label>
@@ -251,13 +251,13 @@
 	<Frame_Turret_M134MGs.description>Американский шестиствольный поворотный крупнокалиберный пулемет, установленный на турели, который автоматически ведет огонь по ближайшим противникам с очень высокой скорострельностью. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Frame_Turret_M134MGs.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M134 turret gun -->
 	<Gun_M134MGs.label>M134 Автоматическая турельная пушка</Gun_M134MGs.label>
@@ -286,13 +286,13 @@
 	<Frame_Turret_Mk19MGLs.description>Американский автоматический гранатомет с ленточным питанием, установленный на турели, который автоматически стреляет по ближайшим противникам, эффективен против крупных пехотных соединений и автомобилей средней брони. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Frame_Turret_Mk19MGLs.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>Долговечность ствола</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>Выстрелы до смены ствола</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>Выстрелов до замены ствола</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>Не может стрелять: нужен новый ствол</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>Стрельба невозможна: требуется замена ствола</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: Mk 19 turret gun -->
 	<Gun_Mk19MGLs.label>Mk 19 автоматический гранатомет автоматическая турельная пушка</Gun_Mk19MGLs.label>

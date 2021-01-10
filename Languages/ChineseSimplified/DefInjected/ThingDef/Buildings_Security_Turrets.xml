@@ -38,13 +38,13 @@
 	<Frame_Turret_DP28MG.description>一个苏联的轻机枪，安装在手动炮塔上，主要用于反步兵。可以接受直接控制，但请小心友方的火力。</Frame_Turret_DP28MG.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: DP-28 turret gun -->
 	<Gun_DP28MG.label>DP-28轻机枪</Gun_DP28MG.label>
@@ -73,13 +73,13 @@
 	<Frame_Turret_M2HB.description>一个美国的重型机枪，安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Frame_Turret_M2HB.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M2HB.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_M2HB.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M2HB turret gun -->
 	<Gun_M2HB.label>M2HB重机枪</Gun_M2HB.label>
@@ -108,13 +108,13 @@
 	<Frame_Turret_M2HBT.description>一个美国的重型机枪，双联安装在手动炮塔上，适合对付步兵，轻型装甲车和简单的防御工事。可以接受直接控制，但请小心友方的火力。</Frame_Turret_M2HBT.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: Twin M2HB turret gun -->
 	<Gun_M2HBT.label>双联装M2HB重机枪</Gun_M2HBT.label>
@@ -143,13 +143,13 @@
 	<Frame_Turret_M134MG.description>一个美国的多管旋转式机枪，安装在手动炮塔上，射速很高。可以接受直接控制，但请小心友方的火力。需要电源。</Frame_Turret_M134MG.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M134MG.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_M134MG.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M134 turret gun -->
 	<Gun_M134MG.label>M134迷你机枪</Gun_M134MG.label>
@@ -178,13 +178,13 @@
 	<Frame_Turret_Mk19MGL.description>一个美国的自动榴弹发射器，安装在手动炮塔上，适合对付大型步兵编队和中型装甲车。可以接受直接控制，但请小心友方的火力和飞溅伤害。</Frame_Turret_Mk19MGL.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: Mk 19 turret gun -->
 	<Gun_Mk19MGL.label>Mk 19自动榴弹发射器</Gun_Mk19MGL.label>
@@ -215,13 +215,13 @@
 	<Frame_Turret_M2HBs.description>一个美国的重型机枪，安装在自动炮塔上，会自动攻击附近的敌人。适合对付步兵，轻型装甲车和简单的防御工事。它低端的AI不接受直接控制，所以请小心友方的火力。</Frame_Turret_M2HBs.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M2HB turret gun -->
 	<Gun_M2HBs.label>M2HB重机枪</Gun_M2HBs.label>
@@ -251,13 +251,13 @@
 	<Frame_Turret_M134MGs.description>一个美国的多管旋转式机枪，安装在自动炮塔上，会自动攻击附近的敌人。射速很高。它低端的AI不接受直接控制，所以请小心友方的火力。</Frame_Turret_M134MGs.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M134 turret gun -->
 	<Gun_M134MGs.label>M134迷你机枪</Gun_M134MGs.label>
@@ -286,13 +286,13 @@
 	<Frame_Turret_Mk19MGLs.description>一个美国的自动榴弹发射器，安装在自动炮塔上，会自动攻击附近的敌人。适合对付大型步兵编队和中型装甲车。它低端的AI不接受直接控制，所以请小心友方的火力。</Frame_Turret_Mk19MGLs.description>
 
 	<!-- EN: Barrel durability -->
-	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>枪管耐久值</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>炮管耐久度</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
 
 	<!-- EN: Shots until barrel change -->
-	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>枪管寿命</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>射击直到炮管报废</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
 
 	<!-- EN: Cannot shoot: Needs new barrel -->
-	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>无法开火：需要装填</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>无法射击：需要新炮管</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: Mk 19 turret gun -->
 	<Gun_Mk19MGLs.label>Mk 19自动榴弹发射器</Gun_Mk19MGLs.label>
