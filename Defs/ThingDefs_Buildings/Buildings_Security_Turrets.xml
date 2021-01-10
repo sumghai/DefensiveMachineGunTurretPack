@@ -50,6 +50,10 @@
 	</ThingDef>
 
 	<ThingDef ParentName="DMGTurretBase" Name="DMGTurretSentryBase" Abstract="true">
+		<statBases>
+			<ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+			<!-- like level 8 human shooter -->
+		</statBases>
 		<comps>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
@@ -183,7 +187,7 @@
 		<specialDisplayRadius>25</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_DP28MG</turretGunDef>
-			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
+			<turretBurstCooldownTime>2.125</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>GasOperation</li>
@@ -203,9 +207,9 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.66</AccuracyTouch>
+			<AccuracyTouch>0.725</AccuracyTouch>
 			<AccuracyShort>0.65</AccuracyShort>
-			<AccuracyMedium>0.42</AccuracyMedium>
+			<AccuracyMedium>0.45</AccuracyMedium>
 			<AccuracyLong>0.23</AccuracyLong>
 			<RangedWeapon_Cooldown>1.98</RangedWeapon_Cooldown>
 			<Mass>11.5</Mass>
@@ -275,7 +279,7 @@
 		<specialDisplayRadius>30</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M2HB</turretGunDef>
-			<turretBurstCooldownTime>3.75</turretBurstCooldownTime>
+			<turretBurstCooldownTime>1.875</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>RecoilOperation</li>
@@ -295,10 +299,10 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.80</AccuracyTouch>
-			<AccuracyShort>0.60</AccuracyShort>
-			<AccuracyMedium>0.46</AccuracyMedium>
-			<AccuracyLong>0.17</AccuracyLong>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 			<Mass>38</Mass>
 		</statBases>
@@ -309,8 +313,8 @@
 				<defaultProjectile>Bullet_DMGT_50BMG</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<range>42</range>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
 				<soundCast>ShotM2</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>13</muzzleFlashScale>
@@ -367,7 +371,7 @@
 		<specialDisplayRadius>30</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M2HBT</turretGunDef>
-			<turretBurstCooldownTime>3.75</turretBurstCooldownTime>
+			<turretBurstCooldownTime>1.875</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>RecoilOperation</li>
@@ -387,11 +391,11 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.80</AccuracyTouch>
-			<AccuracyShort>0.56</AccuracyShort>
-			<AccuracyMedium>0.45</AccuracyMedium>
-			<AccuracyLong>0.16</AccuracyLong>
-			<RangedWeapon_Cooldown>1.02</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.875</AccuracyTouch>
+			<AccuracyShort>0.775</AccuracyShort>
+			<AccuracyMedium>0.675</AccuracyMedium>
+			<AccuracyLong>0.375</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 			<Mass>76</Mass>
 		</statBases>
 		<verbs>
@@ -401,12 +405,12 @@
 				<defaultProjectile>Bullet_DMGT_50BMG</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<range>42</range>
-				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-				<burstShotCount>6</burstShotCount>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>20</burstShotCount>
 				<soundCast>ShotM2</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>13</muzzleFlashScale>
-				<consumeFuelPerShot>2</consumeFuelPerShot>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -463,7 +467,7 @@
 		<specialDisplayRadius>25</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M134MG</turretGunDef>
-			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
+			<turretBurstCooldownTime>2.125</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>MultibarrelWeapons</li>
@@ -483,10 +487,10 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.66</AccuracyTouch>
-			<AccuracyShort>0.51</AccuracyShort>
-			<AccuracyMedium>0.29</AccuracyMedium>
-			<AccuracyLong>0.13</AccuracyLong>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
 			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 			<Mass>19</Mass>
 		</statBases>	
@@ -497,8 +501,8 @@
 				<defaultProjectile>Bullet_DMGT_762x51mmNATO</defaultProjectile>
 				<warmupTime>1.3</warmupTime>
 				<range>37.4</range>
-				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-				<burstShotCount>25</burstShotCount>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<burstShotCount>150</burstShotCount>
 				<soundCast>Shot_Minigun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale> 
@@ -555,7 +559,7 @@
 		<specialDisplayRadius>27</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_Mk19MGL</turretGunDef>
-			<turretBurstCooldownTime>5.25</turretBurstCooldownTime>
+			<turretBurstCooldownTime>2.625</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>BlowbackOperation</li>
@@ -576,10 +580,10 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.66</AccuracyTouch>
-			<AccuracyShort>0.45</AccuracyShort>
-			<AccuracyMedium>0.20</AccuracyMedium>
-			<AccuracyLong>0.09</AccuracyLong>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.5</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
 			<RangedWeapon_Cooldown>3.28</RangedWeapon_Cooldown>
 			<Mass>35.2</Mass>
 		</statBases>
@@ -593,7 +597,7 @@
 				<minRange>5</minRange>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
+				<burstShotCount>6</burstShotCount>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>16</muzzleFlashScale>
@@ -656,7 +660,7 @@
 		<specialDisplayRadius>30</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M2HB</turretGunDef>
-			<turretBurstCooldownTime>4.25</turretBurstCooldownTime>
+			<turretBurstCooldownTime>2.125</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
@@ -677,10 +681,10 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.80</AccuracyTouch>
-			<AccuracyShort>0.50</AccuracyShort>
-			<AccuracyMedium>0.37</AccuracyMedium>
-			<AccuracyLong>0.11</AccuracyLong>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.40</AccuracyLong>
 			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
 			<Mass>38</Mass>
 		</statBases>
@@ -689,10 +693,10 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_DMGT_50BMG</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<warmupTime>0</warmupTime>
 				<range>42</range>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
 				<soundCast>ShotM2</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>13</muzzleFlashScale>
@@ -753,7 +757,7 @@
 		<specialDisplayRadius>25</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M134MGs</turretGunDef>
-			<turretBurstCooldownTime>5.25</turretBurstCooldownTime>
+			<turretBurstCooldownTime>2.625</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
@@ -774,11 +778,11 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.66</AccuracyTouch>
-			<AccuracyShort>0.48</AccuracyShort>
-			<AccuracyMedium>0.25</AccuracyMedium>
-			<AccuracyLong>0.09</AccuracyLong>
-			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>065</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 			<Mass>19</Mass>
 		</statBases>	
 		<verbs>
@@ -786,10 +790,10 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_DMGT_762x51mmNATO</defaultProjectile>
-				<warmupTime>1.5</warmupTime>
+				<warmupTime>0</warmupTime>
 				<range>37.4</range>
-				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-				<burstShotCount>25</burstShotCount>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<burstShotCount>150</burstShotCount>
 				<soundCast>Shot_Minigun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale> 
@@ -850,7 +854,7 @@
 		<specialDisplayRadius>27</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_Mk19MGLs</turretGunDef>
-			<turretBurstCooldownTime>6.05</turretBurstCooldownTime>
+			<turretBurstCooldownTime>3.025</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
@@ -872,10 +876,10 @@
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.66</AccuracyTouch>
-			<AccuracyShort>0.40</AccuracyShort>
-			<AccuracyMedium>0.17</AccuracyMedium>
-			<AccuracyLong>0.03</AccuracyLong>
+			<AccuracyTouch>0.80</AccuracyTouch>
+			<AccuracyShort>0.70</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
 			<RangedWeapon_Cooldown>3.28</RangedWeapon_Cooldown>
 			<Mass>35.2</Mass>
 		</statBases>
@@ -884,12 +888,12 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_DMGT_40x53mmGrenade</defaultProjectile>
-				<warmupTime>3.2</warmupTime>
+				<warmupTime>0</warmupTime>
 				<range>35</range>
 				<minRange>5</minRange>
 				<forcedMissRadius>1.9</forcedMissRadius>
 				<ticksBetweenBurstShots>25</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
+				<burstShotCount>6</burstShotCount>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>16</muzzleFlashScale>
