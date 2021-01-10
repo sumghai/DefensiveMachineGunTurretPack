@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Recoil Operation -->
+	<RecoilOperation.label>반동작동</RecoilOperation.label>
+
+	<!-- EN: Craft high-power heavy machine guns like the M2 Browning. -->
+	<RecoilOperation.description>M2 브라우닝과 같은 고출력 중기관총을 만드십시오.</RecoilOperation.description>
+
+</LanguageData>

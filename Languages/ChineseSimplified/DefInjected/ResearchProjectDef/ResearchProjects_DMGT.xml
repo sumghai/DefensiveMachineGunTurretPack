@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Recoil Operation -->
+	<RecoilOperation.label>后座作用</RecoilOperation.label>
+
+	<!-- EN: Craft high-power heavy machine guns like the M2 Browning. -->
+	<RecoilOperation.description>制作火力大的重型机枪，如白朗宁M2重机枪。</RecoilOperation.description>
+
+</LanguageData>
