@@ -659,7 +659,7 @@
 		</costList>
 		<specialDisplayRadius>30</specialDisplayRadius>
 		<building>
-			<turretGunDef>Gun_M2HB</turretGunDef>
+			<turretGunDef>Gun_M2HBs</turretGunDef>
 			<turretBurstCooldownTime>2.125</turretBurstCooldownTime>
 		</building>
 		<researchPrerequisites>
