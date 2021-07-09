@@ -6,16 +6,17 @@
 
 	<ThingDef ParentName="BuildingBase" Name="DMGTurretBase" Abstract="true">
 		<thingClass>Building_TurretGun</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<thingCategories>
 			<li>BuildingsSecurity</li>
 		</thingCategories>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<altitudeLayer>Building</altitudeLayer> 
+		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<rotatable>true</rotatable>
 		<statBases>
 			<Flammability>0.15</Flammability>
-			<Beauty>-20</Beauty>		
+			<Beauty>-20</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<techLevel>Industrial</techLevel>
@@ -87,8 +88,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>8</damageAmountBase> 
-			<speed>40</speed> 
+			<damageAmountBase>8</damageAmountBase>
+			<speed>40</speed>
 		</projectile>
 	</ThingDef>
 
@@ -101,8 +102,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>20</damageAmountBase> 
-			<speed>105</speed> 
+			<damageAmountBase>20</damageAmountBase>
+			<speed>105</speed>
 		</projectile>
 	</ThingDef>
 
@@ -115,8 +116,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase> 
-			<speed>150</speed> 
+			<damageAmountBase>10</damageAmountBase>
+			<speed>150</speed>
 		</projectile>
 	</ThingDef>
 
@@ -132,7 +133,7 @@
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>30</damageAmountBase>
 			<explosionRadius>1.9</explosionRadius>
-			<speed>35</speed> 
+			<speed>35</speed>
 		</projectile>
 	</ThingDef>
 
@@ -141,11 +142,11 @@
 	<!-- Mounted DP-28 Turret -->
 
 	<ThingDef ParentName="DMGTurretMannedBase">
-		<defName>Turret_DP28MG</defName> 
+		<defName>Turret_DP28MG</defName>
 		<label>Mounted DP-28 Turret</label>
 		<description>A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Defense/Guntripod</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -155,7 +156,7 @@
 		<uiIconPath>Things/Defense/MenuIcon_DP28</uiIconPath>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>7500</WorkToBuild> 
+			<WorkToBuild>7500</WorkToBuild>
 			<Mass>25.5</Mass>
 		</statBases>
 		<comps>
@@ -197,12 +198,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_DP28MG</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_DP28MG</defName>
 		<label>DP-28 turret gun</label>
 		<description>A Soviet light machine gun designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_DP28</texPath> 
+			<texPath>Things/Defense/Gun_DP28</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -234,11 +235,11 @@
 	<!-- Mounted M2HB Turret -->
 
 	<ThingDef ParentName="DMGTurretMannedBase">
-		<defName>Turret_M2HB</defName> 
+		<defName>Turret_M2HB</defName>
 		<label>Mounted M2HB Turret</label>
 		<description>An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Defense/Guntripod</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -248,7 +249,7 @@
 		<uiIconPath>Things/Defense/MenuIcon_M2</uiIconPath>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>10000</WorkToBuild> 
+			<WorkToBuild>10000</WorkToBuild>
 			<Mass>52</Mass>
 		</statBases>
 		<comps>
@@ -273,7 +274,7 @@
 			</li>
 		</comps>
 		<costList>
-			<Steel>280</Steel> 
+			<Steel>280</Steel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<specialDisplayRadius>30</specialDisplayRadius>
@@ -289,12 +290,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_M2HB</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_M2HB</defName>
 		<label>M2HB turret gun</label>
 		<description>An American heavy machine gun designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m2</texPath> 
+			<texPath>Things/Defense/Gun_m2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -326,11 +327,11 @@
 	<!-- Mounted Twin M2HB Turret -->
 
 	<ThingDef ParentName="DMGTurretMannedBase">
-		<defName>Turret_M2HBT</defName> 
+		<defName>Turret_M2HBT</defName>
 		<label>Mounted Twin M2HB Turret</label>
 		<description>An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<texPath>Things/Defense/Gunquadpod</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -340,7 +341,7 @@
 		<uiIconPath>Things/Defense/MenuIcon_M2HBT</uiIconPath>
 		<statBases>
 			<MaxHitPoints>450</MaxHitPoints>
-			<WorkToBuild>15000</WorkToBuild> 
+			<WorkToBuild>15000</WorkToBuild>
 			<Mass>106</Mass>
 		</statBases>
 		<comps>
@@ -381,12 +382,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_M2HBT</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_M2HBT</defName>
 		<label>Twin M2HB turret gun</label>
 		<description>An American heavy machine gun designed to be attached to a turret as a pair.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m2twin</texPath> 
+			<texPath>Things/Defense/Gun_m2twin</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -418,11 +419,11 @@
 	<!-- Mounted M134 Turret -->
 
 	<ThingDef ParentName="DMGTurretMannedBase">
-		<defName>Turret_M134MG</defName> 
+		<defName>Turret_M134MG</defName>
 		<label>Mounted M134 Turret</label>
 		<description>An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Defense/Guntripod</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -432,7 +433,7 @@
 		<uiIconPath>Things/Defense/MenuIcon_M134</uiIconPath>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
-			<WorkToBuild>12500</WorkToBuild> 
+			<WorkToBuild>12500</WorkToBuild>
 			<Mass>33</Mass>
 		</statBases>
 		<comps>
@@ -477,12 +478,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_M134MG</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_M134MG</defName>
 		<label>M134 turret gun</label>
 		<description>An American six-barrel rotary heavy machine gun designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m134</texPath> 
+			<texPath>Things/Defense/Gun_m134</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -493,7 +494,7 @@
 			<AccuracyLong>0.30</AccuracyLong>
 			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 			<Mass>19</Mass>
-		</statBases>	
+		</statBases>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -505,7 +506,7 @@
 				<burstShotCount>150</burstShotCount>
 				<soundCast>Shot_Minigun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>10</muzzleFlashScale> 
+				<muzzleFlashScale>10</muzzleFlashScale>
 				<consumeFuelPerShot>1</consumeFuelPerShot>
 			</li>
 		</verbs>
@@ -514,11 +515,11 @@
 	<!-- Mounted Mk 19 Turret -->
 
 	<ThingDef ParentName="DMGTurretMannedBase">
-		<defName>Turret_Mk19MGL</defName> 
+		<defName>Turret_Mk19MGL</defName>
 		<label>Mounted Mk 19 Turret</label>
 		<description>An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Defense/Guntripod</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -528,7 +529,7 @@
 		<uiIconPath>Things/Defense/MenuIcon_Mk19MGL</uiIconPath>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>12500</WorkToBuild> 
+			<WorkToBuild>12500</WorkToBuild>
 			<Mass>49.2</Mass>
 		</statBases>
 		<comps>
@@ -570,12 +571,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_Mk19MGL</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_Mk19MGL</defName>
 		<label>Mk 19 turret gun</label>
 		<description>An American belt-fed automatic grenade launcher designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_Mk19</texPath> 
+			<texPath>Things/Defense/Gun_Mk19</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -601,7 +602,7 @@
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>16</muzzleFlashScale>
-				<consumeFuelPerShot>1</consumeFuelPerShot>				
+				<consumeFuelPerShot>1</consumeFuelPerShot>
 			</li>
 		</verbs>
 	</ThingDef>
@@ -611,11 +612,11 @@
 	<!-- M2HB Sentry Gun -->
 
 	<ThingDef ParentName="DMGTurretSentryBase">
-		<defName>Turret_M2HBs</defName> 
+		<defName>Turret_M2HBs</defName>
 		<label>M2HB Sentry gun</label>
 		<description>An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<texPath>Things/Defense/Gunquadpod</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -654,7 +655,7 @@
 			</li>
 		</comps>
 		<costList>
-			<Steel>295</Steel> 
+			<Steel>295</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<specialDisplayRadius>30</specialDisplayRadius>
@@ -671,12 +672,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_M2HBs</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_M2HBs</defName>
 		<label>M2HB turret gun</label>
 		<description>An American heavy machine gun designed to be attached to an automatic sentry turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m2s</texPath> 
+			<texPath>Things/Defense/Gun_m2s</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -708,11 +709,11 @@
 	<!-- M134 Sentry Gun -->
 
 	<ThingDef ParentName="DMGTurretSentryBase">
-		<defName>Turret_M134MGs</defName> 
+		<defName>Turret_M134MGs</defName>
 		<label>M134 Sentry gun</label>
 		<description>An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<texPath>Things/Defense/Gunquadpod</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -768,12 +769,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_M134MGs</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_M134MGs</defName>
 		<label>M134 turret gun</label>
 		<description>An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m134s</texPath> 
+			<texPath>Things/Defense/Gun_m134s</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -784,7 +785,7 @@
 			<AccuracyLong>0.35</AccuracyLong>
 			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 			<Mass>19</Mass>
-		</statBases>	
+		</statBases>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -796,7 +797,7 @@
 				<burstShotCount>150</burstShotCount>
 				<soundCast>Shot_Minigun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>10</muzzleFlashScale> 
+				<muzzleFlashScale>10</muzzleFlashScale>
 				<consumeFuelPerShot>1</consumeFuelPerShot>
 			</li>
 		</verbs>
@@ -805,11 +806,11 @@
 	<!-- Mk 19 Sentry Gun -->
 
 	<ThingDef ParentName="DMGTurretSentryBase">
-		<defName>Turret_Mk19MGLs</defName> 
+		<defName>Turret_Mk19MGLs</defName>
 		<label>Mk 19 Sentry gun</label>
 		<description>An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<texPath>Things/Defense/Gunquadpod</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -866,12 +867,12 @@
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseWeaponTurret"> 
-		<defName>Gun_Mk19MGLs</defName> 
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_Mk19MGLs</defName>
 		<label>Mk 19 turret gun</label>
 		<description>An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_Mk19s</texPath> 
+			<texPath>Things/Defense/Gun_Mk19s</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
