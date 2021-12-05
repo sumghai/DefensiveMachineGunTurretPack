@@ -101,7 +101,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>20</damageAmountBase> 
+			<damageAmountBase>20</damageAmountBase>
+			<armorPenetrationBase>0.75</armorPenetrationBase>
 			<speed>105</speed> 
 		</projectile>
 	</ThingDef>
@@ -115,7 +116,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase> 
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>0.20</armorPenetrationBase>
 			<speed>150</speed> 
 		</projectile>
 	</ThingDef>
@@ -130,8 +132,9 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Bomb</damageDef>
-			<damageAmountBase>30</damageAmountBase>
+			<damageAmountBase>50</damageAmountBase>
 			<explosionRadius>1.9</explosionRadius>
+			<armorPenetrationBase>0.15</armorPenetrationBase>
 			<speed>35</speed> 
 		</projectile>
 	</ThingDef>
