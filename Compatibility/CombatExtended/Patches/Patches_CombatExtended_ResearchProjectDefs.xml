@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- Remove RecoilOperation research, as turrets have been reassigned to existing CE research projects -->
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName="RecoilOperation"]</xpath>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
