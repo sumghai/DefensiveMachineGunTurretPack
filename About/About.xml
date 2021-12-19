@@ -13,6 +13,9 @@
 	<incompatibleWith>
 		<li>DesTiNy.RKTM.Mod</li>
 	</incompatibleWith>
-	<description>Adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.\n\nv1.6.8
+	<description>Adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.\n\nv1.6.9
 	</description>
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
 </ModMetaData>
