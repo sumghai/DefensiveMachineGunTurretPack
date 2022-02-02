@@ -187,7 +187,6 @@
 			<WoodLog>10</WoodLog>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>25</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_DP28MG</turretGunDef>
 			<turretBurstCooldownTime>2.125</turretBurstCooldownTime>
@@ -279,7 +278,6 @@
 			<Steel>280</Steel> 
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>30</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M2HB</turretGunDef>
 			<turretBurstCooldownTime>1.875</turretBurstCooldownTime>
@@ -371,7 +369,6 @@
 			<Steel>580</Steel>
 			<ComponentIndustrial>12</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>30</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M2HBT</turretGunDef>
 			<turretBurstCooldownTime>1.875</turretBurstCooldownTime>
@@ -467,7 +464,6 @@
 			<Steel>180</Steel>
 			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>25</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M134MG</turretGunDef>
 			<turretBurstCooldownTime>2.125</turretBurstCooldownTime>
@@ -559,7 +555,6 @@
 			<Steel>250</Steel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>27</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_Mk19MGL</turretGunDef>
 			<turretBurstCooldownTime>2.625</turretBurstCooldownTime>
@@ -660,7 +655,6 @@
 			<Steel>295</Steel> 
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>30</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M2HBs</turretGunDef>
 			<turretBurstCooldownTime>2.125</turretBurstCooldownTime>
@@ -757,7 +751,6 @@
 			<Steel>195</Steel>
 			<ComponentIndustrial>11</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>25</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_M134MGs</turretGunDef>
 			<turretBurstCooldownTime>2.625</turretBurstCooldownTime>
@@ -854,7 +847,6 @@
 			<Steel>270</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
-		<specialDisplayRadius>27</specialDisplayRadius>
 		<building>
 			<turretGunDef>Gun_Mk19MGLs</turretGunDef>
 			<turretBurstCooldownTime>3.025</turretBurstCooldownTime>

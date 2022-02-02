@@ -48,13 +48,6 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_DP28MG"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>75</specialDisplayRadius>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Turret_DP28MG"]/statBases/WorkToBuild</xpath>
 				<value>
 					<WorkToBuild>41000</WorkToBuild>
@@ -102,13 +95,6 @@
 				<weaponTags>
 					<li>TurretGun</li>
 				</weaponTags>
-			</li>
-
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_M2HB"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>86</specialDisplayRadius>
-				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
@@ -165,13 +151,6 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_M2HBT"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>86</specialDisplayRadius>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Turret_M2HBT"]/statBases/WorkToBuild</xpath>
 				<value>
 					<WorkToBuild>83500</WorkToBuild>
@@ -220,13 +199,6 @@
 				<weaponTags>
 					<li>TurretGun</li>
 				</weaponTags>
-			</li>
-
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_M134MG"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>86</specialDisplayRadius>
-				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
@@ -281,13 +253,6 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_Mk19MGL"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>78</specialDisplayRadius>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Turret_Mk19MGL"]/statBases/WorkToBuild</xpath>
 				<value>
 					<WorkToBuild>57000</WorkToBuild>
@@ -332,13 +297,6 @@
 				<weaponTags>
 					<li>TurretGun</li>
 				</weaponTags>
-			</li>
-
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_M2HBs"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>86</specialDisplayRadius>
-				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
@@ -389,13 +347,6 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_M134MGs"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>86</specialDisplayRadius>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Turret_M134MGs"]/statBases/WorkToBuild</xpath>
 				<value>
 					<WorkToBuild>62500</WorkToBuild>
@@ -441,13 +392,6 @@
 				<weaponTags>
 					<li>TurretGun</li>
 				</weaponTags>
-			</li>
-
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Turret_Mk19MGLs"]/specialDisplayRadius</xpath>
-				<value>
-					<specialDisplayRadius>78</specialDisplayRadius>
-				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
