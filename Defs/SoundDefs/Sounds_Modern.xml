@@ -2,7 +2,7 @@
 <Defs>  
 
 	<SoundDef>
-		<defName>ShotM2</defName>  
+		<defName>Shot_M2Browning</defName>  
 		<context>MapOnly</context>
 		<eventNames />  
 		<maxSimultaneous>1</maxSimultaneous>  
@@ -13,14 +13,8 @@
 						<clipFolderPath>sound/m2</clipFolderPath>
 					</li>
 				</grains>
-				<pitchRange>
-					<min>0.75</min>        
-					<max>0.75</max>
-				</pitchRange>   		
-				<volumeRange>
-					<min>75</min>        
-					<max>75</max>
-				</volumeRange>      
+				<pitchRange>0.75~0.75</pitchRange>   		
+				<volumeRange>5~5</volumeRange>      
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
