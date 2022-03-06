@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
 	<identifier>Defensive Machine Gun Turret Pack</identifier>
-	<version>1.6.10</version>
+	<version>1.6.11</version>
 	<showCrossPromotions>true</showCrossPromotions>
 	<manifestUri>https://raw.githubusercontent.com/sumghai/DefensiveMachineGunTurretPack/master/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/sumghai/DefensiveMachineGunTurretPack/releases/latest</downloadUri>
