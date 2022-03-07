@@ -74,7 +74,7 @@
 					<range>86</range>
 					<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 					<burstShotCount>10</burstShotCount>
-					<soundCast>ShotM2</soundCast>
+					<soundCast>Shot_M2Browning</soundCast>
 					<soundCastTail>GunTail_Heavy</soundCastTail>
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
@@ -126,7 +126,7 @@
 					<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 					<burstShotCount>20</burstShotCount>
 					<!-- Dual M2HBs firing side-by-side -->
-					<soundCast>ShotM2</soundCast>
+					<soundCast>Shot_M2Browning</soundCast>
 					<soundCastTail>GunTail_Heavy</soundCastTail>
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
@@ -279,7 +279,7 @@
 					<range>86</range>
 					<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 					<burstShotCount>10</burstShotCount>
-					<soundCast>ShotM2</soundCast>
+					<soundCast>Shot_M2Browning</soundCast>
 					<soundCastTail>GunTail_Heavy</soundCastTail>
 					<muzzleFlashScale>13</muzzleFlashScale>
 					<recoilPattern>Mounted</recoilPattern>
