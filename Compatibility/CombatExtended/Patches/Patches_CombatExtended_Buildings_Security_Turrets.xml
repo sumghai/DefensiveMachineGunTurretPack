@@ -269,6 +269,7 @@
 					<ShotSpread>0.01</ShotSpread>
 					<SwayFactor>1.65</SwayFactor>
 					<Bulk>18.54</Bulk>
+					<NightVisionEfficiency_Weapon>0.6</NightVisionEfficiency_Weapon>
 				</statBases>
 				<Properties>
 					<recoilAmount>1.19</recoilAmount>
@@ -316,6 +317,7 @@
 					<ShotSpread>0.06</ShotSpread>
 					<SwayFactor>1.31</SwayFactor>
 					<Bulk>8.02</Bulk>
+					<NightVisionEfficiency_Weapon>0.6</NightVisionEfficiency_Weapon>
 				</statBases>
 				<Properties>
 					<recoilAmount>0.59</recoilAmount>
@@ -363,6 +365,7 @@
 					<ShotSpread>0.09</ShotSpread>
 					<SwayFactor>1.55</SwayFactor>
 					<Bulk>12.90</Bulk>
+					<NightVisionEfficiency_Weapon>0.6</NightVisionEfficiency_Weapon>
 				</statBases>
 				<Properties>
 					<recoilAmount>1.58</recoilAmount>
