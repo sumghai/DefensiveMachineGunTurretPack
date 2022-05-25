@@ -25,18 +25,6 @@
 	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_DP28MG.description>Советский легкий пулемет, установленный на башне с ручным управлением, в основном использовался против пехоты. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Turret_DP28MG.description>
 
-	<!-- EN: Mounted DP-28 Turret (blueprint) -->
-	<Blueprint_Turret_DP28MG.label>Стационарный ДП-28 (проект)</Blueprint_Turret_DP28MG.label>
-
-	<!-- EN: Mounted DP-28 Turret (blueprint) -->
-	<Blueprint_Install_Turret_DP28MG.label>Стационарный ДП-28 (проект)</Blueprint_Install_Turret_DP28MG.label>
-
-	<!-- EN: Mounted DP-28 Turret (building) -->
-	<Frame_Turret_DP28MG.label>Стационарный ДП-28 (строение)</Frame_Turret_DP28MG.label>
-
-	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
-	<Frame_Turret_DP28MG.description>Советский легкий пулемет, установленный на башне с ручным управлением, в основном использовался против пехоты. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Frame_Turret_DP28MG.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -59,18 +47,6 @@
 
 	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_M2HB.description>Американский крупнокалиберный пулемет, установленный на башне с ручным управлением, эффективен против пехоты, легкобронированной техники и простых укреплений. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Turret_M2HB.description>
-
-	<!-- EN: Mounted M2HB Turret (blueprint) -->
-	<Blueprint_Turret_M2HB.label>Стационарный Браунинг M2HB (проект)</Blueprint_Turret_M2HB.label>
-
-	<!-- EN: Mounted M2HB Turret (blueprint) -->
-	<Blueprint_Install_Turret_M2HB.label>Стационарный Браунинг M2HB (проект)</Blueprint_Install_Turret_M2HB.label>
-
-	<!-- EN: Mounted M2HB Turret (building) -->
-	<Frame_Turret_M2HB.label>Стационарный Браунинг M2HB (строение)</Frame_Turret_M2HB.label>
-
-	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
-	<Frame_Turret_M2HB.description>Американский крупнокалиберный пулемет, установленный на башне с ручным управлением, эффективен против пехоты, легкобронированной техники и простых укреплений. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Frame_Turret_M2HB.description>
 
 	<!-- EN: Barrel durability -->
 	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
@@ -95,18 +71,6 @@
 	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_M2HBT.description>Американский крупнокалиберный пулемет, установленный попарно на башне с ручным управлением, эффективен против пехоты, легкобронированной техники и простых укреплений. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Turret_M2HBT.description>
 
-	<!-- EN: Mounted Twin M2HB Turret (blueprint) -->
-	<Blueprint_Turret_M2HBT.label>Спаренный Браунинг M2HB (проект)</Blueprint_Turret_M2HBT.label>
-
-	<!-- EN: Mounted Twin M2HB Turret (blueprint) -->
-	<Blueprint_Install_Turret_M2HBT.label>Спаренный Браунинг M2HB (проект)</Blueprint_Install_Turret_M2HBT.label>
-
-	<!-- EN: Mounted Twin M2HB Turret (building) -->
-	<Frame_Turret_M2HBT.label>Спаренный Браунинг M2HB (строение)</Frame_Turret_M2HBT.label>
-
-	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
-	<Frame_Turret_M2HBT.description>Американский крупнокалиберный пулемет, установленный попарно на башне с ручным управлением, эффективен против пехоты, легкобронированной техники и простых укреплений. Можно напрямую контролировать, но остерегайтесь дружественного огня.</Frame_Turret_M2HBT.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -130,18 +94,6 @@
 	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
 	<Turret_M134MG.description>Американский шестиствольный поворотный крупнокалиберный пулемет, установленный на башне с ручным управлением, с очень высокой скорострельностью. Можно напрямую контролировать, но остерегайтесь дружественного огня. Требуется мощность.</Turret_M134MG.description>
 
-	<!-- EN: Mounted M134 Turret (blueprint) -->
-	<Blueprint_Turret_M134MG.label>Стационарный M134 Миниган (проект)</Blueprint_Turret_M134MG.label>
-
-	<!-- EN: Mounted M134 Turret (blueprint) -->
-	<Blueprint_Install_Turret_M134MG.label>Стационарный M134 Миниган (проект)</Blueprint_Install_Turret_M134MG.label>
-
-	<!-- EN: Mounted M134 Turret (building) -->
-	<Frame_Turret_M134MG.label>Стационарный M134 Миниган (строение)</Frame_Turret_M134MG.label>
-
-	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
-	<Frame_Turret_M134MG.description>Американский шестиствольный поворотный крупнокалиберный пулемет, установленный на башне с ручным управлением, с очень высокой скорострельностью. Можно напрямую контролировать, но остерегайтесь дружественного огня. Требуется мощность.</Frame_Turret_M134MG.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -164,18 +116,6 @@
 
 	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
 	<Turret_Mk19MGL.description>Американский автоматический гранатомет с ленточным питанием, установленный на башне с ручным управлением, эффективен против крупных пехотных соединений и средней бронетехники. Можно напрямую контролировать, но остерегайтесь дружественного огня. Остерегайтесь повреждений от брызг.</Turret_Mk19MGL.description>
-
-	<!-- EN: Mounted Mk 19 Turret (blueprint) -->
-	<Blueprint_Turret_Mk19MGL.label>стационарный Mk 19 автоматический гранатомет (проект)</Blueprint_Turret_Mk19MGL.label>
-
-	<!-- EN: Mounted Mk 19 Turret (blueprint) -->
-	<Blueprint_Install_Turret_Mk19MGL.label>стационарный Mk 19 автоматический гранатомет (проект)</Blueprint_Install_Turret_Mk19MGL.label>
-
-	<!-- EN: Mounted Mk 19 Turret (building) -->
-	<Frame_Turret_Mk19MGL.label>стационарный Mk 19 автоматический гранатомет (строение)</Frame_Turret_Mk19MGL.label>
-
-	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
-	<Frame_Turret_Mk19MGL.description>Американский автоматический гранатомет с ленточным питанием, установленный на башне с ручным управлением, эффективен против крупных пехотных соединений и средней бронетехники. Можно напрямую контролировать, но остерегайтесь дружественного огня. Остерегайтесь повреждений от брызг.</Frame_Turret_Mk19MGL.description>
 
 	<!-- EN: Barrel durability -->
 	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
@@ -202,18 +142,6 @@
 	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
 	<Turret_M2HBs.description>Американский крупнокалиберный пулемет, установленный на турели, который автоматически стреляет по ближайшим противникам, эффективен против пехоты, легкобронированной техники и простых укреплений. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Turret_M2HBs.description>
 
-	<!-- EN: M2HB Sentry gun (blueprint) -->
-	<Blueprint_Turret_M2HBs.label>M2HB автоматическая турель (проект)</Blueprint_Turret_M2HBs.label>
-
-	<!-- EN: M2HB Sentry gun (blueprint) -->
-	<Blueprint_Install_Turret_M2HBs.label>M2HB автоматическая турель (проект)</Blueprint_Install_Turret_M2HBs.label>
-
-	<!-- EN: M2HB Sentry gun (building) -->
-	<Frame_Turret_M2HBs.label>M2HB автоматическая турель (строение)</Frame_Turret_M2HBs.label>
-
-	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
-	<Frame_Turret_M2HBs.description>Американский крупнокалиберный пулемет, установленный на турели, который автоматически стреляет по ближайшим противникам, эффективен против пехоты, легкобронированной техники и простых укреплений. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Frame_Turret_M2HBs.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -237,19 +165,6 @@
 	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
 	<Turret_M134MGs.description>Американский шестиствольный поворотный крупнокалиберный пулемет, установленный на турели, который автоматически ведет огонь по ближайшим противникам с очень высокой скорострельностью. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Turret_M134MGs.description>
 
-	<!-- EN: M134 Sentry gun (blueprint) -->
-	<Blueprint_Turret_M134MGs.label>M134 автоматическая турель (проект)</Blueprint_Turret_M134MGs.label>
-
-	<!-- EN: M134 Sentry gun (blueprint) -->
-	<Blueprint_Install_Turret_M134MGs.label>M134 автоматическая турель (проект)</Blueprint_Install_Turret_M134MGs.label>
-
-	<!-- EN: M134 Sentry gun (building) -->
-	<Frame_Turret_M134MGs.label>M134 автоматическая турель (строение)
-	</Frame_Turret_M134MGs.label>
-
-	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
-	<Frame_Turret_M134MGs.description>Американский шестиствольный поворотный крупнокалиберный пулемет, установленный на турели, который автоматически ведет огонь по ближайшим противникам с очень высокой скорострельностью. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Frame_Turret_M134MGs.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -272,18 +187,6 @@
 
 	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
 	<Turret_Mk19MGLs.description>Американский автоматический гранатомет с ленточным питанием, установленный на турели, который автоматически стреляет по ближайшим противникам, эффективен против крупных пехотных соединений и автомобилей средней брони. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Turret_Mk19MGLs.description>
-
-	<!-- EN: Mk 19 Sentry gun (blueprint) -->
-	<Blueprint_Turret_Mk19MGLs.label>Mk 19 автоматический гранатомет автоматическая турель (проект)</Blueprint_Turret_Mk19MGLs.label>
-
-	<!-- EN: Mk 19 Sentry gun (blueprint) -->
-	<Blueprint_Install_Turret_Mk19MGLs.label>Mk 19 автоматический гранатомет автоматическая турель (проект)</Blueprint_Install_Turret_Mk19MGLs.label>
-
-	<!-- EN: Mk 19 Sentry gun (building) -->
-	<Frame_Turret_Mk19MGLs.label>Mk 19 автоматический гранатомет автоматическая турель (строение)</Frame_Turret_Mk19MGLs.label>
-
-	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
-	<Frame_Turret_Mk19MGLs.description>Американский автоматический гранатомет с ленточным питанием, установленный на турели, который автоматически стреляет по ближайшим противникам, эффективен против крупных пехотных соединений и автомобилей средней брони. Его ИИ-мозг не очень умен, и им нельзя управлять напрямую, поэтому остерегайтесь дружественного огня.</Frame_Turret_Mk19MGLs.description>
 
 	<!-- EN: Barrel durability -->
 	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>Прочность ствола</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>

@@ -25,18 +25,6 @@
 	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_DP28MG.description>主に歩兵に対して使用される、手動操作の砲塔に取り付けられたソビエト軽機関銃. 直接制御できますが、そのため味方誤射に警戒してください.</Turret_DP28MG.description>
 
-	<!-- EN: Mounted DP-28 Turret (blueprint) -->
-	<Blueprint_Turret_DP28MG.label>DP-28軽機関銃砲塔 (設計図)</Blueprint_Turret_DP28MG.label>
-
-	<!-- EN: Mounted DP-28 Turret (blueprint) -->
-	<Blueprint_Install_Turret_DP28MG.label>DP-28軽機関銃砲塔 (移動先)</Blueprint_Install_Turret_DP28MG.label>
-
-	<!-- EN: Mounted DP-28 Turret (building) -->
-	<Frame_Turret_DP28MG.label>DP-28軽機関銃砲塔 (建設中)</Frame_Turret_DP28MG.label>
-
-	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
-	<Frame_Turret_DP28MG.description>主に歩兵に対して使用される、手動操作の砲塔に取り付けられたソビエト軽機関銃. 直接制御できますが、そのため味方誤射に警戒してください.</Frame_Turret_DP28MG.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -59,18 +47,6 @@
 
 	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_M2HB.description>手動操作の砲塔に取り付けられたアメリカの重機関銃で、歩兵、軽装甲車両、単純な要塞に対して効果的です. 直接制御できますが、そのため味方誤射に警戒してください.</Turret_M2HB.description>
-
-	<!-- EN: Mounted M2HB Turret (blueprint) -->
-	<Blueprint_Turret_M2HB.label>ブローニングM2HB重機関銃砲塔 (設計図)</Blueprint_Turret_M2HB.label>
-
-	<!-- EN: Mounted M2HB Turret (blueprint) -->
-	<Blueprint_Install_Turret_M2HB.label>ブローニングM2HB重機関銃砲塔 (移動先)</Blueprint_Install_Turret_M2HB.label>
-
-	<!-- EN: Mounted M2HB Turret (building) -->
-	<Frame_Turret_M2HB.label>ブローニングM2HB重機関銃砲塔 (建造中)</Frame_Turret_M2HB.label>
-
-	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
-	<Frame_Turret_M2HB.description>手動操作の砲塔に取り付けられたアメリカの重機関銃で、歩兵、軽装甲車両、単純な要塞に対して効果的です. 直接制御できますが、そのため味方誤射に警戒してください.</Frame_Turret_M2HB.description>
 
 	<!-- EN: Barrel durability -->
 	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
@@ -95,18 +71,6 @@
 	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_M2HBT.description>手動で操作される砲塔に二重に取り付けられたアメリカの重機関銃は、歩兵、軽装甲車両、および単純な要塞に対して効果的です. 直接制御できますが、そのため味方誤射に警戒してください.</Turret_M2HBT.description>
 
-	<!-- EN: Mounted Twin M2HB Turret (blueprint) -->
-	<Blueprint_Turret_M2HBT.label>2連装ブローニングM2HB重機関銃砲塔 (設計図)</Blueprint_Turret_M2HBT.label>
-
-	<!-- EN: Mounted Twin M2HB Turret (blueprint) -->
-	<Blueprint_Install_Turret_M2HBT.label>2連装ブローニングM2HB重機関銃砲塔 (移動先)</Blueprint_Install_Turret_M2HBT.label>
-
-	<!-- EN: Mounted Twin M2HB Turret (building) -->
-	<Frame_Turret_M2HBT.label>2連装ブローニングM2HB重機関銃砲塔 (建造中)</Frame_Turret_M2HBT.label>
-
-	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
-	<Frame_Turret_M2HBT.description>手動で操作される砲塔に二重に取り付けられたアメリカの重機関銃は、歩兵、軽装甲車両、および単純な要塞に対して効果的です. 直接制御できますが、そのため味方誤射に警戒してください.</Frame_Turret_M2HBT.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -130,18 +94,6 @@
 	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
 	<Turret_M134MG.description>手動で操作される砲塔に取り付けられたアメリカの6バレル回転重機関銃で、発射速度が非常に高い. 直接制御できますが、そのため味方誤射に警戒してください. 電力が必要です.</Turret_M134MG.description>
 
-	<!-- EN: Mounted M134 Turret (blueprint) -->
-	<Blueprint_Turret_M134MG.label>M134機関銃砲塔 (設計図)</Blueprint_Turret_M134MG.label>
-
-	<!-- EN: Mounted M134 Turret (blueprint) -->
-	<Blueprint_Install_Turret_M134MG.label>M134機関銃砲塔 (移動先)</Blueprint_Install_Turret_M134MG.label>
-
-	<!-- EN: Mounted M134 Turret (building) -->
-	<Frame_Turret_M134MG.label>M134機関銃砲塔 (建造中)</Frame_Turret_M134MG.label>
-
-	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
-	<Frame_Turret_M134MG.description>手動で操作される砲塔に取り付けられたアメリカの6バレル回転重機関銃で、発射速度が非常に高い. 直接制御できますが、そのため味方誤射に警戒してください. 電力が必要です.</Frame_Turret_M134MG.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -164,18 +116,6 @@
 
 	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
 	<Turret_Mk19MGL.description>手動で操作される砲塔に取り付けられたアメリカのベルト式自動擲弾銃で、大型の歩兵隊や中程度の装甲車両に対して効果的です. 直接制御できますが、そのため味方誤射と巻き添え被害に警戒してください.</Turret_Mk19MGL.description>
-
-	<!-- EN: Mounted Mk 19 Turret (blueprint) -->
-	<Blueprint_Turret_Mk19MGL.label>Mk 19自動擲弾銃砲塔 (設計図)</Blueprint_Turret_Mk19MGL.label>
-
-	<!-- EN: Mounted Mk 19 Turret (blueprint) -->
-	<Blueprint_Install_Turret_Mk19MGL.label>Mk 19自動擲弾銃砲塔 (移動先)</Blueprint_Install_Turret_Mk19MGL.label>
-
-	<!-- EN: Mounted Mk 19 Turret (building) -->
-	<Frame_Turret_Mk19MGL.label>Mk 19自動擲弾銃砲塔 (建造中)</Frame_Turret_Mk19MGL.label>
-
-	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
-	<Frame_Turret_Mk19MGL.description>手動で操作される砲塔に取り付けられたアメリカのベルト式自動擲弾銃で、大型の歩兵隊や中程度の装甲車両に対して効果的です. 直接制御できますが、そのため味方誤射と巻き添え被害に警戒してください.</Frame_Turret_Mk19MGL.description>
 
 	<!-- EN: Barrel durability -->
 	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
@@ -202,18 +142,6 @@
 	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
 	<Turret_M2HBs.description>歩兵、軽装甲車両、単純な要塞に対して効果的な、近くの敵に自動的に発砲する歩哨砲塔に取り付けられたアメリカの重機関銃.インターフェースの無い人工頭脳を装備しているので直接制御ができず,そのため味方誤射に警戒してください.</Turret_M2HBs.description>
 
-	<!-- EN: M2HB Sentry gun (blueprint) -->
-	<Blueprint_Turret_M2HBs.label>自動ブローニングM2HB重機関銃砲塔 (設計図)</Blueprint_Turret_M2HBs.label>
-
-	<!-- EN: M2HB Sentry gun (blueprint) -->
-	<Blueprint_Install_Turret_M2HBs.label>自動ブローニングM2HB重機関銃砲塔 (移動先)</Blueprint_Install_Turret_M2HBs.label>
-
-	<!-- EN: M2HB Sentry gun (building) -->
-	<Frame_Turret_M2HBs.label>自動ブローニングM2HB重機関銃砲塔 (建造中)</Frame_Turret_M2HBs.label>
-
-	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
-	<Frame_Turret_M2HBs.description>歩兵、軽装甲車両、単純な要塞に対して効果的な、近くの敵に自動的に発砲する歩哨砲塔に取り付けられたアメリカの重機関銃.インターフェースの無い人工頭脳を装備しているので直接制御ができず,そのため味方誤射に警戒してください.</Frame_Turret_M2HBs.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -237,19 +165,6 @@
 	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
 	<Turret_M134MGs.description>歩哨砲塔に搭載されたアメリカの6バレル回転重機関銃は、非常に高い発射速度で近くの敵に自動的に発砲します.インターフェースの無い人工頭脳を装備しているので直接制御ができず,そのため味方誤射に警戒してください.</Turret_M134MGs.description>
 
-	<!-- EN: M134 Sentry gun (blueprint) -->
-	<Blueprint_Turret_M134MGs.label>自動M134機関銃砲塔 (設計図)</Blueprint_Turret_M134MGs.label>
-
-	<!-- EN: M134 Sentry gun (blueprint) -->
-	<Blueprint_Install_Turret_M134MGs.label>自動M134機関銃砲塔 (移動先)</Blueprint_Install_Turret_M134MGs.label>
-
-	<!-- EN: M134 Sentry gun (building) -->
-	<Frame_Turret_M134MGs.label>自動M134機関銃砲塔 (建造中)
-	</Frame_Turret_M134MGs.label>
-
-	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
-	<Frame_Turret_M134MGs.description>歩哨砲塔に搭載されたアメリカの6バレル回転重機関銃は、非常に高い発射速度で近くの敵に自動的に発砲します.インターフェースの無い人工頭脳を装備しているので直接制御ができず,そのため味方誤射に警戒してください.</Frame_Turret_M134MGs.description>
-
 	<!-- EN: Barrel durability -->
 	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
 
@@ -272,18 +187,6 @@
 
 	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
 	<Turret_Mk19MGLs.description>歩兵砲塔に搭載されたアメリカのベルト式自動グレネードランチャーは、近くの敵に自動的に発砲し、大型の歩兵隊や中程度の装甲車両に対して効果的です.インターフェースの無い人工頭脳を装備しているので直接制御ができず,そのため味方誤射に警戒してください.</Turret_Mk19MGLs.description>
-
-	<!-- EN: Mk 19 Sentry gun (blueprint) -->
-	<Blueprint_Turret_Mk19MGLs.label>自動Mk 19自動擲弾銃砲塔 (設計図)</Blueprint_Turret_Mk19MGLs.label>
-
-	<!-- EN: Mk 19 Sentry gun (blueprint) -->
-	<Blueprint_Install_Turret_Mk19MGLs.label>自動Mk 19自動榴彈發射器砲塔 (移動先)</Blueprint_Install_Turret_Mk19MGLs.label>
-
-	<!-- EN: Mk 19 Sentry gun (building) -->
-	<Frame_Turret_Mk19MGLs.label>自動Mk 19自動擲弾銃砲塔 (建造中)</Frame_Turret_Mk19MGLs.label>
-
-	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
-	<Frame_Turret_Mk19MGLs.description>歩兵砲塔に搭載されたアメリカのベルト式自動グレネードランチャーは、近くの敵に自動的に発砲し、大型の歩兵隊や中程度の装甲車両に対して効果的です.インターフェースの無い人工頭脳を装備しているので直接制御ができず,そのため味方誤射に警戒してください.</Frame_Turret_Mk19MGLs.description>
 
 	<!-- EN: Barrel durability -->
 	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
