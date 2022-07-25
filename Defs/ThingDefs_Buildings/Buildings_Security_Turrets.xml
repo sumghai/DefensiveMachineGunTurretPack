@@ -561,7 +561,6 @@
 		</building>
 		<researchPrerequisites>
 			<li>BlowbackOperation</li>
-			<li>Mortars</li>
 		</researchPrerequisites>
 		<tradeTags>
 			<li>DMGTurret_Manned_Heavy</li>
@@ -854,7 +853,6 @@
 		<researchPrerequisites>
 			<li>GunTurrets</li>
 			<li>BlowbackOperation</li>
-			<li>Mortars</li>
 		</researchPrerequisites>
 		<tradeTags>
 			<li>DMGTurret_Sentry</li>
