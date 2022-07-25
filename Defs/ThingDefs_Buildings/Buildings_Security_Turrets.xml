@@ -651,7 +651,7 @@
 			</li>
 		</comps>
 		<costList>
-			<Steel>295</Steel> 
+			<Steel>300</Steel> 
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<building>
@@ -747,7 +747,7 @@
 			</li>
 		</comps>
 		<costList>
-			<Steel>195</Steel>
+			<Steel>200</Steel>
 			<ComponentIndustrial>11</ComponentIndustrial>
 		</costList>
 		<building>
