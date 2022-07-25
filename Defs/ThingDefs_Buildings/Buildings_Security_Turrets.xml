@@ -148,14 +148,14 @@
 		<label>Mounted DP-28 Turret</label>
 		<description>A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_DP28</uiIconPath>
+		<uiIconPath>UI/DP28_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild> 
@@ -204,7 +204,7 @@
 		<label>DP-28 turret gun</label>
 		<description>A Soviet light machine gun designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_DP28</texPath> 
+			<texPath>Things/Building/Security/DP28_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -240,14 +240,14 @@
 		<label>Mounted M2HB Turret</label>
 		<description>An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_M2</uiIconPath>
+		<uiIconPath>UI/M2HB_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>10000</WorkToBuild> 
@@ -295,7 +295,7 @@
 		<label>M2HB turret gun</label>
 		<description>An American heavy machine gun designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m2</texPath> 
+			<texPath>Things/Building/Security/M2HB_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -331,14 +331,14 @@
 		<label>Mounted Twin M2HB Turret</label>
 		<description>An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
+			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_M2HBT</uiIconPath>
+		<uiIconPath>UI/M2HB_twin_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>450</MaxHitPoints>
 			<WorkToBuild>15000</WorkToBuild> 
@@ -386,7 +386,7 @@
 		<label>Twin M2HB turret gun</label>
 		<description>An American heavy machine gun designed to be attached to a turret as a pair.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m2twin</texPath> 
+			<texPath>Things/Building/Security/M2HB_twin_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -422,14 +422,14 @@
 		<label>Mounted M134 Turret</label>
 		<description>An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_M134</uiIconPath>
+		<uiIconPath>UI/M134_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>12500</WorkToBuild> 
@@ -481,7 +481,7 @@
 		<label>M134 turret gun</label>
 		<description>An American six-barrel rotary heavy machine gun designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m134</texPath> 
+			<texPath>Things/Building/Security/M134_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -517,14 +517,14 @@
 		<label>Mounted Mk 19 Turret</label>
 		<description>An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
 		<graphicData>
-			<texPath>Things/Defense/Guntripod</texPath> 
+			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_Mk19MGL</uiIconPath>
+		<uiIconPath>UI/Mk19_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>12500</WorkToBuild> 
@@ -573,7 +573,7 @@
 		<label>Mk 19 turret gun</label>
 		<description>An American belt-fed automatic grenade launcher designed to be attached to a turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_Mk19</texPath> 
+			<texPath>Things/Building/Security/Mk19_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -613,14 +613,14 @@
 		<label>M2HB Sentry gun</label>
 		<description>An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<texPath>Things/Building/Security/TurretBaseQuadpod</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_M2s</uiIconPath>
+		<uiIconPath>UI/M2HB_sentry_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>12500</WorkToBuild>
@@ -673,7 +673,7 @@
 		<label>M2HB turret gun</label>
 		<description>An American heavy machine gun designed to be attached to an automatic sentry turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m2s</texPath> 
+			<texPath>Things/Building/Security/M2HB_sentry_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -709,14 +709,14 @@
 		<label>M134 Sentry gun</label>
 		<description>An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<texPath>Things/Building/Security/TurretBaseQuadpod</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_M134s</uiIconPath>
+		<uiIconPath>UI/M134_sentry_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>350</MaxHitPoints>
 			<WorkToBuild>15000</WorkToBuild>
@@ -769,7 +769,7 @@
 		<label>M134 turret gun</label>
 		<description>An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_m134s</texPath> 
+			<texPath>Things/Building/Security/M134_sentry_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
@@ -805,14 +805,14 @@
 		<label>Mk 19 Sentry gun</label>
 		<description>An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gunquadpod</texPath> 
+			<texPath>Things/Building/Security/TurretBaseQuadpod</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Defense/MenuIcon_Mk19MGLs</uiIconPath>
+		<uiIconPath>UI/Mk19_sentry_turret</uiIconPath>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>15000</WorkToBuild>
@@ -866,7 +866,7 @@
 		<label>Mk 19 turret gun</label>
 		<description>An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret.</description>
 		<graphicData>
-			<texPath>Things/Defense/Gun_Mk19s</texPath> 
+			<texPath>Things/Building/Security/Mk19_sentry_gun</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 		</graphicData>
