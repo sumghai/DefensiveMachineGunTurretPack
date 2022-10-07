@@ -12,4 +12,8 @@
 		<li>/</li>
 		<li IfModActive="CETeam.CombatExtended">Compatibility/CombatExtended</li>
 	</v1.3>
+	<v1.4>
+		<li>/</li>
+		<li IfModActive="CETeam.CombatExtended">Compatibility/CombatExtended</li>
+	</v1.4>
 </loadFolders>
