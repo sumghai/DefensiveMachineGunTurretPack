@@ -355,6 +355,54 @@
 				</value>
 			</li>
 
+			<!-- ========== M230LF Sentry Gun ========== -->
+
+			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+				<defName>Gun_M230LFs</defName>
+				<statBases>
+					<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
+					<SightsEfficiency>1.00</SightsEfficiency>
+					<ShotSpread>0.01</ShotSpread>
+					<SwayFactor>1.73</SwayFactor>
+					<Bulk>23.30</Bulk>
+					<NightVisionEfficiency_Weapon>0.6</NightVisionEfficiency_Weapon>
+				</statBases>
+				<Properties>
+					<recoilAmount>2.55</recoilAmount>
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_30x113mmB_AP</defaultProjectile>
+					<warmupTime>1.3</warmupTime>
+					<range>86</range>
+					<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+					<burstShotCount>10</burstShotCount>
+					<soundCast>Shot_Autocannon</soundCast>
+					<soundCastTail>GunTail_Heavy</soundCastTail>
+					<muzzleFlashScale>15</muzzleFlashScale>
+					<recoilPattern>Mounted</recoilPattern>
+				</Properties>
+				<AmmoUser>
+					<magazineSize>150</magazineSize>
+					<reloadTime>7.8</reloadTime>
+					<ammoSet>AmmoSet_30x113mmB</ammoSet>
+				</AmmoUser>
+				<FireModes>
+					<aiAimMode>AimedShot</aiAimMode>
+					<noSnapshot>true</noSnapshot>
+					<noSingleShot>true</noSingleShot>
+				</FireModes>
+				<weaponTags>
+					<li>TurretGun</li>
+				</weaponTags>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Turret_M230LFs"]/statBases/WorkToBuild</xpath>
+				<value>
+					<WorkToBuild>74500</WorkToBuild>
+				</value>
+			</li>
+			
 			<!-- ========== Mk 19 Sentry Gun ========== -->
 
 			<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -422,6 +470,7 @@
 					defName="Turret_Mk19MGL" or
 					defName="Turret_M2HBs" or
 					defName="Turret_M134MGs" or
+					defName="Turret_M230LFs" or
 					defName="Turret_Mk19MGLs"
 				]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
 			</li>
@@ -444,6 +493,7 @@
 				<xpath>Defs/ThingDef[
 					defName="Turret_M2HBs" or
 					defName="Turret_M134MGs" or
+					defName="Turret_M230LFs" or
 					defName="Turret_Mk19MGLs"
 				]/researchPrerequisites</xpath>
 				<value>
