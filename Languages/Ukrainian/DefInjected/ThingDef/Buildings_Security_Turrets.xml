@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ========== Projectiles ========== -->
+
+	<!-- EN: 7.62×54mmR bullet -->
+	<Bullet_DMGT_762x54mmR.label>куля 7.62×54</Bullet_DMGT_762x54mmR.label>
+
+	<!-- EN: .50 BMG bullet -->
+	<Bullet_DMGT_50BMG.label>куля .50 BMG</Bullet_DMGT_50BMG.label>
+
+	<!-- EN: 7.62×51mm NATO bullet -->
+	<Bullet_DMGT_762x51mmNATO.label>куля 7.62×51 NATO</Bullet_DMGT_762x51mmNATO.label>
+
+	<!-- EN: 40×53mm grenade -->
+	<Bullet_DMGT_40x53mmGrenade.label>40×53mm граната</Bullet_DMGT_40x53mmGrenade.label>
+
+	<!-- ========== Mounted (Manned) Turrets  ========== -->
+
+	<!-- ===== Mounted DP-28 Turret ===== -->
+
+	<!-- EN: Mounted DP-28 Turret -->
+	<Turret_DP28MG.label>Стаціонарний ДП-28</Turret_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_DP28MG.description>Радянський легкий кулемет, встановлений на башті з ручним керуванням, і в основному використовується проти піхоти. Може бути безпосередньо керованим, але остерігайтеся дружнього вогню.</Turret_DP28MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: DP-28 turret gun -->
+	<Gun_DP28MG.label>кулемет ДП-28</Gun_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun designed to be attached to a turret. -->
+	<Gun_DP28MG.description>Радянський ручний кулемет, призначений для кріплення до башти.</Gun_DP28MG.description>
+
+	<!-- ===== Mounted M2HB Turret ===== -->
+
+	<!-- EN: Mounted M2HB Turret -->
+	<Turret_M2HB.label>Стаціонарний Browning M2HB</Turret_M2HB.label>
+
+	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HB.description>Американський великокаліберний кулемет, встановлений на башті з ручним керуванням, ефективний проти піхоти, легкоброньованої техніки і простих укріплень. Можна безпосередньо контролювати, але остерігайтеся дружнього вогню.</Turret_M2HB.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HB.label>Кулемет Browning M2HB</Gun_M2HB.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret. -->
+	<Gun_M2HB.description>Американський великокаліберний кулемет, призначений для кріплення до башти.</Gun_M2HB.description>
+
+	<!-- ===== Mounted Twin M2HB Turret ===== -->
+
+	<!-- EN: Mounted Twin M2HB Turret -->
+	<Turret_M2HBT.label>Стаціонарний Спарений M2HB Browning</Turret_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HBT.description>The American heavy machine gun, mounted in pairs on a manually operated turret, is effective against infantry, lightly armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</Turret_M2HBT.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Twin M2HB turret gun -->
+	<Gun_M2HBT.label>Спарений кулемет M2HB Browning</Gun_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret as a pair. -->
+	<Gun_M2HBT.description>Американський великокаліберний кулемет, призначений для встановлення на вежу попарно.</Gun_M2HBT.description>
+
+	<!-- ===== Mounted M134 Turret ===== -->
+
+	<!-- EN: Mounted M134 Turret -->
+	<Turret_M134MG.label>Стаціонарний M134 Мініган</Turret_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
+	<Turret_M134MG.description>Американський шестиствольний поворотний великокаліберний кулемет, встановлений на башті з ручним керуванням, з дуже високою скорострільністю. Можна безпосередньо контролювати, але остерігайтеся дружнього вогню. Потрібна потужність.</Turret_M134MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MG.label>M134 Мініган</Gun_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to a turret. -->
+	<Gun_M134MG.description>Американський шестиствольний поворотний великокаліберний кулемет, призначений для встановлення на вежу.</Gun_M134MG.description>
+
+	<!-- ===== Mounted Mk 19 Turret ===== -->
+
+	<!-- EN: Mounted Mk 19 Turret -->
+	<Turret_Mk19MGL.label>Стаціонарний Mk 19 автоматичний гранатомет</Turret_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
+	<Turret_Mk19MGL.description>Американський автоматичний гранатомет зі стрічковим живленням, встановлений на башті з ручним керуванням, ефективний проти великих піхотних з'єднань і середньої бронетехніки. Можна безпосередньо контролювати, але остерігайтеся дружнього вогню. Остерігайтеся пошкоджень від бризок.</Turret_Mk19MGL.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGL.label>Mk 19 автоматичний гранатомет</Gun_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to a turret. -->
+	<Gun_Mk19MGL.description>Американський автоматичний гранатомет зі стрічковим живленням, призначений для кріплення до башти.</Gun_Mk19MGL.description>
+
+	<!-- ========== Sentry (Unmanned) Turrets  ========== -->
+
+	<!-- ===== M2HB Sentry Gun ===== -->
+
+	<!-- EN: M2HB Sentry gun -->
+	<Turret_M2HBs.label>M2HB автоматична турель</Turret_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M2HBs.description>Американський великокаліберний кулемет, встановлений на турелі, який автоматично стріляє по найближчих супротивниках, ефективний проти піхоти, легкоброньованої техніки і простих укріплень. Його ШІ-мозок не дуже розумний, і ним не можна керувати безпосередньо, тому остерігайтеся дружнього вогню.</Turret_M2HBs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HBs.label>Кулемет Browning M2HB</Gun_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M2HBs.description>Американський великокаліберний кулемет, призначений для кріплення до автоматичної турелі.</Gun_M2HBs.description>
+
+	<!-- ===== M134 Sentry Gun ===== -->
+
+	<!-- EN: M134 Sentry gun -->
+	<Turret_M134MGs.label>M134 автоматична турель</Turret_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M134MGs.description>Американський шестиствольний поворотний великокаліберний кулемет, встановлений на турелі, який автоматично веде вогонь по найближчих супротивниках з дуже високою скорострільністю. Його ШІ-мозок не дуже розумний, і ним не можна керувати безпосередньо, тому остерігайтеся дружнього вогню.</Turret_M134MGs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MGs.label>M134 Мініган</Gun_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M134MGs.description>Американський шестиствольний поворотний великокаліберний кулемет, призначений для встановлення на автоматичній турелі.</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label>M230LF автоматична турель</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>Американська Ланцюгова гармата, встановлена на турелі, яка автоматично стріляє по найближчих супротивниках, ефективна проти піхоти, броньованої техніки і простих укріплень. Його ШІ-мозок не дуже розумний, і ним не можна керувати безпосередньо, тому остерігайтеся дружнього вогню.</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label>автогармата M230LF</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description>Американська ланцюгова гармата, призначена для кріплення до автоматичної турелі.</Gun_M230LFs.description>
+
+	<!-- ===== Mk 19 Sentry Gun ===== -->
+
+	<!-- EN: Mk 19 Sentry gun -->
+	<Turret_Mk19MGLs.label>Mk 19 автоматичний гранатомет автоматична турель</Turret_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_Mk19MGLs.description>Американський автоматичний гранатомет зі стрічковим живленням, встановлений на турелі, який автоматично стріляє по найближчих супротивниках, ефективний проти великих піхотних з'єднань і автомобілів середньої броні. Його ШІ-мозок не дуже розумний, і ним не можна керувати безпосередньо, тому остерігайтеся дружнього вогню.</Turret_Mk19MGLs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>міцність ствола</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>Постріли до заміни ствола</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>Не може стріляти: Потрібен новий ствол</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGLs.label>Mk 19 автоматичний гранатомет</Gun_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret. -->
+	<Gun_Mk19MGLs.description>Американський автоматичний гранатомет зі стрічковим живленням, призначений для кріплення до автоматичної турелі.</Gun_Mk19MGLs.description>
+
+</LanguageData>
