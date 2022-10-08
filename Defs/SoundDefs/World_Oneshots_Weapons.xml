@@ -8,8 +8,8 @@
 		<subSounds>
 			<li>
 				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>Weapon/M2Browning</clipFolderPath>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapon/M2Browning</clipPath>
 					</li>
 				</grains>
 				<pitchRange>0.75~0.75</pitchRange>   		
