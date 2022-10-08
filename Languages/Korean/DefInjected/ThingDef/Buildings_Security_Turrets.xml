@@ -11,6 +11,9 @@
 
 	<!-- EN: 7.62×51mm NATO bullet -->
 	<Bullet_DMGT_762x51mmNATO.label>7.62×51mm NATO탄</Bullet_DMGT_762x51mmNATO.label>
+	
+	<!-- EN: 30×113mmB shell -->
+	<Bullet_DMGT_30x113mmB>30×113mmB 탄</Bullet_DMGT_30x113mmB>
 
 	<!-- EN: 40×53mm grenade -->
 	<Bullet_DMGT_40x53mmGrenade.label>40×53mm 수류탄</Bullet_DMGT_40x53mmGrenade.label>
