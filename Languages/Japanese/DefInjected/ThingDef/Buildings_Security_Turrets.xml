@@ -108,7 +108,7 @@
 
 	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to a turret. -->
 	<Gun_M134MG.description>砲塔に取り付けるように設計されたアメリカの6バレル回転重機関銃.</Gun_M134MG.description>
-
+	
 	<!-- ===== Mounted Mk 19 Turret ===== -->
 
 	<!-- EN: Mounted Mk 19 Turret -->
@@ -179,6 +179,29 @@
 
 	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
 	<Gun_M134MGs.description>自動砲塔に取り付けるように設計されたアメリカの6バレル回転重機関銃.</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label>自動M230LF機関砲塔</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>歩兵、装甲車両、単純な要塞に対して効果的な、近くの敵に自動的に発砲する歩哨砲塔に取り付けられたアメリカの機関砲.インターフェースの無い人工頭脳を装備しているので直接制御ができず,そのため味方誤射に警戒してください.</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>銃身耐久力</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>銃身耐久力</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>射撃不可: 替え銃身が必要</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label>M230LF機関砲</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description>自動砲塔に取り付けられるように設計されたアメリカの機関砲</Gun_M230LFs.description>
 
 	<!-- ===== Mk 19 Sentry Gun ===== -->
 

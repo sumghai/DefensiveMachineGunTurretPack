@@ -179,6 +179,29 @@
 
 	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
 	<Gun_M134MGs.description>一個美國的多管旋轉式機槍，用於安裝在自動砲塔上。</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label>自動M230LF鏈炮塔</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>一個美國的單管鏈炮，安裝在自動砲塔上，會自動攻擊附近的敵人。適合對付步兵，裝甲車和簡單的防禦工事。它低端的AI不接受直接控制，所以請小心友方的火力。</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>槍管耐久值</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>砲管耐久值</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>無法開火：需更換砲管</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label>M230LF鏈炮</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description>一個美國的單管鏈炮，用於安裝在自動砲塔上。</Gun_M230LFs.description>
 
 	<!-- ===== Mk 19 Sentry Gun ===== -->
 

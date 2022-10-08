@@ -179,6 +179,29 @@
 
 	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
 	<Gun_M134MGs.description>자동 센트리 포탑에 장착하도록 설계된 미국식 6 연장 회전식 중기관총입니다.</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label>M230LF 센트리 건</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>보병, 장갑차, 단순한 요새에 효과적인 이 무기는 센트리 포탑에 장착된 미국식 사슬 구동식 자동포로 주변의 적에게 자동으로 발사됩니다. AI 두뇌는 그렇게 똑똑하지 않고 스스로 제어할 수 없으므로 아군 사격에 주의하십시오.</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>남은 포탄</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>재장전까지 남은 포탄</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>재장전 필요</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label>M230LF 체인건</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description>자동 센트리 포탑에 부착하도록 설계된 미국식 체인 구동식 자동포입니다.</Gun_M230LFs.description>
 
 	<!-- ===== Mk 19 Sentry Gun ===== -->
 
