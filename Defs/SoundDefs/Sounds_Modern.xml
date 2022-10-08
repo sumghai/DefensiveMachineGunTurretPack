@@ -1,21 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Defs>  
+<Defs>
 
 	<SoundDef>
-		<defName>Shot_M2Browning</defName>  
+		<defName>Shot_M2Browning</defName>
 		<context>MapOnly</context>
-		<eventNames />  
-		<maxSimultaneous>1</maxSimultaneous>  
+		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
 				<grains>
 					<li Class="AudioGrain_Folder">
-						<clipFolderPath>sound/m2</clipFolderPath>
+						<clipFolderPath>Weapon/M2Browning</clipFolderPath>
 					</li>
 				</grains>
 				<pitchRange>0.75~0.75</pitchRange>   		
-				<volumeRange>5~5</volumeRange>      
-				<sustainLoop>False</sustainLoop>
+				<volumeRange>20~20</volumeRange>
 			</li>
 		</subSounds>
 	</SoundDef>
