@@ -503,6 +503,16 @@
 					</researchPrerequisites>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					defName="Turret_M134MG" or
+					defName="Turret_M134MGs"
+				]/researchPrerequisites</xpath>
+				<value>
+					<li>MultibarrelWeapons</li>
+				</value>
+			</li>
 
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name="DMGTurretMannedBase"]</xpath>
