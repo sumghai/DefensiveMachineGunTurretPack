@@ -493,7 +493,6 @@
 				<xpath>Defs/ThingDef[
 					defName="Turret_M2HBs" or
 					defName="Turret_M134MGs" or
-					defName="Turret_M230LFs" or
 					defName="Turret_Mk19MGLs"
 				]/researchPrerequisites</xpath>
 				<value>
