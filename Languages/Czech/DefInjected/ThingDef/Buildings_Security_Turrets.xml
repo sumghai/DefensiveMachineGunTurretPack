@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ========== Projectiles ========== -->
+
+	<!-- EN: 7.62×54mmR bullet -->
+	<Bullet_DMGT_762x54mmR.label>Střela 7.62×54 mmR</Bullet_DMGT_762x54mmR.label>
+
+	<!-- EN: .50 BMG bullet -->
+	<Bullet_DMGT_50BMG.label>Střela .50 BMG</Bullet_DMGT_50BMG.label>
+
+	<!-- EN: 7.62×51mm NATO bullet -->
+	<Bullet_DMGT_762x51mmNATO.label>Střela 7,62×51 mm NATO</Bullet_DMGT_762x51mmNATO.label>
+	
+	<!-- EN: 30×113mmB shell -->
+	<Bullet_DMGT_30x113mmB>Střela 30×113 mmB</Bullet_DMGT_30x113mmB>
+
+	<!-- EN: 40×53mm grenade -->
+	<Bullet_DMGT_40x53mmGrenade.label>Střela 40×53 mm</Bullet_DMGT_40x53mmGrenade.label>
+
+	<!-- ========== Mounted (Manned) Turrets  ========== -->
+
+	<!-- ===== Mounted DP-28 Turret ===== -->
+
+	<!-- EN: Mounted DP-28 Turret -->
+	<Turret_DP28MG.label>Namontovaná věž DP-28</Turret_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_DP28MG.description>Sovětský lehký kulomet umístěný na ručně ovládané věži a používaný především proti pěchotě. Lze jej přímo ovládat, ale pozor na přátelskou palbu.</Turret_DP28MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: DP-28 turret gun -->
+	<Gun_DP28MG.label>Kulomet DP-28</Gun_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun designed to be attached to a turret. -->
+	<Gun_DP28MG.description>Sovětský lehký kulomet určený k upevnění na věž.</Gun_DP28MG.description>
+
+	<!-- ===== Mounted M2HB Turret ===== -->
+
+	<!-- EN: Mounted M2HB Turret -->
+	<Turret_M2HB.label>Namontovaná věž M2HB</Turret_M2HB.label>
+
+	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HB.description>Americký těžký kulomet umístěný na ručně ovládané věži, účinný proti pěchotě, lehce obrněným vozidlům a jednoduchým opevněním. Lze jej přímo ovládat, ale pozor na přátelskou palbu.</Turret_M2HB.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HB.label>Kulomet M2HB</Gun_M2HB.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret. -->
+	<Gun_M2HB.description>Americký těžký kulomet určený k upevnění na věž.</Gun_M2HB.description>
+
+	<!-- ===== Mounted Twin M2HB Turret ===== -->
+
+	<!-- EN: Mounted Twin M2HB Turret -->
+	<Turret_M2HBT.label>Namontovaná dvojitá věž M2HB</Turret_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HBT.description>Americký těžký kulomet montovaný ve dvojici na ručně ovládané věži, účinný proti pěchotě, lehce obrněným vozidlům a jednoduchým opevněním. Lze jej přímo ovládat, ale pozor na přátelskou palbu.</Turret_M2HBT.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Twin M2HB turret gun -->
+	<Gun_M2HBT.label>Dvojitý kulomet M2HB</Gun_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret as a pair. -->
+	<Gun_M2HBT.description>Americký těžký kulomet určený k upevnění na věž jako pár.</Gun_M2HBT.description>
+
+	<!-- ===== Mounted M134 Turret ===== -->
+
+	<!-- EN: Mounted M134 Turret -->
+	<Turret_M134MG.label>Namontovaná věž M134</Turret_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
+	<Turret_M134MG.description>Americký šestihlavňový rotační těžký kulomet umístěný na ručně ovládané věži s velmi vysokou rychlostí palby. Lze jej ovládat přímo, ale pozor na přátelskou palbu. Vyžaduje napájení.</Turret_M134MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MG.label>M134 Minigun</Gun_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to a turret. -->
+	<Gun_M134MG.description>Americký šestihlavňový rotační těžký kulomet určený k upevnění na věž.</Gun_M134MG.description>
+
+	<!-- ===== Mounted Mk 19 Turret ===== -->
+
+	<!-- EN: Mounted Mk 19 Turret -->
+	<Turret_Mk19MGL.label>Namontovaná věž Mk 19</Turret_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
+	<Turret_Mk19MGL.description>Americký pásový automatický granátomet na ručně ovládané věži, účinný proti velkým formacím pěchoty a středně obrněným vozidlům. Lze jej ovládat přímo, ale pozor na přátelskou palbu. Pozor na poškození způsobené rozstřikem.</Turret_Mk19MGL.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGL.label>Automatický granátomet Mk 19</Gun_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to a turret. -->
+	<Gun_Mk19MGL.description>Americký pásový automatický granátomet určený k upevnění na věž.</Gun_Mk19MGL.description>
+
+	<!-- ========== Sentry (Unmanned) Turrets  ========== -->
+
+	<!-- ===== M2HB Sentry Gun ===== -->
+
+	<!-- EN: M2HB Sentry gun -->
+	<Turret_M2HBs.label>Automatická věž M2HB</Turret_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M2HBs.description>Americký těžký kulomet umístěný na strážní věži, který automaticky střílí na blízké nepřátele a je účinný proti pěchotě, lehce obrněným vozidlům a jednoduchým opevněním. Jeho mozek s umělou inteligencí není příliš inteligentní a nelze jej přímo ovládat, takže si dejte pozor na přátelskou palbu.</Turret_M2HBs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HBs.label>Kulomet M2HB</Gun_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M2HBs.description>Americký těžký kulomet určený k upevnění na automatickou strážní věž.</Gun_M2HBs.description>
+
+	<!-- ===== M134 Sentry Gun ===== -->
+
+	<!-- EN: M134 Sentry gun -->
+	<Turret_M134MGs.label>Automatická věž M134</Turret_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M134MGs.description>Americký šestihlavňový rotační těžký kulomet umístěný na strážní věži, který automaticky střílí na blízké nepřátele s velmi vysokou rychlostí palby. Jeho mozek s umělou inteligencí není příliš inteligentní a nelze jej přímo ovládat, takže si dejte pozor na přátelskou palbu.</Turret_M134MGs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MGs.label>M134 Minigun</Gun_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M134MGs.description>Americký šestihlavňový rotační těžký kulomet určený k upevnění na automatickou strážní věž.</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label>Automatická věž M230LF</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>Americký autokanón s řetězovým pohonem umístěný na strážní věži, který automaticky střílí na blízké nepřátele a je účinný proti pěchotě, obrněným vozidlům a jednoduchým opevněním. Jeho mozek s umělou inteligencí není příliš chytrý a nelze jej přímo ovládat, takže pozor na přátelskou palbu.</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label>Autokanón M230LF</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description>Americký autokanón s řetězovým pohonem určený k připojení na automatickou strážní věž.</Gun_M230LFs.description>
+
+	<!-- ===== Mk 19 Sentry Gun ===== -->
+
+	<!-- EN: Mk 19 Sentry gun -->
+	<Turret_Mk19MGLs.label>Automatická věž Mk 19</Turret_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_Mk19MGLs.description>Americký pásový automatický granátomet umístěný na strážní věži, který automaticky střílí na blízké nepřátele a je účinný proti velkým formacím pěchoty a středně obrněným vozidlům. Jeho mozek s umělou inteligencí není příliš chytrý a nelze jej přímo ovládat, takže pozor na přátelskou palbu.</Turret_Mk19MGLs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>Životnost hlavně</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>Počet výstřelů do výměny hlavně</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>Vyžaduje novou hlaveň</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGLs.label>Automatický granátomet Mk 19</Gun_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret. -->
+	<Gun_Mk19MGLs.description>Americký pásový automatický granátomet určený k připojení na automatickou strážní věž.</Gun_Mk19MGLs.description>
+
+</LanguageData>
