@@ -46,7 +46,7 @@
 	<!-- ===== Mounted M2HB Turret ===== -->
 
 	<!-- EN: Mounted M2HB Turret -->
-	<Turret_M2HB.label>Torreta Browning M2HB montada</Turret_M2HB.label>
+	<Turret_M2HB.label>Torreta M2HB montada</Turret_M2HB.label>
 
 	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_M2HB.description>Uma metralhadora pesada americana montada em uma torre operada manualmente, eficaz contra infantaria, veículos pouco blindados e fortificações simples. Pode ser controlada diretamente, mas cuidado com o fogo amigo.</Turret_M2HB.description>
@@ -61,7 +61,7 @@
 	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Não é possível disparar: Precisa de um novo cano</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M2HB turret gun -->
-	<Gun_M2HB.label>Metralhadora Browning M2HB</Gun_M2HB.label>
+	<Gun_M2HB.label>Metralhadora M2HB</Gun_M2HB.label>
 
 	<!-- EN: An American heavy machine gun designed to be attached to a turret. -->
 	<Gun_M2HB.description>Uma metralhadora pesada americana projetada para ser acoplada a uma torre.</Gun_M2HB.description>
@@ -69,7 +69,7 @@
 	<!-- ===== Mounted Twin M2HB Turret ===== -->
 
 	<!-- EN: Mounted Twin M2HB Turret -->
-	<Turret_M2HBT.label>Torreta Browning M2HB dupla montada</Turret_M2HBT.label>
+	<Turret_M2HBT.label>Torreta M2HB dupla montada</Turret_M2HBT.label>
 
 	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
 	<Turret_M2HBT.description>Uma metralhadora pesada americana montada aos pares em uma torre de operação manual, eficaz contra infantaria, veículos pouco blindados e fortificações simples. Pode ser controlada diretamente, mas cuidado com o fogo amigo.</Turret_M2HBT.description>
@@ -84,7 +84,7 @@
 	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Não é possível disparar: Precisa de um novo cano</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: Twin M2HB turret gun -->
-	<Gun_M2HBT.label>Metralhadora Browning M2HB dupla</Gun_M2HBT.label>
+	<Gun_M2HBT.label>Metralhadora M2HB dupla</Gun_M2HBT.label>
 
 	<!-- EN: An American heavy machine gun designed to be attached to a turret as a pair. -->
 	<Gun_M2HBT.description>Uma metralhadora pesada americana projetada para ser fixada a uma torre como um par.</Gun_M2HBT.description>
@@ -155,7 +155,7 @@
 	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Não é possível disparar: Precisa de um novo cano</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
 
 	<!-- EN: M2HB turret gun -->
-	<Gun_M2HBs.label>Metralhadora Browning M2HB</Gun_M2HBs.label>
+	<Gun_M2HBs.label>Metralhadora M2HB</Gun_M2HBs.label>
 
 	<!-- EN: An American heavy machine gun designed to be attached to an automatic sentry turret. -->
 	<Gun_M2HBs.description>Uma metralhadora pesada americana projetada para ser fixada a uma torre de sentinela automática.</Gun_M2HBs.description>
