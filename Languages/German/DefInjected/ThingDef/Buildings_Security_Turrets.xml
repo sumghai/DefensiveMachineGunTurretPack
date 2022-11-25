@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ========== Projectiles ========== -->
+
+	<!-- EN: 7.62×54mmR bullet -->
+	<Bullet_DMGT_762x54mmR.label>7.62×54mmR-Geschoss</Bullet_DMGT_762x54mmR.label>
+
+	<!-- EN: .50 BMG bullet -->
+	<Bullet_DMGT_50BMG.label>.50-BMG-Geschoss</Bullet_DMGT_50BMG.label>
+
+	<!-- EN: 7.62×51mm NATO bullet -->
+	<Bullet_DMGT_762x51mmNATO.label>7.62×51-mm-NATO-Geschoss</Bullet_DMGT_762x51mmNATO.label>
+	
+	<!-- EN: 30×113mmB shell -->
+	<Bullet_DMGT_30x113mmB>30×113-mmB-Granate</Bullet_DMGT_30x113mmB>
+
+	<!-- EN: 40×53mm grenade -->
+	<Bullet_DMGT_40x53mmGrenade.label>40×53-mm-Granate</Bullet_DMGT_40x53mmGrenade.label>
+
+	<!-- ========== Mounted (Manned) Turrets  ========== -->
+
+	<!-- ===== Mounted DP-28 Turret ===== -->
+
+	<!-- EN: Mounted DP-28 Turret -->
+	<Turret_DP28MG.label>Montierter DP-28-Turm</Turret_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_DP28MG.description>Ein sowjetisches leichtes Maschinengewehr, das auf einem handbetätigten Turm montiert ist und hauptsächlich gegen Infanterie eingesetzt wird. Kann direkt gesteuert werden, aber Vorsicht vor Eigenbeschuss.</Turret_DP28MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: DP-28 turret gun -->
+	<Gun_DP28MG.label>DP-28 Maschinengewehr</Gun_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun designed to be attached to a turret. -->
+	<Gun_DP28MG.description>Ein sowjetisches leichtes Maschinengewehr, das an einem Turm befestigt werden kann.</Gun_DP28MG.description>
+
+	<!-- ===== Mounted M2HB Turret ===== -->
+
+	<!-- EN: Mounted M2HB Turret -->
+	<Turret_M2HB.label>Montierter M2HB-Turm</Turret_M2HB.label>
+
+	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HB.description>Ein amerikanisches schweres Maschinengewehr auf einem handbetriebenen Turm, das gegen Infanterie, leicht gepanzerte Fahrzeuge und einfache Befestigungen wirkt. Kann direkt gesteuert werden, aber Vorsicht vor Eigenbeschuss.</Turret_M2HB.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HB.label>M2HB Maschinengewehr</Gun_M2HB.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret. -->
+	<Gun_M2HB.description>Ein amerikanisches schweres Maschinengewehr, das an einem Turm befestigt werden kann.</Gun_M2HB.description>
+
+	<!-- ===== Mounted Twin M2HB Turret ===== -->
+
+	<!-- EN: Mounted Twin M2HB Turret -->
+	<Turret_M2HBT.label>Montierter M2HB-Zwillingsturm</Turret_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HBT.description>Ein amerikanisches schweres Maschinengewehr, das paarweise auf einem handbetätigten Turm montiert ist und gegen Infanterie, leicht gepanzerte Fahrzeuge und einfache Befestigungen wirkt. Kann direkt gesteuert werden, aber Vorsicht vor Eigenbeschuss.</Turret_M2HBT.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Twin M2HB turret gun -->
+	<Gun_M2HBT.label>Zwei M2HB-Maschinengewehre</Gun_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret as a pair. -->
+	<Gun_M2HBT.description>Ein amerikanisches schweres Maschinengewehr, das als Paar an einem Turm befestigt werden kann.</Gun_M2HBT.description>
+
+	<!-- ===== Mounted M134 Turret ===== -->
+
+	<!-- EN: Mounted M134 Turret -->
+	<Turret_M134MG.label>Montierter M134-Geschützturm</Turret_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
+	<Turret_M134MG.description>Ein amerikanisches schweres Maschinengewehr mit sechs Läufen, das auf einem handbetätigten Turm montiert ist und eine sehr hohe Feuerrate hat. Kann direkt gesteuert werden, aber Vorsicht vor Eigenbeschuss. Benötigt Strom.</Turret_M134MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MG.label>M134 Minigun</Gun_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to a turret. -->
+	<Gun_M134MG.description>Amerikanisches schweres Maschinengewehr mit sechs Läufen, das auf einen Turm montiert werden kann.</Gun_M134MG.description>
+
+	<!-- ===== Mounted Mk 19 Turret ===== -->
+
+	<!-- EN: Mounted Mk 19 Turret -->
+	<Turret_Mk19MGL.label>Montierter Mk 19-Turm</Turret_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
+	<Turret_Mk19MGL.description>Ein amerikanischer automatischer Granatwerfer mit Gürtelzuführung, der auf einem handbetätigten Turm montiert ist und gegen große Infanterieverbände und mäßig gepanzerte Fahrzeuge wirksam ist. Kann direkt gesteuert werden, aber Vorsicht vor Eigenbeschuss. Vorsicht vor Splash-Schaden.</Turret_Mk19MGL.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGL.label>40-mm-Maschinengranatwerfer Mk 19</Gun_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to a turret. -->
+	<Gun_Mk19MGL.description>Ein amerikanischer automatischer Granatwerfer mit Gürtelzuführung, der an einem Geschützturm befestigt werden kann.</Gun_Mk19MGL.description>
+
+	<!-- ========== Sentry (Unmanned) Turrets  ========== -->
+
+	<!-- ===== M2HB Sentry Gun ===== -->
+
+	<!-- EN: M2HB Sentry gun -->
+	<Turret_M2HBs.label>M2HB Wachgeschütz</Turret_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M2HBs.description>Ein amerikanisches schweres Maschinengewehr, das auf einem Wachturm montiert ist und automatisch auf Feinde in der Nähe feuert, effektiv gegen Infanterie, leicht gepanzerte Fahrzeuge und einfache Befestigungen. Sein KI-Gehirn ist nicht sehr intelligent und kann nicht direkt gesteuert werden, also Vorsicht vor Eigenbeschuss.</Turret_M2HBs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HBs.label>M2HB Maschinengewehr</Gun_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M2HBs.description>Ein amerikanisches schweres Maschinengewehr, das für den Anbau an einen automatischen Wachturm vorgesehen ist.</Gun_M2HBs.description>
+
+	<!-- ===== M134 Sentry Gun ===== -->
+
+	<!-- EN: M134 Sentry gun -->
+	<Turret_M134MGs.label>M134 Wachgeschütz</Turret_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M134MGs.description>Ein amerikanisches schweres Maschinengewehr mit sechs Läufen, das auf einem Wachturm montiert ist und automatisch mit einer sehr hohen Feuerrate auf Feinde in der Nähe feuert. Sein KI-Gehirn ist nicht sehr intelligent und kann nicht direkt gesteuert werden, also Vorsicht vor Eigenbeschuss.</Turret_M134MGs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MGs.label>M134 Minigun</Gun_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M134MGs.description>Ein amerikanisches schweres Maschinengewehr mit sechs Läufen, das an einem automatischen Wachturm angebracht werden kann.</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label>M230LF Wachkanone</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>Eine amerikanische kettengetriebene Autokanone, die auf einem Wachturm montiert ist und automatisch auf Feinde in der Nähe feuert. Sie ist wirksam gegen Infanterie, gepanzerte Fahrzeuge und einfache Befestigungen. Sein KI-Gehirn ist nicht sehr intelligent und kann nicht direkt gesteuert werden, also Vorsicht vor Eigenbeschuss.</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label>M230LF Autokanone</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description>Eine amerikanische kettengetriebene Autokanone, die für den Anbau an einen automatischen Wachturm vorgesehen ist.</Gun_M230LFs.description>
+
+	<!-- ===== Mk 19 Sentry Gun ===== -->
+
+	<!-- EN: Mk 19 Sentry gun -->
+	<Turret_Mk19MGLs.label>Mk 19 Wachgeschütz</Turret_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_Mk19MGLs.description>Ein amerikanischer, gürtelgespeister automatischer Granatwerfer, der auf einem Wachturm montiert ist und automatisch auf Feinde in der Nähe feuert. Er ist wirksam gegen große Infanterieverbände und mäßig gepanzerte Fahrzeuge. Sein KI-Gehirn ist nicht sehr intelligent und kann nicht direkt gesteuert werden, also Vorsicht vor Eigenbeschuss.</Turret_Mk19MGLs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>Haltbarkeit des Laufs</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>Schüsse bis Laufwechsel</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>Braucht neuen Lauf</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGLs.label>40-mm-Maschinengranatwerfer Mk 19</Gun_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret. -->
+	<Gun_Mk19MGLs.description>Ein amerikanischer automatischer Granatwerfer mit Gürtelzuführung, der an einem automatischen Wachturm befestigt werden kann.</Gun_Mk19MGLs.description>
+
+</LanguageData>
