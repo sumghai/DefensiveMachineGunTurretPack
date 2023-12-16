@@ -3,7 +3,7 @@ Security buildings mod for RimWorld, which adds a variety of manned and automate
 
 **Original Author:** Coalcat / Blackie
 
-**Maintainer:** sumghai (sumdumghai@gmail.com)
+**Maintainer:** sumghai
 
 **License:** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://www.creativecommons.org/licenses/by-sa/4.0/)
 
