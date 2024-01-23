@@ -3,6 +3,84 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
+		
+			<!-- == Shared patches == -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="DMGTurretBase"]/thingClass</xpath>
+				<value>
+					<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+				</value>
+			</li>
+
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+					defName="Turret_DP28MG" or
+					defName="Turret_M2HB" or
+					defName="Turret_M2HBT" or
+					defName="Turret_M134MG" or
+					defName="Turret_Mk19MGL" or
+					defName="Turret_M2HBs" or
+					defName="Turret_M134MGs" or
+					defName="Turret_M230LFs" or
+					defName="Turret_Mk19MGLs"
+				]/comps/li[@Class = "CompProperties_Refuelable"]				</xpath>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+					defName="Turret_M2HB" or
+					defName="Turret_M2HBT" or
+					defName="Turret_M134MG" or
+					defName="Turret_Mk19MGL"
+				]/researchPrerequisites				</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>CE_TurretHeavyWeapons</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+					defName="Turret_M2HBs" or
+					defName="Turret_M134MGs" or
+					defName="Turret_Mk19MGLs"
+				]/researchPrerequisites				</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>CE_TurretHeavyWeapons</li>
+						<li>CE_HeavyTurret</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					defName="Turret_M134MG" or
+					defName="Turret_M134MGs"
+				]/researchPrerequisites				</xpath>
+				<value>
+					<li>MultibarrelWeapons</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="DMGTurretMannedBase"]</xpath>
+				<value>
+					<statBases>
+						<AimingAccuracy>0.9</AimingAccuracy>
+						<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
+					</statBases>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="DMGTurretSentryBase"]/statBases/ShootingAccuracyTurret</xpath>
+				<value>
+					<ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
+				</value>
+			</li>
 
 			<!-- ========== Mounted DP-28 Turret ========== -->
 
@@ -395,11 +473,19 @@
 					<li>TurretGun</li>
 				</weaponTags>
 			</li>
-
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Turret_M230LFs"]/statBases/WorkToBuild</xpath>
 				<value>
 					<WorkToBuild>74500</WorkToBuild>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_M230LFs"]/statBases</xpath>
+				<value>
+					<!-- M230LF has better accuracy than other sentry guns -->
+					<ShootingAccuracyTurret>1.50</ShootingAccuracyTurret>
 				</value>
 			</li>
 			
@@ -449,91 +535,6 @@
 				<xpath>Defs/ThingDef[defName="Turret_Mk19MGLs"]/statBases/WorkToBuild</xpath>
 				<value>
 					<WorkToBuild>66500</WorkToBuild>
-				</value>
-			</li>
-
-			<!-- == Shared patches == -->
-
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="DMGTurretBase"]/thingClass</xpath>
-				<value>
-					<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
-				</value>
-			</li>
-
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[
-					defName="Turret_DP28MG" or
-					defName="Turret_M2HB" or
-					defName="Turret_M2HBT" or
-					defName="Turret_M134MG" or
-					defName="Turret_Mk19MGL" or
-					defName="Turret_M2HBs" or
-					defName="Turret_M134MGs" or
-					defName="Turret_M230LFs" or
-					defName="Turret_Mk19MGLs"
-				]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
-			</li>
-
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[
-					defName="Turret_M2HB" or
-					defName="Turret_M2HBT" or
-					defName="Turret_M134MG" or
-					defName="Turret_Mk19MGL"
-				]/researchPrerequisites</xpath>
-				<value>
-					<researchPrerequisites>
-						<li>CE_TurretHeavyWeapons</li>
-					</researchPrerequisites>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[
-					defName="Turret_M2HBs" or
-					defName="Turret_M134MGs" or
-					defName="Turret_Mk19MGLs"
-				]/researchPrerequisites</xpath>
-				<value>
-					<researchPrerequisites>
-						<li>CE_TurretHeavyWeapons</li>
-						<li>CE_HeavyTurret</li>
-					</researchPrerequisites>
-				</value>
-			</li>
-			
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[
-					defName="Turret_M134MG" or
-					defName="Turret_M134MGs"
-				]/researchPrerequisites</xpath>
-				<value>
-					<li>MultibarrelWeapons</li>
-				</value>
-			</li>
-
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name="DMGTurretMannedBase"]</xpath>
-				<value>
-					<statBases>
-						<AimingAccuracy>0.9</AimingAccuracy>
-						<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
-					</statBases>
-				</value>
-			</li>
-			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="DMGTurretSentryBase"]/statBases/ShootingAccuracyTurret</xpath>
-				<value>
-					<ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
-				</value>
-			</li>
-			
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Turret_M230LFs"]/statBases</xpath>
-				<value>
-					<ShootingAccuracyTurret>1.50</ShootingAccuracyTurret>
 				</value>
 			</li>
 
