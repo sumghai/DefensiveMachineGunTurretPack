@@ -343,7 +343,7 @@
 				<defName>Gun_M2HBs</defName>
 				<statBases>
 					<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-					<SightsEfficiency>1.00</SightsEfficiency>
+					<SightsEfficiency>2.36</SightsEfficiency>
 					<ShotSpread>0.01</ShotSpread>
 					<SwayFactor>1.65</SwayFactor>
 					<Bulk>18.54</Bulk>
@@ -391,7 +391,7 @@
 				<defName>Gun_M134MGs</defName>
 				<statBases>
 					<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
-					<SightsEfficiency>1.00</SightsEfficiency>
+					<SightsEfficiency>2.36</SightsEfficiency>
 					<ShotSpread>0.06</ShotSpread>
 					<SwayFactor>1.31</SwayFactor>
 					<Bulk>8.02</Bulk>
@@ -439,7 +439,7 @@
 				<defName>Gun_M230LFs</defName>
 				<statBases>
 					<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
-					<SightsEfficiency>1.00</SightsEfficiency>
+					<SightsEfficiency>2.36</SightsEfficiency>
 					<ShotSpread>0.01</ShotSpread>
 					<SwayFactor>1.73</SwayFactor>
 					<Bulk>23.30</Bulk>
@@ -495,7 +495,7 @@
 				<defName>Gun_Mk19MGLs</defName>
 				<statBases>
 					<RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-					<SightsEfficiency>1.00</SightsEfficiency>
+					<SightsEfficiency>2.36</SightsEfficiency>
 					<ShotSpread>0.09</ShotSpread>
 					<SwayFactor>1.55</SwayFactor>
 					<Bulk>12.90</Bulk>
