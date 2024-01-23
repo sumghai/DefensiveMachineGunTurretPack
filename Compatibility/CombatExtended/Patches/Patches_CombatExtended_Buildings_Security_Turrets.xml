@@ -522,6 +522,20 @@
 					</statBases>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="DMGTurretSentryBase"]/statBases/ShootingAccuracyTurret</xpath>
+				<value>
+					<ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_M230LFs"]/statBases</xpath>
+				<value>
+					<ShootingAccuracyTurret>1.50</ShootingAccuracyTurret>
+				</value>
+			</li>
 
 		</operations>
 	</Operation>
