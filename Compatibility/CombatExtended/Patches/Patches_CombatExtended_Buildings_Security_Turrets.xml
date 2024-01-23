@@ -523,16 +523,6 @@
 				</value>
 			</li>
 
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="DMGTurretMannedBase"]/statBases</xpath>
-				<value>
-					<statBases>
-						<AimingAccuracy>0.9</AimingAccuracy>
-						<ShootingAccuracyTurret>1.0</ShootingAccuracyTurret>
-					</statBases>
-				</value>
-			</li>
-
 		</operations>
 	</Operation>
 </Patch>
