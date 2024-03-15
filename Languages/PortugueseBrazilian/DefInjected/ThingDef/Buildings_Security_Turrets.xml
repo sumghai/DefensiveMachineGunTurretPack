@@ -13,7 +13,7 @@
 	<Bullet_DMGT_762x51mmNATO.label>Bala de 7.62×51 NATO</Bullet_DMGT_762x51mmNATO.label>
 	
 	<!-- EN: 30×113mmB shell -->
-	<Bullet_DMGT_30x113mmB>30×113mmB casca</Bullet_DMGT_30x113mmB>
+	<Bullet_DMGT_30x113mmB.label>30×113mmB casca</Bullet_DMGT_30x113mmB.label>
 
 	<!-- EN: 40×53mm grenade -->
 	<Bullet_DMGT_40x53mmGrenade.label>Granada de 40×53mm</Bullet_DMGT_40x53mmGrenade.label>

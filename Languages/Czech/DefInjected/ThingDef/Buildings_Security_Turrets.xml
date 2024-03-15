@@ -13,7 +13,7 @@
 	<Bullet_DMGT_762x51mmNATO.label>Střela 7,62×51 mm NATO</Bullet_DMGT_762x51mmNATO.label>
 	
 	<!-- EN: 30×113mmB shell -->
-	<Bullet_DMGT_30x113mmB>Střela 30×113 mmB</Bullet_DMGT_30x113mmB>
+	<Bullet_DMGT_30x113mmB.label>Střela 30×113 mmB</Bullet_DMGT_30x113mmB.label>
 
 	<!-- EN: 40×53mm grenade -->
 	<Bullet_DMGT_40x53mmGrenade.label>Střela 40×53 mm</Bullet_DMGT_40x53mmGrenade.label>

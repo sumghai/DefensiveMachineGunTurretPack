@@ -13,7 +13,7 @@
 	<Bullet_DMGT_762x51mmNATO.label>куля 7.62×51 NATO</Bullet_DMGT_762x51mmNATO.label>
 	
 	<!-- EN: 30×113mmB shell -->
-	<Bullet_DMGT_30x113mmB>снаряд 30×113mmB</Bullet_DMGT_30x113mmB>
+	<Bullet_DMGT_30x113mmB.label>снаряд 30×113mmB</Bullet_DMGT_30x113mmB.label>
 
 	<!-- EN: 40×53mm grenade -->
 	<Bullet_DMGT_40x53mmGrenade.label>40×53mm граната</Bullet_DMGT_40x53mmGrenade.label>

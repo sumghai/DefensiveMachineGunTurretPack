@@ -13,7 +13,7 @@
 	<Bullet_DMGT_762x51mmNATO.label>7.62×51-mm-NATO-Geschoss</Bullet_DMGT_762x51mmNATO.label>
 	
 	<!-- EN: 30×113mmB shell -->
-	<Bullet_DMGT_30x113mmB>30×113-mmB-Granate</Bullet_DMGT_30x113mmB>
+	<Bullet_DMGT_30x113mmB.label>30×113-mmB-Granate</Bullet_DMGT_30x113mmB.label>
 
 	<!-- EN: 40×53mm grenade -->
 	<Bullet_DMGT_40x53mmGrenade.label>40×53-mm-Granate</Bullet_DMGT_40x53mmGrenade.label>
