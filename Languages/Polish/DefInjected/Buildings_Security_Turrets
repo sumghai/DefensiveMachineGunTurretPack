@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ========== Projectiles ========== -->
+
+	<!-- EN: 7.62×54mmR bullet -->
+	<Bullet_DMGT_762x54mmR.label>Pocisk 7.62×54</Bullet_DMGT_762x54mmR.label>
+
+	<!-- EN: .50 BMG bullet -->
+	<Bullet_DMGT_50BMG.label>Pocisk .50 BMG</Bullet_DMGT_50BMG.label>
+
+	<!-- EN: 7.62×51mm NATO bullet -->
+	<Bullet_DMGT_762x51mmNATO.label>Pocisk 7.62×51 NATO</Bullet_DMGT_762x51mmNATO.label>
+	
+	<!-- EN: 30×113mmB shell -->
+	<Bullet_DMGT_30x113mmB.label>Łuska 30×113mmB</Bullet_DMGT_30x113mmB.label>
+
+	<!-- EN: 40×53mm grenade -->
+	<Bullet_DMGT_40x53mmGrenade.label>40×53mm Granat</Bullet_DMGT_40x53mmGrenade.label>
+
+	<!-- ========== Mounted (Manned) Turrets  ========== -->
+
+	<!-- ===== Mounted DP-28 Turret ===== -->
+
+	<!-- EN: Mounted DP-28 Turret -->
+	<Turret_DP28MG.label>Stacjonarny karabin DP-28</Turret_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_DP28MG.description> Radziecki lekki karabin maszynowy zamontowany na ręcznie obsługiwanej wieżyczce, używany głównie przeciwko piechocie. Może być kontrolowany ręcznie, ale strzeż sie ostrzału sojuszniczego.</Turret_DP28MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>Nie może strzelać: Potrzeba nową lufę</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: DP-28 turret gun -->
+	<Gun_DP28MG.label>Działko wieżyczkowe DP-28</Gun_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun designed to be attached to a turret. -->
+	<Gun_DP28MG.description> Radziecki lekki karabin maszynowy zaprojektowany do montażu na wieżyczce.</Gun_DP28MG.description>
+
+	<!-- ===== Mounted M2HB Turret ===== -->
+
+	<!-- EN: Mounted M2HB Turret -->
+	<Turret_M2HB.label>Stacjonarny ciężki karabin M2HB</Turret_M2HB.label>
+
+	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HB.description> Amerykański ciężki karabin maszynowy zamontowany na ręcznie obsługiwanej wieżyczce, posiada duży kaliber, duży magazynek i przyzwoitą szybkostrzelność, skuteczny przeciwko piechocie, lekko opancerzonym pojazdom i prostym fortyfikacjom. Może być kontrolowany ręcznie, ale strzeż sie ostrzału sojuszniczego.</Turret_M2HB.description>
+	<!-- EN: Barrel durability -->
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel> Strzałów do wymiany lufy</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Nie może strzelać: Potrzeba nową lufę</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HB.label>Ciężka wieżyczka M2HB</Gun_M2HB.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret. -->
+	<Gun_M2HB.description> Amerykański ciężki karabin maszynowy zaprojektowany do montażu na wieżyczce.</Gun_M2HB.description>
+
+	<!-- ===== Mounted Twin M2HB Turret ===== -->
+
+	<!-- EN: Mounted Twin M2HB Turret -->
+	<Turret_M2HBT.label>Stacjonarny podwójny karabin M2HB</Turret_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HBT.description>Amerykański ciężki karabin maszynowy, zamontowany parami na ręcznie obsługiwanej wieżyczce, dwulufowa wersja M2HB, skuteczna przeciwko piechocie, lekko opancerzonych pojazdów i prostych fortyfikacjom. Może być kontrolowany ręcznie, ale strzeż sie ostrzału sojuszniczego.</Turret_M2HBT.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Nie może strzelać: Potrzeba nową lufę</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Twin M2HB turret gun -->
+	<Gun_M2HBT.label> Bliźniaczy karabin maszynowy M2HB</Gun_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret as a pair. -->
+	<Gun_M2HBT.description> Amerykański ciężki karabin maszynowy zaprojektowany do montażu na wieżyczce w parach.</Gun_M2HBT.description>
+
+	<!-- ===== Mounted M134 Turret ===== -->
+
+	<!-- EN: Mounted M134 Turret -->
+	<Turret_M134MG.label>Stacjonarny minigun M134 </Turret_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
+	<Turret_M134MG.description>Amerykański sześciolufowy obrotowy karabin maszynowy zamontowany na ręcznie obsługiwanej wieżyczce, z bardzo dużą szybkosztrzelnością, lecz małym kalibrem. Może być kontrolowany ręcznie, ale strzeż sie ostrzału sojuszniczego.</Turret_M134MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>Nie możne strzelać: Potrzeba nową lufę</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MG.label>M134 Minigun</Gun_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to a turret. -->
+	<Gun_M134MG.description> Amerykański sześciolufowy obrotowy ciężki karabin maszynowy zaprojektowany do montażu na wieżyczce.</Gun_M134MG.description>
+
+	<!-- ===== Mounted Mk 19 Turret ===== -->
+
+	<!-- EN: Mounted Mk 19 Turret -->
+	<Turret_Mk19MGL.label> Stacjonarny granatnik automatyczny Mk 19</Turret_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
+	<Turret_Mk19MGL.description> Amerykański taśmowy granatnik automatyczny zamontowany na ręcznie obsługiwanej wieżyczce, wypełniający lukę pomiędzy karabinami maszynowymi i moździerzami, skuteczny przeciwko dużym formacjom piechoty i średnio opancerzonym pojazdom. Może być sterowana bezpośrednio, ale strzeż się ostrzału sojuszniczego. Uważaj na obrażenia od rozprysków.</Turret_Mk19MGL.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>Nie może strzelać: Potrzeba nową lufę</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGL.label>Granatnik automatyczny Mk 19</Gun_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to a turret. -->
+	<Gun_Mk19MGL.description> Amerykański taśmowy granatnik automatyczny zaprojektowany do montażu na wieżyczce</Gun_Mk19MGL.description>
+
+	<!-- ========== Sentry (Unmanned) Turrets  ========== -->
+
+	<!-- ===== M2HB Sentry Gun ===== -->
+
+	<!-- EN: M2HB Sentry gun -->
+	<Turret_M2HBs.label>Wieżyczka strażnicza z karabinem M2HB</Turret_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M2HBs.description> Amerykański ciężki karabin maszynowy zamontowany na wieżyczce strażniczej, która automatycznie strzela do pobliskich wrogów, posiada duży kaliber, duży magazynek i przyzwoitą szybkostrzelność, skuteczny przeciwko piechocie, lekko opancerzonym pojazdom i prostym fortyfikacjom. Jej SI nie jest zbyt mądre i nie może być sterowana ręcznie, więć strzeż sie ostrzału sojuszniczego.</Turret_M2HBs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Nie można strzelać: Potrzeba nową lufę</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HBs.label>Кулемет Browning M2HB</Gun_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M2HBs.description> Amerykański ciężki karabin maszynowy zaprojektowany do montażu na automatycznej wieżyczce strażniczej.</Gun_M2HBs.description>
+
+	<!-- ===== M134 Sentry Gun ===== -->
+
+	<!-- EN: M134 Sentry gun -->
+	<Turret_M134MGs.label> Wieżyczka strażnicza z minigunem M134</Turret_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M134MGs.description> Amerykański sześciolufowy obrotowy karabin maszynowy zamontowany na wieżyczce strażniczej, która automatycznie strzela do pobliskich wrogów z bardzo dużą szybkosztrzelnością, lecz małym kalibrem. Jej SI nie jest zbyt mądre i nie może być sterowana ręcznie, więć strzeż sie ostrzału sojuszniczego.</Turret_M134MGs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>Nie może strzelać: Potrzeba nową lufę</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MGs.label> Minigun M134</Gun_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M134MGs.description> Amerykański sześciolufowy obrotowy ciężki karabin maszynowy zaprojektowany do montażu na automatycznej wieżyczce strażniczej.</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label> Wieżyczka strażnicza z działem M230LF</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>Amerykańskie działo łańcuchowe zamontowane na wieżyczce strażniczej, która automatycznie strzela do pobliskich wrogów, skuteczna przeciwko piechocie, pojazdom opancerzonym i prostym fortyfikacjom. Jej SI nie jest zbyt mądre i nie może być kotrolowana ręcznie, więc strzeż się ognia sojuszniczego.</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>Nie może strzelać: Potrzeba nową lufę</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label> działo M230LF</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description> Amerykańskie działo łańcuchowe zaprojektowane do montażu na wieżyczce strażniczej.</Gun_M230LFs.description>
+
+	<!-- ===== Mk 19 Sentry Gun ===== -->
+
+	<!-- EN: Mk 19 Sentry gun -->
+	<Turret_Mk19MGLs.label> Wieżyczka strażnicza z automatycznym granatnikiem Mk 19</Turret_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_Mk19MGLs.description> Amerykański taśmowy automatyczny granatnik zamontowany na wieżyczce strażniczej, która automatycznie strzela do pobliskich wrogów, wypełniająca lukę pomiędzy karabinami maszynowymi i moździerzami, skuteczna przeciwko dużym formacjom piechoty i średnio opancerzonym pojazdom. Jej SI nie jest zbyt mądre i nie może być sterowana ręcznie, więć strzeż sie ostrzału sojuszniczego. Uważaj na obrażenia od rozprysków.</Turret_Mk19MGLs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>Wytrzymałość lufy</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>Strzałów do wymiany lufy</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>Nie może strzelać: Potrzeba nową lufę</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGLs.label>Automatyczna wyrzutnia granatów Mk 19</Gun_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret. -->
+	<Gun_Mk19MGLs.description>Amerykański taśmowy atomatyczny granatnik zaprojektowany do montażu na wieżyczce strażniczej.</Gun_Mk19MGLs.description>
+
+</LanguageData>
