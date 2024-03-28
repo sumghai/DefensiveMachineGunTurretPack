@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Recoil Operation -->
+	<RecoilOperation.label>Krótki odrzut lufy</RecoilOperation.label>
+
+	<!-- EN: Craft high-power heavy machine guns like the M2 Browning. -->
+	<RecoilOperation.description>Tworzenie potężnych ciężkich karabinów maszynowych, takich jak M2 Browning.</RecoilOperation.description>
+
+</LanguageData>
