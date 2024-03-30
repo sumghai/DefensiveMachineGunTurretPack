@@ -12,7 +12,7 @@
 		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
-	<description>Adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.\n\nv1.8.4
+	<description>Adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.\n\nv1.8.5
 	</description>
 	<loadAfter>
 		<li>CETeam.CombatExtended</li>
