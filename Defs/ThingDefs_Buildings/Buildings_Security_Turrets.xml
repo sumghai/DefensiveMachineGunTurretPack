@@ -165,7 +165,7 @@
 		<label>Mounted DP-28 Turret</label>
 		<description>A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -257,7 +257,7 @@
 		<label>Mounted M2HB Turret</label>
 		<description>An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -348,7 +348,7 @@
 		<label>Mounted Twin M2HB Turret</label>
 		<description>An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -439,7 +439,7 @@
 		<label>Mounted M134 Turret</label>
 		<description>An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -534,7 +534,7 @@
 		<label>Mounted Mk 19 Turret</label>
 		<description>An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseTripod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseTripod</texPath> 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -629,7 +629,7 @@
 		<label>M2HB Sentry gun</label>
 		<description>An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseQuadpod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseQuadpod</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -725,7 +725,7 @@
 		<label>M134 Sentry gun</label>
 		<description>An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseQuadpod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseQuadpod</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -821,7 +821,7 @@
 		<label>M230LF Sentry gun</label>
 		<description>An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseQuadpod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseQuadpod</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
@@ -918,7 +918,7 @@
 		<label>Mk 19 Sentry gun</label>
 		<description>An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/TurretBaseQuadpod</texPath> 
+			<texPath>Things/Building/Security/DmgtpTurretBaseQuadpod</texPath> 
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<damageData>
