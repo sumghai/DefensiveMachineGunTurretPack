@@ -4,7 +4,7 @@
 	<name>Defensive Machine Gun Turret Pack</name>
 	<author>Coalcat, sumghai</author>
 	<packageId>sumghai.DefensiveMachineGunTurretPack</packageId>
-	<modVersion IgnoreIfNoMatchingField="True">1.8.7</modVersion>
+	<modVersion IgnoreIfNoMatchingField="True">1.8.8</modVersion>
 	<url>https://ludeon.com/forums/index.php?topic=45727.0</url>
 	<description>Adds a variety of manned and automated sentry machine guns to protect your colony from pesky tribals, raiders and the occasional manhunting Thrumbo.
 	</description>
