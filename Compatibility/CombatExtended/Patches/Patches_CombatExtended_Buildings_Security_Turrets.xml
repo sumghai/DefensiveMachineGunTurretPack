@@ -489,10 +489,10 @@
 						<recoilAmount>0.5</recoilAmount>
 						<hasStandardCommand>true</hasStandardCommand>
 						<defaultProjectile>Bullet_30x113mmB_AP</defaultProjectile>
-						<warmupTime>0.8</warmupTime>
-						<range>125</range>
+						<warmupTime>0.11</warmupTime>
+						<range>75</range>
 						<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-						<burstShotCount>15</burstShotCount>
+						<burstShotCount>30</burstShotCount>
 						<soundCast>Shot_Autocannon</soundCast>
 						<soundCastTail>GunTail_Heavy</soundCastTail>
 						<muzzleFlashScale>15</muzzleFlashScale>
