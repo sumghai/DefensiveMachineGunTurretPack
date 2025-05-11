@@ -486,11 +486,11 @@
 				<value>
 					<li Class="CombatExtended.VerbProperties_CIWSSkyfaller">
 						<verbClass>CombatExtended.VerbCIWSSkyfaller</verbClass>
-						<recoilAmount>2.55</recoilAmount>
+						<recoilAmount>0.5</recoilAmount>
 						<hasStandardCommand>true</hasStandardCommand>
 						<defaultProjectile>Bullet_30x113mmB_AP</defaultProjectile>
 						<warmupTime>0.8</warmupTime>
-						<range>140</range>
+						<range>125</range>
 						<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 						<burstShotCount>15</burstShotCount>
 						<soundCast>Shot_Autocannon</soundCast>
