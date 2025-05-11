@@ -12,6 +12,13 @@
 					<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Turret_M230LFs"]</xpath>
+				<value>
+					<thingClass>CombatExtended.Building_CIWS_CE</thingClass>
+				</value>
+			</li>
 
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[
@@ -24,7 +31,7 @@
 					defName="Turret_M134MGs" or
 					defName="Turret_M230LFs" or
 					defName="Turret_Mk19MGLs"
-				]/comps/li[@Class = "CompProperties_Refuelable"]				</xpath>
+				]/comps/li[@Class = "CompProperties_Refuelable"]</xpath>
 			</li>
 
 			<li Class="PatchOperationReplace">
@@ -33,7 +40,7 @@
 					defName="Turret_M2HBT" or
 					defName="Turret_M134MG" or
 					defName="Turret_Mk19MGL"
-				]/researchPrerequisites				</xpath>
+				]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites>
 						<li>CE_TurretHeavyWeapons</li>
@@ -46,7 +53,7 @@
 					defName="Turret_M2HBs" or
 					defName="Turret_M134MGs" or
 					defName="Turret_Mk19MGLs"
-				]/researchPrerequisites				</xpath>
+				]/researchPrerequisites</xpath>
 				<value>
 					<researchPrerequisites>
 						<li>CE_TurretHeavyWeapons</li>
@@ -59,7 +66,7 @@
 				<xpath>Defs/ThingDef[
 					defName="Turret_M134MG" or
 					defName="Turret_M134MGs"
-				]/researchPrerequisites				</xpath>
+				]/researchPrerequisites</xpath>
 				<value>
 					<li>MultibarrelWeapons</li>
 				</value>
@@ -450,9 +457,9 @@
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 					<hasStandardCommand>true</hasStandardCommand>
 					<defaultProjectile>Bullet_30x113mmB_AP</defaultProjectile>
-					<warmupTime>1.3</warmupTime>
-					<range>86</range>
-					<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+					<warmupTime>1.1</warmupTime>
+					<range>90</range>
+					<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 					<burstShotCount>10</burstShotCount>
 					<soundCast>Shot_Autocannon</soundCast>
 					<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -472,6 +479,35 @@
 				<weaponTags>
 					<li>TurretGun</li>
 				</weaponTags>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Gun_M230LFs"]/verbs</xpath>
+				<value>
+					<li Class="CombatExtended.VerbProperties_CIWSSkyfaller">
+						<verbClass>CombatExtended.VerbCIWSSkyfaller</verbClass>
+						<recoilAmount>0.5</recoilAmount>
+						<hasStandardCommand>true</hasStandardCommand>
+						<defaultProjectile>Bullet_30x113mmB_AP</defaultProjectile>
+						<warmupTime>0.11</warmupTime>
+						<range>75</range>
+						<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+						<burstShotCount>30</burstShotCount>
+						<soundCast>Shot_Autocannon</soundCast>
+						<soundCastTail>GunTail_Heavy</soundCastTail>
+						<muzzleFlashScale>15</muzzleFlashScale>
+						<recoilPattern>Mounted</recoilPattern>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Gun_M230LFs"]/comps</xpath>
+				<value>
+					<li>
+						<compClass>CombatExtended.CompVerbDisabler</compClass>
+					</li>
+				</value>
 			</li>
 			
 			<li Class="PatchOperationReplace">
