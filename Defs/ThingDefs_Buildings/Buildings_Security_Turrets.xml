@@ -901,7 +901,7 @@
 				<warmupTime>0</warmupTime>
 				<range>50</range>
 				<forcedMissRadius>0.00001</forcedMissRadius>
-				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 				<burstShotCount>10</burstShotCount>
 				<soundCast>Shot_Autocannon</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
