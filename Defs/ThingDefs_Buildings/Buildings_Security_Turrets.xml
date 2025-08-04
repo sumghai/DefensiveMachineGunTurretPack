@@ -137,7 +137,7 @@
 			<armorPenetrationBase>1.1</armorPenetrationBase>
 			<speed>90</speed> 
 		</projectile>
-	</ThingDef>e
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_DMGT_40x53mmGrenade</defName>
