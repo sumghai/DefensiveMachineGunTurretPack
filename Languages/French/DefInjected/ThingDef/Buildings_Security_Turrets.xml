@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ========== Projectiles ========== -->
+
+	<!-- EN: 7.62×54mmR bullet -->
+	<Bullet_DMGT_762x54mmR.label>Balle de calibre 7,62×54mmR</Bullet_DMGT_762x54mmR.label>
+
+	<!-- EN: .50 BMG bullet -->
+	<Bullet_DMGT_50BMG.label>Balle de calibre .50 BMG</Bullet_DMGT_50BMG.label>
+
+	<!-- EN: 7.62×51mm NATO bullet -->
+	<Bullet_DMGT_762x51mmNATO.label>Balle de calibre 7,62×51mm OTAN</Bullet_DMGT_762x51mmNATO.label>
+	
+	<!-- EN: 30×113mmB shell -->
+	<Bullet_DMGT_30x113mmB.label>Cartouche de calibre 30×113mmB</Bullet_DMGT_30x113mmB.label>
+
+	<!-- EN: 40×53mm grenade -->
+	<Bullet_DMGT_40x53mmGrenade.label>Grenade de calibre 40×53 mm</Bullet_DMGT_40x53mmGrenade.label>
+
+	<!-- ========== Mounted (Manned) Turrets  ========== -->
+
+	<!-- ===== Mounted DP-28 Turret ===== -->
+
+	<!-- EN: Mounted DP-28 Turret -->
+	<Turret_DP28MG.label>Tourelle DP-28</Turret_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun mounted on a manually-operated turret, and mainly used against infantry. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_DP28MG.description>Mitrailleuse légère soviétique montée sur une tourelle à commande manuelle, principalement utilisée contre l'infanterie. Elle peut être contrôlée directement, mais attention aux tirs amis.</Turret_DP28MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_DP28MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_DP28MG.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_DP28MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_DP28MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: DP-28 turret gun -->
+	<Gun_DP28MG.label>Mitrailleuse de tourelle DP-28</Gun_DP28MG.label>
+
+	<!-- EN: A Soviet light machine gun designed to be attached to a turret. -->
+	<Gun_DP28MG.description>Une mitrailleuse légère soviétique conçue pour être montée sur une tourelle.</Gun_DP28MG.description>
+
+	<!-- ===== Mounted M2HB Turret ===== -->
+
+	<!-- EN: Mounted M2HB Turret -->
+	<Turret_M2HB.label>Tourelle M2HB</Turret_M2HB.label>
+
+	<!-- EN: An American heavy machine gun mounted on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HB.description>Mitrailleuse lourde américaine montée sur une tourelle à commande manuelle, efficace contre l'infanterie, les véhicules légèrement blindés et les fortifications rudimentaires. Elle peut être pilotée directement, mais attention aux tirs amis.</Turret_M2HB.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_M2HB.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HB.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_M2HB.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_M2HB.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HB.label>Mitrailleuse M2HB à tourelle</Gun_M2HB.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret. -->
+	<Gun_M2HB.description>Une mitrailleuse lourde américaine conçue pour être montée sur une tourelle.</Gun_M2HB.description>
+
+	<!-- ===== Mounted Twin M2HB Turret ===== -->
+
+	<!-- EN: Mounted Twin M2HB Turret -->
+	<Turret_M2HBT.label>Tourelle double M2HB</Turret_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun mounted in pairs on a manually-operated turret, effective against infantry, lightly-armored vehicles and simple fortifications. Can be directly controlled, but beware of friendly fire. -->
+	<Turret_M2HBT.description>Mitrailleuse lourde américaine montée par paires sur une tourelle à commande manuelle, efficace contre l'infanterie, les véhicules légèrement blindés et les fortifications rudimentaires. Elle peut être pilotée directement, mais attention aux tirs amis.</Turret_M2HBT.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_M2HBT.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBT.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_M2HBT.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_M2HBT.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Twin M2HB turret gun -->
+	<Gun_M2HBT.label>Canon M2HB à tourelle double</Gun_M2HBT.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to a turret as a pair. -->
+	<Gun_M2HBT.description>Une mitrailleuse lourde américaine conçue pour être montée par paire sur une tourelle.</Gun_M2HBT.description>
+
+	<!-- ===== Mounted M134 Turret ===== -->
+
+	<!-- EN: Mounted M134 Turret -->
+	<Turret_M134MG.label>Tourelle Minigun M134</Turret_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a manually-operated turret, with a very high rate of fire. Can be directly controlled, but beware of friendly fire. Requires power. -->
+	<Turret_M134MG.description>Mitrailleuse lourde rotative américaine à six canons, montée sur une tourelle à commande manuelle, dotée d'une cadence de tir très élevée. Peut être contrôlée directement, mais attention aux tirs amis. Nécessite une alimentation électrique.</Turret_M134MG.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_M134MG.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MG.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_M134MG.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_M134MG.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MG.label>Mitrailleuse à tourelle M134</Gun_M134MG.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to a turret. -->
+	<Gun_M134MG.description>Une mitrailleuse lourde rotative américaine à six canons, conçue pour être montée sur une tourelle.</Gun_M134MG.description>
+
+	<!-- ===== Mounted Mk 19 Turret ===== -->
+
+	<!-- EN: Mounted Mk 19 Turret -->
+	<Turret_Mk19MGL.label>Tourelle Mk 19</Turret_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a manually-operated turret, effective against large infantry formations and moderately-armored vehicles. Can be directly controlled, but beware of friendly fire. Watch out for Splash damage. -->
+	<Turret_Mk19MGL.description>Lance-grenades automatique américain à alimentation par bande, monté sur une tourelle à commande manuelle, efficace contre les grandes formations d'infanterie et les véhicules modérément blindés. Peut être contrôlé directement, mais attention aux tirs amis. Méfiez-vous des dégâts de zone.</Turret_Mk19MGL.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_Mk19MGL.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_Mk19MGL.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_Mk19MGL.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGL.label>Canon de tourelle Mk 19</Gun_Mk19MGL.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to a turret. -->
+	<Gun_Mk19MGL.description>Lance-grenades automatique américain à alimentation par bande, conçu pour être monté sur une tourelle.</Gun_Mk19MGL.description>
+
+	<!-- ========== Sentry (Unmanned) Turrets  ========== -->
+
+	<!-- ===== M2HB Sentry Gun ===== -->
+
+	<!-- EN: M2HB Sentry gun -->
+	<Turret_M2HBs.label>Mitrailleuse de sentinelle M2HB</Turret_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, lightly-armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M2HBs.description>Une mitrailleuse lourde américaine montée sur une tourelle de sentinelle qui tire automatiquement sur les ennemis à proximité. Elle est efficace contre l'infanterie, les véhicules légèrement blindés et les fortifications rudimentaires. Son intelligence artificielle n'est pas très performante et elle ne peut pas être contrôlée directement, méfiez-vous donc des tirs amis.</Turret_M2HBs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_M2HBs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M2HBs.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_M2HBs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_M2HBs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M2HB turret gun -->
+	<Gun_M2HBs.label>Mitrailleuse M2HB à tourelle</Gun_M2HBs.label>
+
+	<!-- EN: An American heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M2HBs.description>Une mitrailleuse lourde américaine conçue pour être montée sur une tourelle de sentinelle automatique.</Gun_M2HBs.description>
+
+	<!-- ===== M134 Sentry Gun ===== -->
+
+	<!-- EN: M134 Sentry gun -->
+	<Turret_M134MGs.label>Mitrailleuse de sentinelle M134</Turret_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun mounted on a sentry turret that automatically fires at nearby enemies, with a very high rate of fire. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M134MGs.description>Une mitrailleuse lourde rotative américaine à six canons, montée sur une tourelle de sentinelle, qui tire automatiquement sur les ennemis proches avec une cadence de tir très élevée. Son intelligence artificielle n'est pas très performante et elle ne peut pas être contrôlée directement, méfiez-vous donc des tirs amis.</Turret_M134MGs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_M134MGs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M134MGs.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_M134MGs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_M134MGs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M134 turret gun -->
+	<Gun_M134MGs.label>Mitrailleuse à tourelle M134</Gun_M134MGs.label>
+
+	<!-- EN: An American six-barrel rotary heavy machine gun designed to be attached to an automatic sentry turret. -->
+	<Gun_M134MGs.description>Une mitrailleuse lourde rotative américaine à six canons, conçue pour être montée sur une tourelle de sentinelle automatique.</Gun_M134MGs.description>
+	
+	<!-- ===== M230LF Sentry Gun ===== -->
+
+	<!-- EN: M230LF Sentry gun -->
+	<Turret_M230LFs.label>Mitrailleuse de sentinelle M230LF</Turret_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon mounted on a sentry turret that automatically fires at nearby enemies, effective against infantry, armored vehicles and simple fortifications. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_M230LFs.description>Un canon automatique américain à entraînement par chaîne, monté sur une tourelle de sentinelle, qui tire automatiquement sur les ennemis à proximité. Il est efficace contre l'infanterie, les véhicules blindés et les fortifications rudimentaires. Son intelligence artificielle n'est pas très performante et il ne peut pas être contrôlé directement, méfiez-vous donc des tirs amis.</Turret_M230LFs.description>
+
+	<!-- EN: Barrel durability -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_M230LFs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_M230LFs.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_M230LFs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_M230LFs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: M230LF turret gun -->
+	<Gun_M230LFs.label>Mitrailleuse M230LF à tourelle</Gun_M230LFs.label>
+
+	<!-- EN: An American chain-driven autocannon designed to be attached to an automatic sentry turret. -->
+	<Gun_M230LFs.description>Un canon automatique américain à entraînement par chaîne, conçu pour être monté sur une tourelle de garde automatique.</Gun_M230LFs.description>
+
+	<!-- ===== Mk 19 Sentry Gun ===== -->
+
+	<!-- EN: Mk 19 Sentry gun -->
+	<Turret_Mk19MGLs.label>Mitrailleuse de sentinelle Mk 19</Turret_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher mounted on a sentry turret that automatically fires at nearby enemies, effective against large infantry formations and moderately-armored vehicles. Its AI brain isn't very smart, and can't be directly controlled, so beware of friendly fire. -->
+	<Turret_Mk19MGLs.description>Lance-grenades automatique américain à alimentation par bande, monté sur une tourelle de sentinelle qui tire automatiquement sur les ennemis proches. Efficace contre les grandes formations d'infanterie et les véhicules à blindage modéré. Son intelligence artificielle n'est pas très performante et il ne peut pas être contrôlé directement, méfiez-vous donc des tirs amis.</Turret_Mk19MGLs.description>
+	
+	<!-- EN: Barrel durability -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>Durabilité du canon</Turret_Mk19MGLs.comps.CompRefuelable.fuelGizmoLabel>
+
+	<!-- EN: Shots until barrel change -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>nombre de tirs avant le changement du canon</Turret_Mk19MGLs.comps.CompRefuelable.fuelLabel>
+
+	<!-- EN: Cannot shoot: Needs new barrel -->
+	<Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>Impossible de tirer: Nécessite un nouveau canon</Turret_Mk19MGLs.comps.CompRefuelable.outOfFuelMessage>
+
+	<!-- EN: Mk 19 turret gun -->
+	<Gun_Mk19MGLs.label>Canon de tourelle Mk 19</Gun_Mk19MGLs.label>
+
+	<!-- EN: An American belt-fed automatic grenade launcher designed to be attached to an automatic sentry turret. -->
+	<Gun_Mk19MGLs.description>Lance-grenades automatique américain à alimentation par bande, conçu pour être monté sur une tourelle de garde automatique.</Gun_Mk19MGLs.description>
+
+</LanguageData>

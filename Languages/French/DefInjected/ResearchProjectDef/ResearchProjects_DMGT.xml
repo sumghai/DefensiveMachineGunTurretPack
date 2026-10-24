@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Recoil Operation -->
+	<RecoilOperation.label>Fonctionnement par recul</RecoilOperation.label>
+
+	<!-- EN: Craft high-power heavy machine guns like the M2 Browning. -->
+	<RecoilOperation.description>Fabriquez des mitrailleuses lourdes de grande puissance, comme la M2 Browning.</RecoilOperation.description>
+
+</LanguageData>
